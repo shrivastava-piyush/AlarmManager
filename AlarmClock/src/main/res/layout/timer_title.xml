@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/timer_edittext"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="textNoSuggestions"
+        android:padding="10dp"
+        android:background="@drawable/edit_text_bg"
+        android:layout_margin="@dimen/timer_title_margin"
+        android:maxLength="150"
+        android:layout_weight="1" />
+
+</LinearLayout>

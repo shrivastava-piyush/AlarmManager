@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">вихляниеk</string>
+    <string name="action_settings">настройки</string>
+    <string name="details_alarm_name">имя сигнализации</string>
+	<string name="details_alarm_tone">тон</string>
+	<string name="details_alarm_tone_default">Выберите тон</string>
+	<string name="done">ГОТОВО</string>
+	<string name="cancel">отменить</string>
+    <string name="wakeup_info">После остановки тревоги, тест проверяет, если вы проснулись, или нет. Сигнализации пожаров снова, если нет ответа на 3 минуты. По умолчанию продолжительность составляет 10 минут.</string>
+
+    <string name="day">"1 день"</string>
+    <string name="days">"<xliff:g id="DAYS">%s</xliff:g> дн."</string>
+    <string name="hour">"1 ч."</string>
+    <string name="hours">"<xliff:g id="HOURS">%s</xliff:g> ч."</string>
+    <string name="minute">"1 мин."</string>
+    <string name="minutes">"<xliff:g id="MINUTES">%s</xliff:g> мин."</string>
+    <string name="seconds">"<xliff:g id="SECONDS">%02d</xliff:g> секунд"</string>
+    <string-array name="alarm_toast_set">
+        <item>"Будильник зазвонит менее чем через минуту."</item>
+        <item>"Будильник зазвонит через <xliff:g id="DAYS">%1$s</xliff:g>"</item>
+        <item>"Будильник зазвонит через <xliff:g id="HOURS">%2$s</xliff:g>"</item>
+        <item>"Будильник зазвонит через <xliff:g id="DAYS">%1$s</xliff:g> и <xliff:g id="HOURS">%2$s</xliff:g>"</item>
+        <item>"Будильник зазвонит через <xliff:g id="MINUTES">%3$s</xliff:g>"</item>
+        <item>"Будильник зазвонит через <xliff:g id="DAYS">%1$s</xliff:g> и <xliff:g id="MINUTES">%3$s</xliff:g>"</item>
+        <item>"Будильник зазвонит через <xliff:g id="HOURS">%2$s</xliff:g> и <xliff:g id="MINUTES">%3$s</xliff:g>"</item>
+        <item>"Будильник зазвонит через <xliff:g id="DAYS">%1$s</xliff:g>, <xliff:g id="HOURS">%2$s</xliff:g> и <xliff:g id="MINUTES">%3$s</xliff:g>"</item>
+    </string-array>
+    <string name="app_credits">кредиты</string>
+    <string name="app_licenses">Лицензии с открытым исходным кодом</string>
+    <string name="app_version">"версия: "<xliff:g id="version">%s</xliff:g>"</string>
+    <string name="rate_app">Оценить приложение</string>
+    <string name="share_app">Поделитесь приложение</string>
+    <string name="contact_developer">Обратитесь к разработчику</string>
+    <string name="empty_alarm_message_1">Нет тревоги</string>
+    <string name="new_alarm_desc">Добавление нового будильника</string>
+    <string name="one_time_alarm">один раз</string>
+    <string name="alarm_snooze">Отложить</string>
+    <string name="panel_dismiss_message">Проведите вверх, чтобы закрыть</string>
+    <string name="alarm_dismiss">Выключить</string>
+    <string name="alarm_item_name_default">Будильник</string>
+    <string name="good_morning">Доброе утро!</string>
+    <string name="good_evening">Добрый вечер!</string>
+    <string name="app_rater_message">Мы поможем вам просыпаться в нужное время!</string>
+    <string name="app_rater_question">Это достойно оценки 5 звезд?</string>
+    <string name="app_rater_button">Поставить оценку 5 звезд</string>
+    <string name="switch_clock_desc">Изменить часы</string>
+    <string name="theme_change">Изменить тему</string>
+    <string name="theme">тема</string>
+    <string name="menu_desc">Меню</string>
+    <string name="clear_previous">Ясно</string>
+    <string name="math_back_button_desc">Вернуться к экрану будильник</string>
+    <string name="math_done_button_desc">Проверьте, если ответ является правильным</string>
+    <string name="start">Старт</string>
+    <string name="stop">Стоп</string>
+    <string name="reset">Сбросить</string>
+    <string name="lap">Круг</string>
+    <string name="lap_empty_message">Нет текущих кругов</string>
+    <string name="text_hours">часов</string>
+    <string name="text_minutes">минут</string>
+    <string name="text_seconds">секунд</string>
+    <string name="wake_up_desc">проснуться информацию тест</string>
+    <string name="problem_difficulty">Уровень сложности проблемы</string>
+    <string name="days_repeat">Повторите</string>
+    <string name="wake_up_helpers">помощники для пробуждения</string>
+    <string name="wake_text">Проверка, если вы проснулись</string>
+    <string name="wake_instruction">Нажмите на кнопку ниже</string>
+    <string name="wake_button_text">Да, конечно</string>
+    <string name="image_theme_desc">Тема приложения</string>
+    <string name="default_timer_text">Таймер</string>
+    <string name="timer_set_time">Установка таймера</string>
+    <string name="timer_set_label">Установить название</string>
+    <string name="preference_category_alarm">БУДИЛЬНИК</string>
+    <string name="preference_category_timer">Таймер и секундомер</string>
+    <string name="preference_category_other">ДРУГИЕ</string>
+    <string name="pref_auto_dismiss_dialog_title">Автоматическая остановка после</string>
+    <string name="pref_auto_dismiss_title">Автоматически остановить будильник после</string>
+    <string name="pref_snooze_title">Длительность повтора</string>
+    <string name="pref_snooze_dialog_title">Выберите длительность повтора</string>
+    <string name="pref_wakeup_title">проснуться продолжительность проверки</string>
+    <string name="pref_wakeup_dialog_title">Выберите продолжительность Просыпайтесь проверки</string>
+    <string name="pref_volume_key_title">клавиши регулировки громкости</string>
+    <string name="details_vibration_title">вибрация</string>
+    <string name="pref_silent_title">Играть в silent-режиме</string>
+    <string name="pref_silent_summary">Будильник будет начать даже в молчание состоянии</string>
+    <string name="pref_increasing_vol_title">Постепенно увеличить громкость</string>
+    <string name="pref_timer_alert_title">Таймер завершения тревога</string>
+    <string name="pref_sound_title">Звуковые эффекты</string>
+    <string name="pref_about_title">Около</string>
+    <string name="no_file_manager">Там нет файловый менеджер, установленных на вашем устройстве. Пожалуйста, установите один.</string>
+    <string name="item_owned">Элемент уже принадлежит</string>
+    <string name="enable_google_play">Пожалуйста, включите / установить мультисервисных услуг Google</string>
+    <string name="menu_alarm_edit">редактировать</string>
+    <string name="menu_alarm_delete">Удалить</string>
+    <string name="menu_ads">Удаление объявления</string>
+    <string name="wakeup_info_title">Звонок-проверка</string>
+    <string name="snooze_info_title">Математические проблемы</string>
+    <string name="default_ok">Хорошо</string>
+    <string name="alarm_selected">" Выбранные"</string>
+    <string name="alarm_delete_singular">Удалить выбранные тревоги</string>
+    <string name="alarm_delete_plural">Были удалены выбранные тревоги</string>
+
+    <string name="wakeup_toast">"проснуться проверку в <xliff:g id="wakeup">%s</xliff:g> минут"</string>
+    <string name="snooze_toast">"Сигнализация отложено на <xliff:g id="snooze">%s</xliff:g> минут"</string>
+    <string name="wakeup_button_2_text">Еще раз, просто чтобы быть уверенным!</string>
+    <string name="lap_text">"Круг "</string>
+    <string name="app_rater_remind">Напомни мне позже</string>
+    <string name="app_rater_no">Нет, спасибо</string>
+    <string name="math_toast_wrong_answer">Неправильный ответ. Повторить!</string>
+    <string name="wrong_file_type">Неправильный тип файла. Пожалуйста, выберите снова.</string>
+    <string name="invalid_file">Неверный тип файла. Пожалуйста, выберите снова.</string>
+    <string name="Set">Установить</string>
+    <string name="default_stopwatch_notif">Секундомер работает</string>
+    <string name="defualt_timer_notif">Запуск таймера</string>
+    <string name="details_check_awake">Проверьте, если я проснулся</string>
+    <string name="details_math_problem">Решать математические задачи</string>
+    <string name="pref_screen_on">Не выключайте экран</string>
+    <string name="app_share_message">Проверить этот app</string>
+    <string name="widget_name">Аналоговые часы (2x2)</string>
+    <string name="wakeup_press_and_hold">Нажмите и удерживайте кнопку</string>
+    <string name="wake_up_nice_day">Похоже, ты не спишь. Хорошего дня!</string>
+    <string name="alarm_every_day">ЕЖЕДНЕВНО</string>
+    <string name="credits_design">Дизайн и разработка</string>
+    <string name="credits_sound">Sound</string>
+    <string name="default_maximum">максимальная</string>
+    <string name="default_high">Высокая</string>
+    <string name="default_medium">средний</string>
+    <string name="default_low">Низкий</string>
+    <string name="default_silent">тихий</string>
+    <string name="credits_backgrounds">Backgrounds</string>
+    <string name="pref_alarm_volume">Громкость будильника</string>
+    <string name="details_set_alarm_name">Нажмите, чтобы ввести имя</string>
+    <string name="alarm_not_started">Будильник не запускается</string>
+    <string name="app_localization">Помогите с переводом</string>
+    <string name="gmail_error">Не удается открыть Gmail</string>
+    <string name="credits_icon">Иконки</string>
+    <string name="alarm_item_weekends">Выходные</string>
+    <string name="alarm_item_weekdays">Будни</string>
+    <string name="pref_increasing_vol_dialog">Время достижения максимальной громкости</string>
+    <string name="alarm_replicate">дублировать</string>
+    <string name="tone_selected">Выбран тон</string>
+    <string name="time_up">Время вышло</string>
+    <string name="pref_timer_volume">Объем таймера</string>
+    <string name="night_mode">Ночной режим</string>
+    <string name="details_launch_app">Начните приложение после уволить</string>
+    <string name="default_none">Никто</string>
+    <string name="launch_app_not_found">Приложение не найдено</string>
+    <string name="app_launch_alert"><xliff:g id="appAlert">%s</xliff:g>" откроется после увольнения"</string>
+    <string name="default_search">Поиск</string>
+    <string name="select_app">Выберите приложение</string>
+    <string name="default_undo">аннулировать</string>
+    <string name="default_animations">Анимации и жесты</string>
+    <string name="default_select_all">Выбрать все</string>
+    <string name="details_barcode">Уволить путем сканирования штрих-кода</string>
+    <string name="default_barcode_selected">"Выбран штрих-кода: <xliff:g id="barcode">%s</xliff:g>"</string>
+    <string name="default_flash">вспышка</string>
+    <string name="default_autofocus">Автофокус</string>
+    <string name="barcode_wrong">잘못 된 바코드</string>
+    <string name="launch_app_info">Для приложений, которые требуют интернет, убедитесь, что у вас есть подключение для передачи данных</string>
+    <string name="barcode_instruction">Место штрих-код внутри прямоугольника, чтобы захватить его\nСтарайтесь избегать тени и блики</string>
+    <string name="pref_voice_alert">음성 경고</string>
+    <string name="alarm_details_vocal_message">Звуковое сообщение</string>
+    <string name="alarm_details_message">Нажмите чтобы установить сообщение</string>
+    <string name="recorded_message">Записанные сообщение</string>
+    <string name="custom_message">персонализированные сообщение</string>
+    <string name="after_time">После запечатленное время</string>
+    <string name="before_time">Прежде чем говорить время</string>
+    <string name="after_dismiss">После увольнения тревогу</string>
+    <string name="after_snoozing">После дремлет тревогу</string>
+    <string name="replace_time">Не сказать время</string>
+    <string name="say_message">Говори сообщение:</string>
+    <string name="file_name">Имя файла</string>
+    <string name="sd_not_available">SD-карта не доступна</string>
+    <string name="storage_full">Пространство для хранения полна</string>
+    <string name="wrong_barcode_info">Вы ввели неправильный штрих-код. Попробуй еще раз.</string>
+    <string name="alarm_background">Будильник Фон</string>
+    <string name="default_random">случайный</string>
+    <string name="default_wallpaper">Обои</string>
+    <string name="voice_alert_warning">Убедитесь, что голосовая оповещения включается в настройках</string>
+    <string name="pref_alert_volume">Голос оповещения объем</string>
+    <string name="snooze_warning">"Это уже <xliff:g id="snooze_number">%s</xliff:g> вздремнуть. Не вы поздно?"</string>
+    <string name="pref_voice">глас</string>
+    <string name="default_off">от</string>
+    <string name="defualt_on">на</string>
+    <string name="permission_denied">Доступ запрещен</string>
+    <string name="telephone_warning">Тревога не сможет для перепланирования, если получен вызов</string>
+    <string name="alarm_voice_morning">"Доброе утро. <xliff:g id="alarm_hour_morn">%s</xliff:g> <xliff:g id="alarm_minute_morn">%s</xliff:g> <xliff:g id="am_morn">%s</xliff:g>часов."</string>
+    <string name="alarm_voice_evening">"Добрый вечер. <xliff:g id="alarm_hour_ev">%s</xliff:g> <xliff:g id="alarm_minute_ev">%s</xliff:g> <xliff:g id="am_ev">%s</xliff:g>часов."</string>
+    <string name="alarm_voice_normal">"<xliff:g id="alarm_hour_norm">%s</xliff:g> <xliff:g id="alarm_minute_norm">%s</xliff:g> <xliff:g id="am_norm">%s</xliff:g>часов."</string>
+    <string name="audio_select">Выберите записанный звук</string>
+    <string name="pref_night_summary">Тусклый дисплей</string>
+    <string name="pref_clock_style">Стиль</string>
+    <string name="pref_digital_font">Цифровые часы шрифта</string>
+    <string name="tts_warning">Для голосовых оповещений, пожалуйста включите / установить текст-в-речь</string>
+    <string name="wake_up_question">Ты проснулся?</string>
+    <string name="math_friendly_alert">Математический вопрос ждет вас!</string>
+    <string name="instant_alarm">Мгновенный сигнал тревоги</string>
+    <string name="skip_next">Пропускать</string>
+    <string name="unskip">Отменить пропуском</string>
+    <string name="skip_check">Пропустить тест</string>
+    <string name="pref_language">язык</string>
+    <string name="skip_alarm">Следующий сигнала тревоги будет пропущен</string>
+    <string name="skipped">skipped</string>
+    <string name="m_perm_telephone">Это позволит отключив сигнала тревоги при поступлении вызова</string>
+    <string name="m_perm_audio">Это необходимо для настройки среды, прежде чем записать сообщение</string>
+    <string name="interaction_dismiss_alarm">Отменить Alarm</string>
+    <string name="dismiss_all">Отменить все</string>
+    <string name="start_timer">Запуск таймера в течение <xliff:g id="timer_hours">%d</xliff:g> часов, <xliff:g id="timer_minutes">%d</xliff:g> минут</string>
+    <string name="start_timer_hours">Запуск таймера в течение <xliff:g id="timer_hours">%d</xliff:g> часов</string>
+    <string name="start_timer_hour">Запуск таймера в течение 1 часа</string>
+    <string name="start_timer_minutes">Запуск таймера в течение <xliff:g id="timer_minutes">%d</xliff:g> минут</string>
+    <string name="start_timer_minute">Запуск таймера в течение 1 минуты</string>
+    <string name="invalid_time">Указано недопустимое время</string>
+    <string name="alarm_not_found">Сигнала тревоги не найдены</string>
+    <string name="alarm_not_24">Сигнала тревоги должна быть в течение 24 часов</string>
+    <string name="pick_alarm">Выберите сигнал, чтобы закрыть</string>
+    <string name="timer_created">Таймер установлен</string>
+    <string name="alarm_snoozed">Сигнала тревоги была дремали</string>
+    <string name="alarm_created">Сигнала тревоги была установлена</string>
+    <string name="background">фон</string>
+    <string name="disable_snoozing">Выключите дремоту</string>
+    <string name="snooze_disable_info_title">Выключите дремоту</string>
+    <string name="snooze_disable_info">По истечении указанного интервала, режим дремли будет отключен. Это ограничивает время дремлют.</string>
+    <string name="never">Никогда</string>
+    <string name="no_snooze">Нет больше спит!</string>
+    <string name="select_song">Выберите песню</string>
+    <string name="no_tracks">Could not find any tracks</string>
+    <string name="unknown">неизвестный</string>
+    <string name="default_ringtone">Стандартный рингтон</string>
+    <string name="barcode_not_supported">Формат штрих-кода не поддерживается</string>
+    <string name="song_limit">Песни достигнут предел</string>
+    <string name="shuffle_songs">Перемешать песни</string>
+    <string name="select_songs">Выберите несколько песен</string>
+    <string name="more_songs_needed">Более одна песня должна быть выбрана</string>
+    <string name="search_media">Поиск музыки</string>
+    <string name="select_ringtone">Выберите мелодию</string>
+    <string name="cancel_old_timer">Отменять старый таймер и создание нового</string>
+    <string name="songs_selected"><xliff:g id="songs_number">%d</xliff:g> песен выбраны</string>
+    <string name="upcoming_alarm">Предстоящие тревоги</string>
+    <string name="dismiss_now">Отмена Сейчас</string>
+    <string name="shake">Встряска</string>
+    <string name="def">по умолчанию</string>
+    <string name="details_dismiss_method">Уволить метод</string>
+    <string name="easy">легко</string>
+    <string name="medium">средний</string>
+    <string name="hard">Жесткий</string>
+    <string name="allow_skip_math">Позволяет пропустить вопрос</string>
+    <string name="number_of_problems">Количество вопросов</string>
+    <string name="skip">Скип</string>
+    <string name="problems_left">Проблемы остальные:</string>
+    <string name="shake_times">"Встряхнуть устройство <xliff:g id="shake">%d</xliff:g> раз"</string>
+    <string name="no_accelerometer">Датчик не доступен на устройстве</string>
+    <string name="math_mutliple_friendly_alert">Проблемы Math ждут</string>
+    <string name="shake_turn_off">Встряхнуть, чтобы выключить</string>
+    <string name="ok_gotit">ОК</string>
+    <string name="autostart_title">Включить автозапуск</string>
+    <string name="pref_brightness">Постепенно увеличить яркость</string>
+    <string name="pref_brightness_dialog">Время достижения максимальной яркости</string>
+    <string name="times_shake">Количество раз, когда трясти</string>
+    <string name="brightness_friendly_alert">Чтобы медленно разбудить вас, устройство будет просыпаться до времени тревоги и яркость будет медленно увеличиваться</string>
+    <string name="song_instruction">Длительное нажатие слушать песню</string>
+    <string name="ringtone_instruct">Длительное нажатие для прослушивания мелодии звонка</string>
+    <string name="elapsed_time">Пройденное время:</string>
+    <string name="fullscreen_mode">Полноэкранный режим</string>
+    <string name="autostart_alert">Менеджер автозапуска на некоторых устройствах может остановить Wobble, предотвращая срабатывание будильников после перезагрузки.</string>
+    <string name="always">Всегда</string>
+    <string name="loading_tone">Загрузка тона…</string>
+    <string name="default_alarm_screen_text">Время просыпаться!</string>
+    <string name="pref_upcoming_notif">Предстоящие сигнальные уведомления</string>
+    <string name="snooze_until">"Повтор в <xliff:g id="time">%s</xliff:g>"</string>
+    <string name="details_snooze_method">Как вздремнуть</string>
+    <string name="shake_snooze">Встряхнуть, чтобы отложить</string>
+    <string name="very_hard">Очень сложно</string>
+    <string name="remaining">остальные</string>
+    <string name="loud_ring">Громкая мелодия звонка</string>
+    <string name="ringtone">Рингтон</string>
+    <string name="music">музыка</string>
+    <string name="press_back">Нажмите еще раз, чтобы закрыть</string>
+    <string name="picture_selected">Изображение выбрано</string>
+    <string name="discard">отбрасывать</string>
+    <string name="discard_message">Отменить изменения?</string>
+    <string name="blur_level">Уровень размытия</string>
+    <string name="blur_bg">Размытие фона</string>
+    <string name="custom">изготовленный на заказ</string>
+    <string name="preview">предварительный просмотр</string>
+    <string name="preview_dismissed">Предварительный просмотр закрыт</string>
+    <string name="presets_empty">Нет пресетов</string>
+    <string name="privacy_policy">политика конфиденциальности</string>
+    <string name="preview_message">Нажмите кнопку «Назад», чтобы закрыть.</string>
+    <string name="pref_long_dismiss">длинный клик, чтобы закрыть будильник</string>
+    <string name="pref_tap_long_summary">Избегайте случайного закрытия сигнала</string>
+    <string name="pref_disable_bg">Удалить фон часов</string>
+</resources>

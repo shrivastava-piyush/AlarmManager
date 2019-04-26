@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) Jan, 2016.
+  ~ Piyush Shrivastava
+  ~ This code is copyrighted and cannot be redistributed, modified, or sold as it is without the
+  ~  authority of owner.
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:id="@+id/menu_flip_cam"
+            android:title=""
+            android:icon="@drawable/ic_flash_off"
+            android:showAsAction="always" />
+
+        <item android:id="@+id/menu_switch_cam"
+            android:title=""
+            android:icon="@drawable/ic_refresh"
+            android:showAsAction="always" />
+</menu>

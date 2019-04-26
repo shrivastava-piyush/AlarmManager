@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/credits_android_poject"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:typeface="serif" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/license_color"
+                android:gravity="start"
+                android:padding="10dp"
+                android:text="@string/android_project"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="#607D8B" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/credits_sliding_panel"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:typeface="serif" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/license_color"
+                android:gravity="start"
+                android:padding="10dp"
+                android:text="@string/license_sliding_panel"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="#607D8B" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/credits_gson"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:typeface="serif" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/license_color"
+                android:padding="10dp"
+                android:text="@string/license_gson"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="#607D8B" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/credits_pager_sliding_tab"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:typeface="serif" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/license_color"
+                android:padding="10dp"
+                android:text="@string/license_pager_sliding_tab"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="#607D8B" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:gravity="start"
+                android:text="@string/credits_timepicker"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:typeface="serif" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/license_color"
+                android:padding="10dp"
+                android:text="@string/license_expandable_layout"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="#607D8B" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:gravity="start"
+                android:text="@string/credits_overscrollscale"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:typeface="serif" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/license_color"
+                android:padding="10dp"
+                android:text="@string/license_overscroll_state"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="#607D8B" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/credits_barcode"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:typeface="serif" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/license_color"
+                android:padding="10dp"
+                android:text="@string/license_barcode"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="#607D8B" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/credits_zxing"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:typeface="serif" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/license_color"
+                android:padding="10dp"
+                android:text="@string/license_barcode"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="#607D8B" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:gravity="start"
+                android:text="@string/credits_expandable_layout"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:typeface="serif" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/license_color"
+                android:padding="10dp"
+                android:text="@string/license_expandable_layout"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="#607D8B" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:gravity="start"
+                android:text="@string/credits_novacut"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:typeface="serif" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/license_color"
+                android:padding="10dp"
+                android:text="@string/license_novacut"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="#607D8B" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:gravity="start"
+                android:text="@string/credits_digitalnumbers"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:typeface="serif" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/license_color"
+                android:padding="10dp"
+                android:text="@string/license_digitalnumbers"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="#607D8B" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:gravity="start"
+                android:text="@string/credits_roboto"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:typeface="serif" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/license_color"
+                android:padding="10dp"
+                android:text="@string/license_roboto"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="#607D8B" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

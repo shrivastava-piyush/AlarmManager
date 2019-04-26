@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">ぐらつき</string>
+    <string name="action_settings">[設定]</string>
+    <string name="details_alarm_name">アラーム名</string>
+	<string name="details_alarm_tone">トーン</string>
+	<string name="details_alarm_tone_default">トーンを選択</string>
+	<string name="done">完了</string>
+	<string name="cancel">キャンセル</string>
+    <string name="wakeup_info">アラームを停止すると、テストは、目を覚ましているかどうかをチェックします。3 分間応答がない場合は、再度火災警報装置します。既定の期間は 10 分です。</string>
+
+    <string name="day">"1日"</string>
+
+    <string name="days">"<xliff:g id="DAYS">%s</xliff:g>日"</string>
+    <string name="hour">"1時間"</string>
+    <string name="hours">"<xliff:g id="HOURS">%s</xliff:g>時間"</string>
+    <string name="minute">"1分"</string>
+    <string name="minutes">"<xliff:g id="MINUTES">%s</xliff:g>分"</string>
+    <string name="seconds">"<xliff:g id="SECONDS">%02d</xliff:g>秒"</string>
+    <string-array name="alarm_toast_set">
+        <item>"アラームは今から1分以内に設定されています。"</item>
+        <item>"アラームは<xliff:g id="DAYS">%1$s</xliff:g>後に設定されています。"</item>
+        <item>"アラームは<xliff:g id="HOURS">%2$s</xliff:g>後に設定されています。"</item>
+        <item>"アラームは<xliff:g id="DAYS">%1$s</xliff:g>と<xliff:g id="HOURS">%2$s</xliff:g>後に設定されています。"</item>
+        <item>"アラームは<xliff:g id="MINUTES">%3$s</xliff:g>後に設定されています。"</item>
+        <item>"アラームは<xliff:g id="DAYS">%1$s</xliff:g>と<xliff:g id="MINUTES">%3$s</xliff:g>後に設定されています。"</item>
+        <item>"アラームは<xliff:g id="HOURS">%2$s</xliff:g><xliff:g id="MINUTES">%3$s</xliff:g>後に設定されています。"</item>
+        <item>"アラームは<xliff:g id="DAYS">%1$s</xliff:g>と<xliff:g id="HOURS">%2$s</xliff:g><xliff:g id="MINUTES">%3$s</xliff:g>後に設定されています"</item>
+    </string-array>
+    <string name="app_credits">クレジット</string>
+    <string name="app_licenses">オープンソースライセンス</string>
+    <string name="app_version">"バージョン: "<xliff:g id="version">%s</xliff:g></string>
+    <string name="rate_app">アプリを評価</string>
+    <string name="share_app">アプリを共有し</string>
+    <string name="contact_developer">開発者に問い合わせてください。</string>
+    <string name="empty_alarm_message_1">アラームがない</string>
+    <string name="new_alarm_desc">新しいアラームを追加</string>
+    <string name="one_time_alarm">一度</string>
+    <string name="alarm_snooze">スヌーズ</string>
+    <string name="panel_dismiss_message">却下するまでスワイプ</string>
+    <string name="alarm_dismiss">解除</string>
+    <string name="alarm_item_name_default">アラーム</string>
+    <string name="good_morning">おはよう！</string>
+    <string name="good_evening">こんばんは！</string>
+    <string name="app_rater_message">私たちは、あなたが適切なタイミングでウェイクアップするために助ける！</string>
+    <string name="app_rater_question">5 つ星の評価に値しますか?</string>
+    <string name="app_rater_button">5 つ星に評価</string>
+    <string name="switch_clock_desc">変更時計</string>
+    <string name="theme_change">変更のテーマ</string>
+    <string name="theme">テーマ</string>
+    <string name="menu_desc">メニュー</string>
+    <string name="clear_previous">明確</string>
+    <string name="math_back_button_desc">アラーム画面に戻ります</string>
+    <string name="math_done_button_desc">答えが正しいかどうかを確認してください</string>
+    <string name="start">開始</string>
+    <string name="stop">停止</string>
+    <string name="reset">リセット</string>
+    <string name="lap">ラップ</string>
+    <string name="lap_empty_message">いいえ現在のラップ</string>
+    <string name="text_hours">時間</string>
+    <string name="text_minutes">分</string>
+    <string name="text_seconds">秒</string>
+    <string name="wake_up_desc">テストウェイクアップし</string>
+    <string name="problem_difficulty">問題の難易度</string>
+    <string name="days_repeat">繰り返し</string>
+    <string name="wake_up_helpers">ウェイクアップヘルパーを</string>
+    <string name="wake_text">あなたが目を覚ましているかどうかのチェック</string>
+    <string name="wake_instruction">下のボタンを押してください</string>
+    <string name="wake_button_text">確かに、うん</string>
+    <string name="image_theme_desc">アプリケーションのテーマ</string>
+    <string name="default_timer_text">タイマー</string>
+    <string name="timer_set_time">セットタイマー</string>
+    <string name="timer_set_label">設定タイトル</string>
+    <string name="preference_category_alarm">アラーム</string>
+    <string name="preference_category_timer">タイマー、ストップウォッチ</string>
+    <string name="preference_category_other">その他の</string>
+    <string name="pref_auto_dismiss_dialog_title">後に自動的に停止</string>
+    <string name="pref_auto_dismiss_title">後に自動的に停止</string>
+    <string name="pref_snooze_title">スヌーズ時間</string>
+    <string name="pref_snooze_dialog_title">選択スヌーズ期間</string>
+    <string name="pref_wakeup_title">チェック時間をモーニングコール</string>
+    <string name="pref_wakeup_dialog_title">選択モーニングコールチェック期間</string>
+    <string name="pref_volume_key_title">ボリュームキー</string>
+    <string name="details_vibration_title">振動</string>
+    <string name="pref_silent_title">サイレントモードで再生</string>
+    <string name="pref_silent_summary">アラームが無音状態で起動します</string>
+    <string name="pref_increasing_vol_title">徐々に音量を上げる</string>
+    <string name="pref_timer_alert_title">タイマ終了のアラート</string>
+    <string name="pref_sound_title">音響効果</string>
+    <string name="pref_about_title">について</string>
+    <string name="no_file_manager">お使いのデバイスにインストールされて何のファイルマネージャはありません。 1をインストールしてください。</string>
+    <string name="item_owned">アイテムが既に所有して</string>
+    <string name="enable_google_play">Google Playのサービスをインストール/有効にしてください</string>
+    <string name="menu_alarm_edit">編集</string>
+    <string name="menu_alarm_delete">削除</string>
+    <string name="menu_ads">広告を取り除く</string>
+    <string name="wakeup_info_title">チェックその他モーニングコール</string>
+    <string name="snooze_info_title">数学の問題</string>
+    <string name="default_ok">OK</string>
+    <string name="alarm_selected">" 選択"</string>
+    <string name="alarm_delete_singular">選択したアラームが削除されました</string>
+    <string name="alarm_delete_plural">選択したアラームが削除されました</string>
+
+    <string name="wakeup_toast">"テストモーニングコール <xliff:g id="wakeup">%s</xliff:g> 分"</string>
+    <string name="snooze_toast">"アラームがスヌーズされます <xliff:g id="snooze">%s</xliff:g> 分"</string>
+    <string name="wakeup_button_2_text">もう一回、念の為！</string>
+    <string name="lap_text">"ラップ "</string>
+    <string name="app_rater_remind">多分、後で</string>
+    <string name="app_rater_no">結構です</string>
+    <string name="math_toast_wrong_answer">間違った答え。 再試行する！</string>
+    <string name="wrong_file_type">間違ったファイルタイプ。もう一度選択してください。</string>
+    <string name="invalid_file">無効なファイルタイプ。もう一度選択してください。</string>
+    <string name="Set">セット</string>
+    <string name="default_stopwatch_notif">ストップウォッチランニング</string>
+    <string name="defualt_timer_notif">タイマーランニング</string>
+    <string name="details_check_awake">目を覚ましてるかどうか確認して</string>
+    <string name="details_math_problem">数学の問題を解きます</string>
+    <string name="pref_screen_on">画面をオフにしないでください</string>
+    <string name="app_share_message">このアプリをチェックしてください</string>
+    <string name="widget_name">アナログ時計（2×2）</string>
+    <string name="wakeup_press_and_hold">押して、ボタンを押したまま</string>
+    <string name="wake_up_nice_day">あなたが起きているように見え。 良い一日を！</string>
+    <string name="alarm_every_day">毎日</string>
+    <string name="credits_design">デザイン &amp; 開発</string>
+    <string name="credits_sound">音</string>
+    <string name="default_maximum">最大限の</string>
+    <string name="default_high">ハイ</string>
+    <string name="default_medium">媒質</string>
+    <string name="default_low">ロー</string>
+    <string name="default_silent">サイレント</string>
+    <string name="credits_backgrounds">背景</string>
+    <string name="pref_alarm_volume">アラームの音量</string>
+    <string name="details_set_alarm_name">ここを押して名前を入力</string>
+    <string name="alarm_not_started">アラームが開始されませんでした。</string>
+    <string name="app_localization">弊社のローカリゼーションに支援を</string>
+    <string name="gmail_error">Gmail を開くことができません。</string>
+    <string name="credits_icon">アイコン</string>
+    <string name="alarm_item_weekends">週末</string>
+    <string name="alarm_item_weekdays">平日</string>
+    <string name="pref_increasing_vol_dialog">時間が最大容積に到達します</string>
+    <string name="alarm_replicate">複製</string>
+    <string name="tone_selected">トーンが選択されています</string>
+    <string name="time_up">時間切れです</string>
+    <string name="pref_timer_volume">タイマーボリューム</string>
+    <string name="night_mode">ナイトモード</string>
+    <string name="details_launch_app">アラームを却下にアプリを起動</string>
+    <string name="default_none">なし</string>
+    <string name="launch_app_not_found">アプリケーションが見つかりません</string>
+    <string name="app_launch_alert"><xliff:g id="appAlert">%s</xliff:g>" アラームを却下後が開きます"</string>
+    <string name="default_search">サーチ</string>
+    <string name="select_app">アプリを選択</string>
+    <string name="default_undo">アンドゥ</string>
+    <string name="default_animations">アニメーションやジェスチャー</string>
+    <string name="default_select_all">すべて選択</string>
+    <string name="details_barcode">バーコードをスキャンすることによって却下</string>
+    <string name="default_barcode_selected">バーコード選択:<xliff:g id="barcode">%s</xliff:g></string>
+    <string name="default_flash">フラッシュ</string>
+    <string name="default_autofocus">オートフォーカス</string>
+    <string name="barcode_wrong">が間違っバーコード</string>
+    <string name="launch_app_info">インターネットを必要とするアプリの場合は、データ接続があることを確認します</string>
+    <string name="barcode_instruction">それをキャプチャする矩形内のバーコードを配置します\n影とグレアを避けるようにしてください</string>
+    <string name="pref_voice_alert">音声アラート</string>
+    <string name="alarm_details_vocal_message">音声メッセージ</string>
+    <string name="alarm_details_message">メッセージを設定するために押します</string>
+    <string name="recorded_message">録音メッセージ</string>
+    <string name="custom_message">パーソナライズメッセージ</string>
+    <string name="after_time">時間を言った後</string>
+    <string name="before_time">時間を話す前に</string>
+    <string name="after_dismiss">アラームを却下した後、</string>
+    <string name="after_snoozing">居眠り後</string>
+    <string name="replace_time">時間を話すことはありません。</string>
+    <string name="say_message">メッセージを言って:</string>
+    <string name="file_name">ファイル名</string>
+    <string name="sd_not_available">利用できないSDカード</string>
+    <string name="storage_full">収納スペースがいっぱいです</string>
+    <string name="wrong_barcode_info">間違ったバーコード。もう一度やり直してください</string>
+    <string name="alarm_background">アラームの背景</string>
+    <string name="default_random">ランダム</string>
+    <string name="default_wallpaper">壁紙</string>
+    <string name="voice_alert_warning">音声アラートが設定で有効になっていることを確認してください</string>
+    <string name="pref_alert_volume">音声警報音量</string>
+    <string name="snooze_warning">"これは、すでに <xliff:g id="snooze_number">%s</xliff:g> スヌーズされています。あなたは遅くなっていませんか？"</string>
+    <string name="pref_voice">声</string>
+    <string name="default_off">オフ</string>
+    <string name="defualt_on">オン</string>
+    <string name="permission_denied">アクセス拒否</string>
+    <string name="telephone_warning">コールを受信した場合、アラームが再スケジュールすることができません</string>
+    <string name="alarm_voice_morning">"おはよう. 時間は <xliff:g id="alarm_hour_morn">%s</xliff:g> <xliff:g id="alarm_minute_morn">%s</xliff:g> <xliff:g id="am_morn">%s</xliff:g>."</string>
+    <string name="alarm_voice_evening">"こんばんは. 時間は <xliff:g id="alarm_hour_ev">%s</xliff:g> <xliff:g id="alarm_minute_ev">%s</xliff:g> <xliff:g id="am_ev">%s</xliff:g>."</string>
+    <string name="alarm_voice_normal">"時間は <xliff:g id="alarm_hour_norm">%s</xliff:g> <xliff:g id="alarm_minute_norm">%s</xliff:g> <xliff:g id="am_norm">%s</xliff:g>."</string>
+    <string name="audio_select">録音した音声を選択</string>
+    <string name="pref_night_summary">薄暗い表示</string>
+    <string name="pref_clock_style">スタイル</string>
+    <string name="pref_digital_font">デジタル時計のフォント</string>
+    <string name="tts_warning">音声アラートは、音声合成エンジンをインストールしてください</string>
+    <string name="wake_up_question">起きてますか？</string>
+    <string name="math_friendly_alert">数学の問題は、あなたを待っています</string>
+    <string name="instant_alarm">迅速な警報を作成します。</string>
+    <string name="skip_next">次の無視</string>
+    <string name="unskip">次の無視元に戻します</string>
+    <string name="skip_check">テストを無視</string>
+    <string name="pref_language">言語</string>
+    <string name="skip_alarm">次のアラームがスキップされます</string>
+    <string name="skipped">無視</string>
+    <string name="m_perm_telephone">コールを受信したときに自動的にアラームをオフにすることができます</string>
+    <string name="m_perm_audio">これは、メッセージを記録する前に必要とされます</string>
+    <string name="interaction_dismiss_alarm">アラームをキャンセル</string>
+    <string name="dismiss_all">すべてをキャンセル</string>
+    <string name="start_timer"><xliff:g id="timer_hours">%d</xliff:g>時間, <xliff:g id="timer_minutes">%d</xliff:g> 分のタイマーを起動します</string>
+    <string name="start_timer_hours"><xliff:g id="timer_hours">%d</xliff:g>時間タイマーを起動します</string>
+    <string name="start_timer_hour">1時間タイマーを起動します</string>
+    <string name="start_timer_minutes"><xliff:g id="timer_minutes">%d</xliff:g>分タイマーを起動します</string>
+    <string name="start_timer_minute">1分タイマーを起動します</string>
+    <string name="invalid_time">無効な時間</string>
+    <string name="alarm_not_found">アラームが見つかりません</string>
+    <string name="alarm_not_24">アラームは、24時間以内でなければなりません</string>
+    <string name="pick_alarm">キャンセルするアラームを選択してください</string>
+    <string name="timer_created">タイマーが設定されています</string>
+    <string name="alarm_snoozed">アラームはスヌーズされました</string>
+    <string name="alarm_created">アラームが設定されています</string>
+    <string name="background">バックグラウンド</string>
+    <string name="disable_snoozing">スヌーズをオフにします</string>
+    <string name="snooze_disable_info_title">スヌーズをオフにします</string>
+    <string name="snooze_disable_info">指定された間隔の後、スヌーズは無効になります。これは、スヌーズ時間を制限します。</string>
+    <string name="never">決して</string>
+    <string name="no_snooze">ない居眠り!</string>
+    <string name="select_song">曲を選択します。</string>
+    <string name="no_tracks">曲が見つかりません</string>
+    <string name="unknown">未知の</string>
+    <string name="default_ringtone">デフォルトの着信音</string>
+    <string name="barcode_not_supported">バーコードフォーマットがサポートされていません</string>
+    <string name="song_limit">これ以上の曲を選択することはできません</string>
+    <string name="shuffle_songs">シャッフル曲</string>
+    <string name="select_songs">いくつかの曲を選択してください</string>
+    <string name="more_songs_needed">複数の曲を選択しなければなりません</string>
+    <string name="search_media">検索メディア</string>
+    <string name="select_ringtone">着信音を選択します</string>
+    <string name="cancel_old_timer">古いタイマーをキャンセルし、新しいものを設定します</string>
+    <string name="songs_selected"><xliff:g id="songs_number">%d</xliff:g>曲の選択</string>
+    <string name="upcoming_alarm">今後のアラーム</string>
+    <string name="dismiss_now">それをキャンセル</string>
+    <string name="shake">シェイク</string>
+    <string name="def">デフォルト設定で</string>
+    <string name="details_dismiss_method">オフにする方法</string>
+    <string name="easy">イージー</string>
+    <string name="medium">媒質</string>
+    <string name="hard">硬いです</string>
+    <string name="allow_skip_math">質問をスキップする許可</string>
+    <string name="number_of_problems">質問の数</string>
+    <string name="skip">スキップ</string>
+    <string name="problems_left">質問左：</string>
+    <string name="shake_times">"デバイスを<xliff:g id="shake">%d</xliff:g>回振ります"</string>
+    <string name="no_accelerometer">センサーは使用できません</string>
+    <string name="math_mutliple_friendly_alert">数学の質問が待っています</string>
+    <string name="shake_turn_off">オフに振ります</string>
+    <string name="ok_gotit">OK</string>
+    <string name="autostart_title">バッテリーセーバー</string>
+    <string name="pref_brightness">徐々に輝度を上げます</string>
+    <string name="pref_brightness_dialog">時間は最大輝度に到達します</string>
+    <string name="times_shake">振る回数を選択</string>
+    <string name="brightness_friendly_alert">そっと目を覚ます、デバイスがアラーム時刻前に目覚めるし、明るさが徐々 に増やす</string>
+    <string name="song_instruction">歌を聞くために長押し</string>
+    <string name="ringtone_instruct">着信音を聞くために長押し</string>
+    <string name="elapsed_time">経過時間：</string>
+    <string name="fullscreen_mode">フルスクリーンモード</string>
+    <string name="autostart_alert">バッテリーセーバーは、このアプリを閉じることができますので、あなたの目を覚ますことができません。このアプリをホワイトリストに登録してください。</string>
+    <string name="battery_friendly_alert_mi">バッテリーセーバーは、このアプリを閉じることができますので、あなたの目を覚ますことができません。このアプリをホワイトリストに登録してください。</string>
+    <string name="always">常に</string>
+    <string name="loading_tone">読み込んトーン…</string>
+    <string name="default_alarm_screen_text">目を覚ますための時間です！</string>
+    <string name="pref_upcoming_notif">予定アラーム通知</string>
+    <string name="snooze_until">"スヌーズ終了時刻: <xliff:g id="time">%s</xliff:g>"</string>
+    <string name="details_snooze_method">スヌーズ方法</string>
+    <string name="shake_snooze">揺れによってスヌーズ</string>
+    <string name="very_hard">一生懸命</string>
+    <string name="remaining">残り</string>
+    <string name="loud_ring">ラウドな着メロ</string>
+    <string name="ringtone">着メロ</string>
+    <string name="music">楽曲</string>
+    <string name="press_back">もう一度押すと閉じる</string>
+    <string name="picture_selected">画像が選択されている</string>
+    <string name="discard">破棄</string>
+    <string name="discard_message">変更を破棄しますか？</string>
+    <string name="blur_level">ぼかしレベル</string>
+    <string name="blur_bg">ぼかし背景</string>
+    <string name="custom">カスタム</string>
+    <string name="preview">プレビュー</string>
+    <string name="preview_dismissed">プレビューが閉じている</string>
+    <string name="presets_empty">プリセットなし</string>
+    <string name="privacy_policy">個人情報保護方針</string>
+    <string name="preview_message">戻るボタンを押して閉じます。</string>
+    <string name="pref_long_dismiss">長いクリックでアラームを閉じる</string>
+    <string name="pref_tap_long_summary">誤ってアラームを閉じるのを避ける</string>
+    <string name="pref_disable_bg">時計の背景を削除する</string>
+</resources>

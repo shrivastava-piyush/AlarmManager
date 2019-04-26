@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) Jan, 2016.
+  ~ Piyush Shrivastava
+  ~ This code is copyrighted and cannot be redistributed, modified, or sold as it is without the
+  ~  authority of owner.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:paddingTop="3dp">
+
+    <ImageButton
+        android:id="@+id/preset_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:src="@drawable/ic_edit"
+        android:background="@color/transparent"
+        android:contentDescription="@null"/>
+
+    <ImageButton
+        android:id="@+id/preset_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:src="@drawable/ic_delete"
+        android:background="@color/transparent"
+        android:contentDescription="@null"/>
+
+    <LinearLayout
+        android:id="@+id/preset_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp">
+
+        <TextView
+            android:id="@+id/presetName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/default_timer_text"
+            android:textSize="@dimen/timer_button_text"
+            android:maxEms="4"
+            android:maxLines="1"
+            android:minEms="4"
+            android:ellipsize="end"
+            android:typeface="monospace"
+            android:fontFamily="sans-serif"
+            android:textColor="#FFEB3B"
+            android:layout_gravity="start"
+            android:gravity="start"/>
+
+        <TextView
+            android:id="@+id/presetTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/timer_button_text"
+            android:typeface="monospace"
+            android:fontFamily="sans-serif"
+            android:gravity="start"
+            android:layout_gravity="start"
+            android:text="@string/default_time"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/preset_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:src="@drawable/ic_play"
+        android:background="@color/transparent"
+        android:contentDescription="@null"/>
+
+</LinearLayout>

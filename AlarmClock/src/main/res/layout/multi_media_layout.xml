@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar_multi_media"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#50000000"
+        android:minHeight="?android:attr/actionBarSize"
+        android:theme="@style/AppBaseTheme"
+        app:contentInsetEnd="0dp"
+        app:contentInsetLeft="0dp"
+        app:contentInsetRight="0dp"
+        app:contentInsetStart="0dp"
+        app:navigationIcon="@drawable/ic_action_back"
+        app:title="@null">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1">
+
+                <EditText
+                    android:id="@+id/search_multi_media_bar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textNoSuggestions"
+                    android:maxLength="150"
+                    android:hint="@string/search_media"
+                    android:textColorHint="#9E9E9E"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/select_multi_media_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="@string/select_songs"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="@color/white" />
+
+            </FrameLayout>
+
+            <ImageButton
+                android:id="@+id/search_multi_media"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/transparent"
+                android:contentDescription="@string/default_search"
+                android:padding="10dp"
+                android:src="@drawable/ic_action_search" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/media_selection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar_multi_media"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/answer_math"
+        android:gravity="center"
+        android:padding="7dp"
+        android:layout_margin="5dp"
+        android:text="@string/alarm_selected"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="@color/white" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/multi_media_adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="4dp"
+        android:visibility="gone"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id">
+
+    </com.google.android.gms.ads.AdView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/multi_media_adView"
+        android:layout_below="@id/media_selection">
+
+        <LinearLayout
+            android:id="@+id/multi_media_emptyView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/no_tracks"
+                android:drawableTop="@drawable/ic_media"
+                android:textAppearance="?android:textAppearanceMedium"/>
+
+        </LinearLayout>
+
+        <com.bytezap.wobble.customviews.listview.CustomListView
+            android:id="@+id/multi_media_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:requiresFadingEdge="vertical"
+            android:fadeScrollbars="true"
+            android:scrollbarFadeDuration="1000"
+            android:scrollbarStyle="insideInset" />
+
+    </FrameLayout>
+
+
+</RelativeLayout>

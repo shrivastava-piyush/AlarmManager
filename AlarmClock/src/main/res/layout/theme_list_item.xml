@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/theme_image_height"
+        android:foreground="@drawable/link_bg">
+
+        <ImageView
+            android:id="@+id/theme_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/image_theme_desc"
+            android:scaleType="centerCrop"/>
+
+        <FrameLayout
+            android:id="@+id/theme_item_selected"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/theme_item_bg"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_checked"
+            android:layout_gravity="center"
+            android:padding="2dp"
+            android:tint="@color/black"
+            android:background="@drawable/image_rounded_white"
+            android:contentDescription="@null" />
+
+        </FrameLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

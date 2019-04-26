@@ -1,0 +1,20 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <set>
+            <objectAnimator android:propertyName="translationY"
+                android:duration="150"
+                android:valueTo="3dp"
+                android:valueType="floatType"/>
+            <!-- you could have other objectAnimator elements
+                 here for "x" and "y", or other properties -->
+        </set>
+    </item>
+    <item>
+        <set>
+            <objectAnimator android:propertyName="translationY"
+                android:duration="100"
+                android:valueTo="0"
+                android:valueType="floatType"/>
+        </set>
+    </item>
+</selector>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/recorder_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/default_time"
+            android:textColor="@color/white"
+            android:textSize="28sp" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp">
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/recorder_play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/FloatingActionButton"
+                android:contentDescription="@string/start"
+                android:src="@drawable/ic_play"
+                android:visibility="invisible"
+                app:backgroundTint="#464a6c"
+                app:fabSize="mini"/>
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/recorder_pause"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/FloatingActionButton"
+                android:contentDescription="@null"
+                android:src="@drawable/ic_pause"
+                android:visibility="invisible"
+                app:backgroundTint="#464a6c"
+                app:fabSize="mini"/>
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/recorder_stop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/FloatingActionButton"
+                android:contentDescription="@string/stop"
+                android:src="@drawable/ic_stop"
+                android:visibility="invisible"
+                app:backgroundTint="#FF5252"
+                app:fabSize="mini"/>
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/recorder_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/FloatingActionButton"
+                android:contentDescription="@string/start"
+                android:src="@drawable/ic_mic"
+                app:backgroundTint="#FF5252"
+                app:fabSize="mini"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/save_audio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/stopwatch_white_bg"
+            android:visibility="invisible"
+            android:layout_gravity="center"
+            android:padding="7dp"
+            android:stateListAnimator="@drawable/button_animator"
+            android:text="@string/done"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/recorded_audio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/stopwatch_white_bg"
+            android:layout_margin="7dp"
+            android:padding="5dp"
+            android:text="@string/audio_select"
+            android:stateListAnimator="@drawable/button_animator"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+
+    </FrameLayout>
+
+</LinearLayout>

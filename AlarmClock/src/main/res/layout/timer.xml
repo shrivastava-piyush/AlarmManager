@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/timer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/timer_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ellipsize="end"
+        android:ems="10"
+        android:gravity="center"
+        android:maxEms="10"
+        android:maxLength="30"
+        android:maxLines="1"
+        android:minEms="10"
+        android:text="@string/default_timer_text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white"
+        android:typeface="serif" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <com.bytezap.wobble.customviews.Chronometer
+            android:id="@+id/custom_timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/timer_text_margin"
+            app:isTimer="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/timer_buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/timer_start"
+                style="@style/FloatingActionButton"
+                android:layout_width="@dimen/fab_button_diameter"
+                android:layout_height="@dimen/fab_button_diameter"
+                android:layout_margin="6dp"
+                android:contentDescription="@string/start"
+                android:src="@drawable/ic_play"
+                app:backgroundTint="@color/timer_button_purple"
+                app:fabSize="mini" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/timer_stop"
+                style="@style/FloatingActionButton"
+                android:layout_width="@dimen/fab_button_diameter"
+                android:layout_height="@dimen/fab_button_diameter"
+                android:contentDescription="@string/stop"
+                android:layout_margin="6dp"
+                android:src="@drawable/ic_pause"
+                android:visibility="gone"
+                app:backgroundTint="@color/timer_button_purple"
+                app:fabSize="mini" />
+
+        </FrameLayout>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/timer_reset"
+            style="@style/FloatingActionButton"
+            android:layout_width="@dimen/fab_button_diameter"
+            android:layout_height="@dimen/fab_button_diameter"
+            android:layout_margin="6dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/reset"
+            android:src="@drawable/ic_reset"
+            android:tint="@color/reset_tint"
+            app:backgroundTint="@color/timer_reset"
+            app:fabSize="mini" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/timer_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layoutDirection="ltr"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/timer_hour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/block_black_rounded"
+                android:gravity="center"
+                android:padding="@dimen/timer_text_padding"
+                android:text="@string/default_hour"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/white"
+                android:textSize="@dimen/time_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/timer_minute"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/block_white_border"
+                android:gravity="center"
+                android:padding="@dimen/timer_text_padding"
+                android:text="@string/default_min"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/white"
+                android:textSize="@dimen/time_text_size"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/timer_second"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/block_black"
+                android:gravity="center"
+                android:padding="@dimen/timer_text_padding"
+                android:text="@string/default_sec"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/white"
+                android:textSize="@dimen/time_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/timer_millisec"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:background="@drawable/block_white_rounded_border"
+                android:gravity="center"
+                android:padding="@dimen/timer_text_padding"
+                android:text="@string/default_millisec"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/white"
+                android:textSize="@dimen/time_text_size"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/button_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/setTime"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/stopwatch_button_height"
+            android:layout_marginLeft="@dimen/timer_block_text_margin"
+            android:layout_marginRight="@dimen/timer_block_text_margin"
+            android:layout_weight="1"
+            android:background="@drawable/set_timer_purple"
+            android:translationZ="0dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="@string/timer_set_time"
+            android:textAllCaps="false"
+            android:textSize="@dimen/timer_button_text"
+            android:layout_marginStart="@dimen/timer_block_text_margin"
+            android:layout_marginEnd="@dimen/timer_block_text_margin" />
+
+        <Button
+            android:id="@+id/setTitle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/stopwatch_button_height"
+            android:layout_marginLeft="@dimen/timer_block_text_margin"
+            android:layout_marginRight="@dimen/timer_block_text_margin"
+            android:layout_weight="1"
+            android:translationZ="0dp"
+            android:background="@drawable/set_timer_purple_border"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="@string/timer_set_label"
+            android:textAllCaps="false"
+            android:textSize="@dimen/timer_button_text"
+            android:layout_marginStart="@dimen/timer_block_text_margin"
+            android:layout_marginEnd="@dimen/timer_block_text_margin" />
+
+    </LinearLayout>
+
+</LinearLayout>

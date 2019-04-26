@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <stroke android:color="@color/white" android:width="@dimen/block_border"/>
+        </shape>
+    </item>
+</layer-list>

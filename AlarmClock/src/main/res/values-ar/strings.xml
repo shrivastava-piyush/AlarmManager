@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <string name="app_name">"تمايل"</string>
+    <string name="app_version">"الإصدار: "<xliff:g id="version">%s</xliff:g></string>
+    <string name="cancel">"إلغاء"</string>
+    <string name="done">"فعله"</string>
+    <string name="action_settings">"إعدادات"</string>
+    <string name="alarm_delete_plural">"تم حذف التنبيهات المحددة"</string>
+    <string name="alarm_delete_singular">"تم حذف التنبيه المحدد"</string>
+    <string name="alarm_dismiss">"فصل مجموعة"</string>
+    <string name="alarm_item_name_default">"إنذار"</string>
+    <string name="alarm_selected">"مختارة"</string>
+    <string name="alarm_snooze">"غفوة"</string>
+    <string name="app_credits">"ائتمانات"</string>
+    <string name="app_licenses">"تراخيص مفتوحة المصدر"</string>
+    <string name="app_rater_button">"معدل 5 نجوم"</string>
+    <string name="app_rater_no">"لا شكرا"</string>
+    <string name="app_rater_question">"يستحق على تصنيف 5 نجوم هذا؟"</string>
+    <string name="app_rater_remind">"ذكرني لاحقا"</string>
+    <string name="clear_previous">"واضح"</string>
+    <string name="contact_developer">"الاتصال المطور"</string>
+    <string name="days_repeat">"تكرر"</string>
+    <string name="default_day">"يوم الأربعاء"</string>
+    <string name="default_ok">"حسنا"</string>
+    <string name="default_stopwatch_notif">"تشغيل ساعة توقيت"</string>
+    <string name="default_timer_text">"مؤقت"</string>
+    <string name="defualt_timer_notif">"توقيت تشغيل"</string>
+    <string name="details_alarm_name">"اسم إنذار"</string>
+    <string name="details_alarm_tone">"نغمة"</string>
+    <string name="details_alarm_tone_default">"تحديد نغمة"</string>
+    <string name="empty_alarm_message_1">"لا توجد أية إنذارات"</string>
+    <string name="new_alarm_desc">"إضافة منبه جديد"</string>
+    <string name="enable_google_play">"يرجى تمكين / تثبيت خدمات التشغيل جوجل"</string>
+    <string name="good_evening">"مساء الخير!"</string>
+    <string name="good_morning">"صباح الخير!"</string>
+    <string name="day">"يوم واحد"</string>
+    <string name="days">"<xliff:g id="DAYS">%s</xliff:g> يوم"</string>
+    <string name="hour">"ساعة واحدة"</string>
+    <string name="hours">"<xliff:g id="HOURS">%s</xliff:g> ساعة"</string>
+    <string name="minute">"دقيقة واحدة"</string>
+    <string name="minutes">"<xliff:g id="MINUTES">%s</xliff:g> دقيقة"</string>
+    <string name="seconds">"<xliff:g id="SECONDS">%02d</xliff:g> ثواني"</string>
+
+    <string-array name="alarm_toast_set">
+    <item>"تم ضبط المنبه على أقل من دقيقة واحدة من الآن."</item>
+    <item>"تم ضبط المنبه على <xliff:g id="DAYS">%1$s</xliff:g> من الآن."</item>
+    <item>"تم ضبط المنبه على <xliff:g id="HOURS">%2$s</xliff:g> من الآن."</item>
+    <item>"تم ضبط المنبه على <xliff:g id="DAYS">%1$s</xliff:g> و<xliff:g id="HOURS">%2$s</xliff:g> من الآن."</item>
+    <item>"تم ضبط المنبه على <xliff:g id="MINUTES">%3$s</xliff:g> من الآن."</item>
+    <item>"تم ضبط المنبه على <xliff:g id="DAYS">%1$s</xliff:g> و<xliff:g id="MINUTES">%3$s</xliff:g> من الآن."</item>
+    <item>"تم ضبط المنبه على <xliff:g id="HOURS">%2$s</xliff:g> و<xliff:g id="MINUTES">%3$s</xliff:g> من الآن."</item>
+    <item>"تم ضبط المنبه على <xliff:g id="DAYS">%1$s</xliff:g> و<xliff:g id="HOURS">%2$s</xliff:g> و<xliff:g id="MINUTES">%3$s</xliff:g> من الآن."</item>
+    </string-array>
+    <string name="image_theme_desc">"التطبيق موضوع"</string>
+    <string name="invalid_file">"نوع الملف غير صالح. يرجى تحديد مرة أخرى."</string>
+    <string name="item_owned">"البند مملوكة بالفعل"</string>
+    <string name="lap">"حضن"</string>
+    <string name="lap_empty_message">"لا فات الحالية"</string>
+    <string name="lap_text">"لاب"</string>
+    <string name="math_back_button_desc">"العودة الى الشاشة ناقوس الخطر"</string>
+    <string name="math_done_button_desc">"معرفة ما اذا كان الجواب الصحيح"</string>
+    <string name="math_toast_wrong_answer">"اجابة خاطئة. حاول مرة أخرى!"</string>
+    <string name="menu_ads">"ازالة الاعلانات"</string>
+    <string name="menu_alarm_delete">"حذف"</string>
+    <string name="menu_alarm_edit">"تحرير"</string>
+    <string name="menu_desc">"قائمة الطعام"</string>
+    <string name="theme">"الموضوع من"</string>
+    <string name="no_file_manager">"لا يوجد مدير الملفات المثبتة على جهازك. الرجاء تثبيت واحدة."</string>
+    <string name="one_time_alarm">"ناقوس الخطر مرة واحدة"</string>
+    <string name="panel_dismiss_message">"انتقد يصل الى اقالة"</string>
+    <string name="pref_about_title">"حول"</string>
+    <string name="pref_auto_dismiss_dialog_title">"وقف ناقوس الخطر بعد"</string>
+    <string name="pref_auto_dismiss_title">"وقف ناقوس الخطر بعد"</string>
+    <string name="pref_silent_title">"لعب في وضع صامت"</string>
+    <string name="pref_silent_summary">"وسوف تبدأ التنبيه حتى في حالة الصامتة"</string>
+    <string name="pref_snooze_title">"فترة قيلولة بعد الظهر"</string>
+    <string name="pref_snooze_dialog_title">"فترة قيلولة بعد الظهر"</string>
+    <string name="pref_sound_title">"مؤثرات صوتية"</string>
+    <string name="pref_increasing_vol_title">"زيادة تدريجية في الصوت"</string>
+    <string name="pref_timer_alert_title">"تنبيه الانتهاء الموقت"</string>
+    <string name="details_vibration_title">"اهتزاز"</string>
+    <string name="pref_volume_key_title">"مفاتيح الصوت"</string>
+    <string name="pref_wakeup_title">"فترة الإيقاظ الاختيار"</string>
+    <string name="pref_wakeup_dialog_title">"فترة الإيقاظ الاختيار"</string>
+    <string name="preference_category_alarm">"إنذار"</string>
+    <string name="preference_category_other">"آخر"</string>
+    <string name="preference_category_timer">"توقيت وساعة توقيت"</string>
+    <string name="pref_screen_on">"حفاظ على الشاشة على"</string>
+    <string name="problem_difficulty">"المشكلة مستوى الصعوبة"</string>
+    <string name="rate_app">"إعطاء تقييم للتطبيق"</string>
+    <string name="reset">"إعادة تعيين"</string>
+    <string name="share_app">"تقاسم الروبوت التطبيق"</string>
+    <string name="snooze_info_title">"الرياضيات مشكلة"</string>
+    <string name="start">"بداية"</string>
+    <string name="stop">"توقف"</string>
+    <string name="switch_clock_desc">"ساعة التغيير"</string>
+    <string name="theme_change">"تغيير الاستايل"</string>
+    <string name="timer_set_time">"توقيت مجموعة"</string>
+    <string name="timer_set_label">"تعيين العنوان"</string>
+    <string name="Set">"تطبيق"</string>
+    <string name="title_activity_settings">"إعدادات"</string>
+    <string name="wake_button_text">"نعم، بالتأكيد"</string>
+    <string name="wake_instruction">"اضغط على الزر أدناه"</string>
+    <string name="wake_text">"التحقق إذا كنت مستيقظا"</string>
+    <string name="wake_up_desc">"استيقظ المعلومات الاختبار"</string>
+    <string name="wake_up_helpers">"استيقظ المساعدين"</string>
+    <string name="wakeup_button_2_text">"واحد مزيد من الوقت، لمجرد أن يكون على يقين!"</string>
+    <string name="wakeup_info">"بعد إيقاف ناقوس الخطر، وهو اختبار الشيكات إذا كنت مستيقظا أم لا. إنذار حرائق مرة أخرى إذا لم يكن هناك استجابة لمدة 3 دقائق. المدة الافتراضية هي 10 دقيقة."</string>
+    <string name="wakeup_info_title">"استيقظ تحقق"</string>
+    <string name="wrong_file_type">"الخطأ نوع الملف. يرجى تحديد مرة أخرى."</string>
+    <string name="wakeup_toast">"التحقق إذا كنت مستيقظا في <xliff:g id="wakeup">%s</xliff:g> دقيقة"</string>
+    <string name="snooze_toast">"تم تأجيل التنبيه ل <xliff:g id="snooze">%s</xliff:g> دقيقة"</string>
+    <string name="details_check_awake">"تحقق إذا أنا مستيقظا"</string>
+    <string name="details_math_problem">"حل مشاكل الرياضيات"</string>
+    <string name="text_hours">"ساعات"</string>
+    <string name="text_minutes">"دقيقة"</string>
+    <string name="text_seconds">"ثواني"</string>
+    <string name="app_share_message">"راجع هذا التطبيق"</string>
+    <string name="widget_name">"الساعة (2X2)"</string>
+    <string name="wake_up_nice_day">"يبدو أن كنت مستيقظا. لقد يوم جيد! "</string>
+    <string name="credits_design">"تصميم" &amp; "التنمية"</string>
+    <string name="credits_sound">"صوت"</string>
+    <string name="credits_backgrounds">"خلفيات"</string>
+    <string name="alarm_every_day">"كل يوم"</string>
+    <string name="pref_alarm_volume">"مستوى صوت المنبّه"</string>
+    <string name="default_maximum">"أقصى"</string>
+    <string name="default_high">"العليا"</string>
+    <string name="default_medium"> "متوسط"</string>
+    <string name="default_low">"منخفضة"</string>
+    <string name="default_silent">"الصامت"</string>
+    <string name="details_set_alarm_name">"انقر فوق تعيين اسم التنبيه"</string>
+    <string name="alarm_not_started">"إنذار عدم البدء"</string>
+    <string name="app_localization">"ساعدنا في الترجمة"</string>
+    <string name="gmail_error">"لا يمكن فتح البريد"</string>
+    <string name="credits_icon">"الرموز"</string>
+    <string name="alarm_item_weekends">"عطلة نهاية الأسبوع"</string>
+    <string name="alarm_item_weekdays">"أيام الأسبوع"</string>
+    <string name="pref_increasing_vol_dialog">"حان الوقت للوصول إلى أقصى حجم"</string>
+    <string name="alarm_replicate">"تكرار"</string>
+    <string name="tone_selected">"لهجة المحدد"</string>
+    <string name="time_up">"الوقت ينفد"</string>
+    <string name="pref_timer_volume">"الموقت حجم التداول"</string>
+    <string name="night_mode">"الوضع الليلي"</string>
+    <string name="details_launch_app">"بدء تشغيل التطبيق على إقالة"</string>
+    <string name="default_none">"لا شيء"</string>
+    <string name="launch_app_not_found">"التطبيق غير موجودة"</string>
+    <string name="app_launch_alert"><xliff:g id="appAlert">%s</xliff:g>وسوف تفتح بعد إقالة</string>
+    <string name="default_search">"البحث عن"</string>
+    <string name="select_app">حدد التطبيق</string>
+    <string name="default_undo">"التراجع"</string>
+    <string name="default_animations">"الرسوم المتحركة والإيماءات"</string>
+    <string name="default_select_all">"تحديد الكل"</string>
+    <string name="details_barcode">"استبعاد عن طريق مسح الباركود"</string>
+    <string name="default_barcode_selected">"<xliff:g id="barcode">%s</xliff:g>الباركود اختيار:"</string>
+    <string name="default_flash">"فلاش"</string>
+    <string name="default_autofocus">"أوتوفوكس"</string>
+    <string name="barcode_wrong">"الباركود خاطئ"</string>
+    <string name="launch_app_info">"للتطبيقات التي تتطلب الإنترنت، تأكد أن لديك اتصال بيانات عندما يتم رفض التنبيه"</string>
+    <string name="barcode_instruction">"ضع الباركود داخل المستطيل معينة. في محاولة لتجنب الوهج والظلال"</string>
+    <string name="pref_voice_alert">تنبيه صوت</string>
+    <string name="alarm_details_vocal_message">"رسالة صوتي"</string>
+    <string name="alarm_details_message">"اضغط على الزر لتعيين رسالة"</string>
+    <string name="recorded_message">"الرسالة المسجلة"</string>
+    <string name="custom_message">"رسالة مخصصة"</string>
+    <string name="after_time">"بعد وقت"</string>
+    <string name="before_time">"قبل الوقت"</string>
+    <string name="after_dismiss">"بعد أن يتم رفض الإنذار"</string>
+    <string name="after_snoozing">"بعد الغفوه التنبيه"</string>
+    <string name="replace_time">"أن أقول هذا بدلا من الوقت"</string>
+    <string name="say_message">"يقول رسالة"</string>
+    <string name="file_name">"اسم الملف"</string>
+    <string name="sd_not_available">"بطاقة SD غير متوفرة"</string>
+    <string name="storage_full">"الفضاء مليء"</string>
+    <string name="wrong_barcode_info">"الباركود خاطئ. حاول مرة أخرى!"</string>
+    <string name="alarm_background">"خلفية التنبيه"</string>
+    <string name="default_random">"عشوائية"</string>
+    <string name="default_wallpaper">"ورق الجدران"</string>
+    <string name="voice_alert_warning">"تأكد من تمكين التنبيه الصوتي في إعدادات"</string>
+    <string name="pref_alert_volume">"حجم صوت التنبيه"</string>
+    <string name="snooze_warning">"قد كان <xliff:g id="snooze_number">%s</xliff:g> "جرعات بالفعل. ألست أنت متأخرا؟ "</string>
+    <string name="pref_voice">"صوت"</string>
+    <string name="default_off">"معطلة"</string>
+    <string name="defualt_on">"على"</string>
+    <string name="permission_denied">"طلب الاذن مرفوض"</string>
+    <string name="telephone_warning">واضاف ان "التنبيه لن تكون قادرة على إعادة جدولة إذا تم تلقي مكالمة"</string>
+    <string name="alarm_voice_morning">.<xliff:g id="am_morn">%s</xliff:g>  <xliff:g id="alarm_minute_morn">%s</xliff:g> <xliff:g id="alarm_hour_morn">%s</xliff:g> صباح الخير! الوقت هو</string>
+    <string name="alarm_voice_evening">.<xliff:g id="am_ev">%s</xliff:g>  <xliff:g id="alarm_minute_ev">%s</xliff:g> <xliff:g id="alarm_hour_ev">%s</xliff:g> مساء الخير! الوقت هو</string>
+    <string name="alarm_voice_normal">.<xliff:g id="am_norm">%s</xliff:g>  <xliff:g id="alarm_minute_norm">%s</xliff:g> <xliff:g id="alarm_hour_norm">%s</xliff:g> الوقت هو</string>
+    <string name="audio_select">"اختر تسجيل الصوت"</string>
+    <string name="pref_night_summary">"شاشة معتمة جدًا"</string>
+    <string name="pref_clock_style">"النمط"</string>
+    <string name="pref_digital_font">"الخط مدار الساعة"</string>
+    <string name="tts_warning">"لالتنبيهات الصوتية، يرجى تمكين / تثبيت محرك تحويل النص إلى كلام"</string>
+    <string name="wake_up_question">"هل انت مستيقظ؟"</string>
+    <string name="math_friendly_alert">"مشكلة الرياضيات هو في انتظاركم"</string>
+    <string name="instant_alarm">"إنشاء جهاز إنذار سريع"</string>
+    <string name="skip_next">"تخطى"</string>
+    <string name="unskip">"تراجع تخطي"</string>
+    <string name="skip_check">"تخطي اختبار"</string>
+    <string name="pref_language">"لغة"</string>
+    <string name="skip_alarm">"ناقوس الخطر القادم سيتم تخطي"</string>
+    <string name="skipped">"تخطي"</string>
+    <string name="m_perm_telephone">وهذا سوف يسمح تلقائيا إيقاف التنبيه عند تلقي مكالمة</string>
+    <string name="m_perm_audio">"هناك حاجة لإعداد البيئة قبل تسجيل رسالة"</string>
+    <string name="interaction_dismiss_alarm">"استبعاد إنذار"</string>
+    <string name="dismiss_all">"إغلاق كافة"</string>
+    <string name="start_timer">دقائق <xliff:g id="timer_minutes">%d</xliff:g> ,ساعات  <xliff:g id="timer_hours">%d</xliff:g> بدء الموقت ل</string>
+    <string name="start_timer_hours">ساعات <xliff:g id="timer_hours">%d</xliff:g>بدء الموقت ل</string>
+    <string name="start_timer_hour">"بدء تشغيل جهاز ضبط الوقت لمدة 1 ساعة"</string>
+    <string name="start_timer_minutes">دقائق <xliff:g id="timer_minutes">%d</xliff:g>بدء الموقت ل</string>
+    <string name="start_timer_minute">"بدء تشغيل جهاز ضبط الوقت لمدة 1 دقيقة"</string>
+    <string name="invalid_time">"الوقت غير صالح"</string>
+    <string name="alarm_not_found">"إنذار لم يتم العثور على"</string>
+    <string name="alarm_not_24">"ينبغي التنبيه إلى أن يكون خلال 24 ساعة"</string>
+    <string name="pick_alarm">"اختيار تنبيه لرفض"</string>
+    <string name="timer_created">"الموقت تم إنشاء"</string>
+    <string name="alarm_snoozed">"لقد تم تأجيل إنذار"</string>
+    <string name="alarm_created">"تم إنشاء إنذار"</string>
+    <string name="background">خلفية</string>
+    <string name="disable_snoozing">"الغفوة تعطيل"</string>
+    <string name="snooze_disable_info_title">"غفوة تعطيل"</string>
+    <string name="snooze_disable_info">"بعد الفاصل الزمني المحدد، سيتم تشغيل الغفوة قبالة"</string>
+    <string name="never">"أبدا"</string>
+    <string name="no_snooze">"لا الغفوة"</string>
+    <string name="select_song">"اختر أغنية"</string>
+    <string name="no_tracks">"لا توجد مسارات"</string>
+    <string name="unknown">"غير معروف"</string>
+    <string name="default_ringtone">"النغمة الأساسية"</string>
+    <string name="barcode_not_supported">"شكل الباركود غير معتمدة"</string>
+    <string name="song_limit">"بلغ الحد"</string>
+    <string name="shuffle_songs">"أغاني المراوغة"</string>
+    <string name="select_songs">"حدد بعض الأغاني"</string>
+    <string name="more_songs_needed">"أغنية أكثر من واحد لابد من اختار"</string>
+    <string name="search_media">"البحث أغنيات"</string>
+    <string name="select_ringtone">"اختر نغمة رنين"</string>
+    <string name="cancel_old_timer">"إلغاء الموقت القديم وإنشاء واحدة جديدة"</string>
+    <string name="songs_selected"> اغاني مختارة <xliff:g id="songs_number">%d</xliff:g> </string>
+    <string name="upcoming_alarm">"إنذار القادمة"</string>
+    <string name="dismiss_now">"إلغاء الآن"</string>
+    <string name="shake">"هز"</string>
+    <string name="def">"بشكل افتراضي"</string>
+    <string name="details_dismiss_method">"طريقة لوقف ناقوس الخطر"</string>
+    <string name="easy">"سهل"</string>
+    <string name="medium">"وسط"</string>
+    <string name="hard">"الصعب"</string>
+    <string name="allow_skip_math">"السماح تخطي مشكلة"</string>
+    <string name="number_of_problems">"عدد من المشاكل"</string>
+    <string name="skip">"تخطى"</string>
+    <string name="problems_left">"مشاكل اليسار:"</string>
+    <string name="shake_times">مرات<xliff:g id="shake">%d</xliff:g>رج الجهاز</string>
+    <string name="no_accelerometer">"الاستشعار لا يتوفر على الجهاز"</string>
+    <string name="math_mutliple_friendly_alert">مشاكل الرياضيات ينتظر</string>
+    <string name="shake_turn_off">"هزة لإيقاف"</string>
+    <string name="ok_gotit">حسنا فهمت</string>
+    <string name="autostart_title">"تمكين autostart"</string>
+    <string name="pref_brightness">زيادة تدريجيا سطوع</string>
+    <string name="pref_brightness_dialog">الوقت للوصول إلى أقصى سطوع</string>
+    <string name="times_shake">عدد مرات يهز</string>
+    <string name="brightness_friendly_alert">لايقاظ بلطف لكم، يقوم الجهاز استيقظ قبل المنبه وسوف السطوع تزيد ببطء</string>
+    <string name="song_instruction">"انقر مع الاستمرار في الاستماع لأغنية"</string>
+    <string name="ringtone_instruct">"انقر مع الاستمرار في الاستماع الرنة"</string>
+    <string name="elapsed_time">Elapsed time:</string>
+    <string name="fullscreen_mode">وضع ملء الشاشة</string>
+    <string name="autostart_alert">"يمكن لمدير Autostart على بعض الأجهزة إيقاف Wobble ، مما يمنع الإنذارات من إطلاق النار بعد إعادة التشغيل."</string>
+    <string name="always">دائما</string>
+    <string name="loading_tone">جاري التحميل نغمة …</string>
+    <string name="default_alarm_screen_text">"الوقت ليستيقظ!"</string>
+    <string name="pref_upcoming_notif">"إخطارات التنبيه القادمة"</string>
+    <string name="snooze_until">"غفوة إلى <xliff:g id="time">%s</xliff:g>"</string>
+    <string name="details_snooze_method">قيلولة بعد الظهر الأسلوب</string>
+    <string name="shake_snooze">يهز لأخذ غفوة</string>
+    <string name="very_hard">صعب جدا</string>
+    <string name="remaining">المتبقية</string>
+    <string name="loud_ring">"نغمة بصوت عال"</string>
+    <string name="ringtone">"نغمة"</string>
+    <string name="music">"موسيقى"</string>
+    <string name="press_back">"اضغط مرة أخرى لإغلاق"</string>
+    <string name="picture_selected">"الصورة محددة"</string>
+    <string name="discard">"تجاهل"</string>
+    <string name="discard_message">"تجاهل التغييرات؟"</string>
+    <string name="blur_level">"مستوى طمس"</string>
+    <string name="blur_bg">"طمس الخلفية"</string>
+    <string name="custom">"العادة"</string>
+    <string name="preview">"معاينة"</string>
+    <string name="preview_dismissed">"المعاينة مغلقة"</string>
+    <string name="presets_empty">"لا المسبقة"</string>
+    <string name="privacy_policy">"سياسة خاصة"</string>
+    <string name="preview_message">"اضغط على زر العودة لإغلاق."</string>
+    <string name="pref_long_dismiss">"انقر طويلة لإغلاق التنبيه"</string>
+    <string name="pref_tap_long_summary">"تجنب إغلاق المنبه عن طريق الخطأ"</string>
+    <string name="pref_disable_bg">"تعطيل خلفية الساعة"</string>
+</resources>

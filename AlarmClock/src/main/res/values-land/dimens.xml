@@ -1,0 +1,10 @@
+<resources>
+
+    <dimen name="pager_padding">2dp</dimen>
+    <dimen name="pagerslidingtab_height">40dp</dimen>
+    <dimen name="add_toolbar_height">42dp</dimen>
+    <dimen name="details_layout_margin">0dp</dimen>
+    <dimen name="alarm_padding">110dp</dimen>
+    <dimen name="wake_dialog_size">330dp</dimen>
+    <dimen name="barcode_toolbar_width">380dp</dimen>
+</resources>

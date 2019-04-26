@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) Jan, 2016.
+  ~ Piyush Shrivastava
+  ~ This code is copyrighted and cannot be redistributed, modified, or sold as it is without the
+  ~  authority of owner.
+  -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <com.bytezap.wobble.preference.CustomListPreference
+            android:key="prefClockFont"
+            android:title="@string/pref_digital_font"
+            android:icon="@drawable/ic_font"
+            android:defaultValue="0"
+            android:entries="@array/clockFont"
+            android:dialogTitle="@string/pref_digital_font"
+            android:entryValues="@array/clock_font_values"/>
+
+        <com.bytezap.wobble.preference.CustomCheckBoxPreference
+            android:defaultValue="true"
+            android:key="prefAnimation"
+            android:title="@string/default_animations"
+            android:icon="@drawable/ic_animation"
+            android:widgetLayout="@layout/check_box_layout"/>
+
+        <com.bytezap.wobble.preference.BlurSeekBarPreference
+            android:key="prefBlur"
+            android:title="@string/blur_bg"
+            android:icon="@drawable/ic_image"
+            android:summary="@string/default_off"
+            android:dialogTitle="@string/blur_level"
+            android:defaultValue="0"/>
+
+        <com.bytezap.wobble.preference.CustomCheckBoxPreference
+            android:defaultValue="false"
+            android:key="prefClockBg"
+            android:title="@string/pref_disable_bg"
+            android:icon="@drawable/ic_action_clock"
+            android:widgetLayout="@layout/check_box_layout"/>
+
+        <com.bytezap.wobble.preference.CustomListPreference
+            android:key="prefLanguage"
+            android:title="@string/pref_language"
+            android:icon="@drawable/ic_font"
+            android:defaultValue="default"
+            android:entries="@array/language"
+            android:dialogTitle="@string/pref_language"
+            android:entryValues="@array/language_values"/>
+
+        <Preference
+            android:key="prefAbout"
+            android:title="@string/pref_about_title"
+            android:icon="@drawable/ic_info">
+        </Preference>
+
+</PreferenceScreen>

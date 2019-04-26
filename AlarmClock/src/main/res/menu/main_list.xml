@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Clock">
+
+    <item
+        android:id="@+id/item_choose_sound"
+        android:title="@string/details_alarm_tone_default" />
+
+    <item android:id="@+id/item_night_mode"
+        android:title="@string/night_mode"/>
+
+    <item
+        android:id="@+id/item_settings"
+        android:title="@string/action_settings"/>
+
+    <item
+        android:id="@+id/item_ads"
+        android:title="@string/menu_ads"/>
+
+    <item
+        android:id="@+id/item_rate_app"
+        android:title="@string/rate_app" />
+
+</menu>

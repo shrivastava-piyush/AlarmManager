@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#10ffffff"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <LinearLayout
+        android:id="@+id/dismiss_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/dismiss_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/details_dismiss_method"
+            android:textColor="@color/white"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/dismiss_indicator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/def"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/snooze_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/snooze_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/details_snooze_method"
+            android:textColor="@color/white"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/snooze_indicator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/def"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/disable_snooze_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/text_max_snooze"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/disable_snoozing"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/snooze_disable_indicator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/never"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/snooze_disable_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/link_bg"
+            android:contentDescription="@null"
+            android:padding="3dp"
+            android:src="@drawable/ic_question_info" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/wakeup_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <com.bytezap.wobble.customviews.TweakedSwitch
+            android:id="@+id/wakeup_check"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:checked="true"
+            app:isSummaryVisible="false"
+            app:text="@string/details_check_awake" />
+
+        <ImageView
+            android:id="@+id/wakeup_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/link_bg"
+            android:contentDescription="@string/wake_up_desc"
+            android:padding="3dp"
+            android:src="@drawable/ic_question_info" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/app_launch_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.bytezap.wobble.customviews.TweakedSwitch
+            android:id="@+id/app_selected"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:checked="false"
+            app:isSummaryVisible="true"
+            app:summary="@string/default_none"
+            app:text="@string/details_launch_app" />
+
+        <ImageView
+            android:id="@+id/app_launch_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/link_bg"
+            android:contentDescription="@null"
+            android:padding="3dp"
+            android:src="@drawable/ic_info" />
+
+    </LinearLayout>
+
+    <com.google.android.gms.ads.formats.NativeContentAdView
+        android:id="@+id/native_ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/native_ad_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/native_headline"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/native_sub_headline"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/native_ad_image"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:contentDescription="@null" />
+
+        </LinearLayout>
+
+    </com.google.android.gms.ads.formats.NativeContentAdView>
+
+</LinearLayout>

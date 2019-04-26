@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate
+        android:fromXDelta="-3"
+        android:toXDelta="3"
+        android:repeatCount="4"
+        android:repeatMode="reverse"
+        android:interpolator="@android:interpolator/linear"
+        android:duration="40"/>
+</set>

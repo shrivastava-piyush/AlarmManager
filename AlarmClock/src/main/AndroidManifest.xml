@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.bytezap.wobble"
+    android:installLocation="internalOnly"
+    android:versionName="1.5">
+
+    <uses-feature
+        android:name="android.hardware.bluetooth"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" />
+
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+
+    <uses-feature
+        android:name="android.hardware.screen.landscape"
+        android:required="false" />
+
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false" />
+
+    <uses-feature
+        android:glEsVersion="0x20000"
+        android:required="true" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="false"
+        android:xlargeScreens="true" />
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE " />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:allowBackup="true"
+        android:backupAgent=".BackupEnvoy"
+        android:directBootAware="true"
+        android:fullBackupContent="@xml/backup_content"
+        android:fullBackupOnly="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <activity
+            android:name=".InitializerActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden|keyboard|navigation"
+            android:excludeFromRecents="true"
+            android:theme="@style/Theme.Launch"
+            android:windowSoftInputMode="adjustNothing">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Clock"
+            android:excludeFromRecents="true"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:theme="@style/Theme.LaunchMain"
+            android:windowSoftInputMode="adjustNothing">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".alarm.AlarmScreen"
+            android:configChanges="screenSize|keyboardHidden|keyboard|navigation"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:screenOrientation="nosensor"
+            android:taskAffinity=""
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <activity
+            android:name=".alarm.AlarmDetails"
+            android:windowSoftInputMode="adjustNothing" />
+
+        <activity
+            android:name=".alarm.camera.BarcodeScanner"
+            android:theme="@style/Theme.LaunchMain"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <activity
+            android:name=".alarm.media.RingtonePickerActivity"
+            android:windowSoftInputMode="adjustNothing" />
+
+        <activity
+            android:name=".alarm.media.MediaPickerActivity"
+            android:windowSoftInputMode="adjustNothing" />
+
+        <activity
+            android:name=".alarm.media.MediaMultiSelectActivity"
+            android:windowSoftInputMode="adjustNothing" />
+
+        <activity
+            android:name=".alarm.camera.CameraActivity"
+            android:theme="@style/Theme.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <activity
+            android:name=".alarm.ApplicationList"
+            android:configChanges="orientation|screenSize"
+            android:windowSoftInputMode="adjustNothing" />
+
+        <activity
+            android:name=".interaction.MiscellanyActivity"
+            android:theme="@style/Theme.SemiTransparent"
+            android:windowSoftInputMode="adjustNothing" />
+
+        <activity
+            android:name=".alarm.WakeUpCheck"
+            android:configChanges="screenSize|uiMode|navigation"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:screenOrientation="nosensor"
+            android:taskAffinity=""
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <activity
+            android:name=".timer.TimerAlert"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:taskAffinity="" />
+
+        <activity
+            android:name=".alarm.media.Recorder"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/Theme.SemiTransparent" />
+
+        <service
+            android:name=".alarm.AlarmService"
+            android:exported="false" />
+
+        <service
+            android:name=".timer.TimerService"
+            android:exported="false" />
+
+        <service
+            android:name=".stopwatch.StopwatchService"
+            android:exported="false" />
+
+        <activity
+            android:name=".interaction.InteractionHandler"
+            android:excludeFromRecents="true"
+            android:permission="com.android.alarm.permission.SET_ALARM"
+            android:taskAffinity=""
+            android:theme="@android:style/Theme.NoDisplay">
+
+            <intent-filter>
+                <action android:name="android.intent.action.SET_ALARM" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.VOICE" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.DISMISS_ALARM" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.VOICE" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.SNOOZE_ALARM" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.VOICE" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.SHOW_ALARMS" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.VOICE" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.SET_TIMER" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.VOICE" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".alarm.AlarmInstigator">
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+                <action android:name="android.intent.action.TIME_SET" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name=".alarm.AlarmReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.bytezap.alarmclock.action.skip" />
+                <action android:name="com.bytezap.alarmclock.action.pre_dismiss" />
+                <action android:name="com.bytezap.alarmclock.action.upcoming_notif" />
+                <action android:name="com.bytezap.alarmclock.action.dismiss_now" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".clock.ClockDreamService"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:permission="android.permission.BIND_DREAM_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.dreams.DreamService" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data
+                android:name="android.service.dream"
+                android:resource="@xml/dream_stat" />
+        </service>
+
+        <activity
+            android:name=".clock.DayDreamSettings"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:label="Daydream">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".preference.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:theme="@style/Theme.Settings" />
+
+        <activity
+            android:name=".preference.AlarmSettingsActivity"
+            android:theme="@style/Theme.Settings" />
+
+        <activity
+            android:name=".preference.TimerSettingsActivity"
+            android:theme="@style/Theme.Settings" />
+
+        <activity
+            android:name=".preference.VoiceSettingsActivity"
+            android:theme="@style/Theme.Settings" />
+
+        <activity
+            android:name=".preference.OtherSettingsActivity"
+            android:theme="@style/Theme.Settings" />
+
+        <activity
+            android:name=".theme.ThemeActivity"
+            android:theme="@style/Theme.ThemeStyle" />
+
+        <activity
+            android:name=".clock.NightMode"
+            android:excludeFromRecents="true" />
+
+        <activity
+            android:name=".timer.TimerFullScreen"
+            android:excludeFromRecents="true" />
+
+        <activity
+            android:name=".stopwatch.StopwatchFullScreen"
+            android:excludeFromRecents="true" />
+
+        <activity android:name=".CropActivity" />
+
+        <activity
+            android:name=".AboutActivity"
+            android:theme="@style/Theme.About" />
+
+        <receiver
+            android:name=".widget.AnalogWidgetDark"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/widget_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/analog_appwidget_dark" />
+        </receiver>
+
+        <receiver
+            android:name=".widget.AnalogWidgetLight"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/widget_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/analog_appwidget_light" />
+        </receiver>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/banner_ad_id"/>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="b084e25ba0417584939d2249c2de99c99b6c9013" />
+    </application>
+
+</manifest>

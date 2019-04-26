@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="#10ffffff">
+
+    <com.bytezap.wobble.customviews.TweakedSwitch
+        android:id="@+id/alarm_details_repeat_sunday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:checked="true"
+        app:text="@string/Sunday"
+        app:isSummaryVisible="false"/>
+
+    <com.bytezap.wobble.customviews.TweakedSwitch
+        android:id="@+id/alarm_details_repeat_monday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:checked="true"
+        app:text="@string/Monday"
+        app:isSummaryVisible="false"/>
+
+    <com.bytezap.wobble.customviews.TweakedSwitch
+        android:id="@+id/alarm_details_repeat_tuesday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:checked="true"
+        app:text="@string/Tuesday"
+        app:isSummaryVisible="false"/>
+
+    <com.bytezap.wobble.customviews.TweakedSwitch
+        android:id="@+id/alarm_details_repeat_wednesday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:checked="true"
+        app:text="@string/Wednesday"
+        app:isSummaryVisible="false"/>
+
+    <com.bytezap.wobble.customviews.TweakedSwitch
+        android:id="@+id/alarm_details_repeat_thursday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:checked="true"
+        app:text="@string/Thursday"
+        app:isSummaryVisible="false"/>
+
+    <com.bytezap.wobble.customviews.TweakedSwitch
+        android:id="@+id/alarm_details_repeat_friday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:checked="true"
+        app:text="@string/Friday"
+        app:isSummaryVisible="false"/>
+
+    <com.bytezap.wobble.customviews.TweakedSwitch
+        android:id="@+id/alarm_details_repeat_saturday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:checked="true"
+        app:text="@string/Saturday"
+        app:isSummaryVisible="false"/>
+
+</LinearLayout>

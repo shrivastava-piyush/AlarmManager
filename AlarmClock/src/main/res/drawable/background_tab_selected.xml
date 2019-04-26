@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:exitFadeDuration="@android:integer/config_shortAnimTime">
+
+    <solid android:color="#60ffffff" />
+    <stroke android:color="@color/transparent" android:width="@dimen/pager_padding"/>
+    <corners android:radius="3dp"/>
+
+</shape>

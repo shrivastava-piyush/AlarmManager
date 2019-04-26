@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\AstroBoy\\AndroidStudioProjects\\AlarmManager\\AlarmClock\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-land-v13\\values-sw600dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "G:\\Android\\.gradle\\caches\\transforms-1\\files-1.1\\materialdatetimepicker-3.6.4.aar\\6c5f2884bd75610fbc1cf0dd8646cb4c\\res\\values-sw600dp-land-v13\\values-sw600dp-land-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,107,161,224,286,347,409,460,511,565,619,680,732",
+                        "endColumns": "51,53,62,61,60,61,50,50,53,53,60,51,61",
+                        "endOffsets": "102,156,219,281,342,404,455,506,560,614,675,727,789"
+                    },
+                    "to": {
+                        "startLines": "5,6,7,8,9,10,11,12,13,14,15,16,17",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "204,256,310,373,435,496,558,609,660,714,768,829,881",
+                        "endColumns": "51,53,62,61,60,61,50,50,53,53,60,51,61",
+                        "endOffsets": "251,305,368,430,491,553,604,655,709,763,824,876,938"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\AstroBoy\\AndroidStudioProjects\\AlarmManager\\AlarmClock\\src\\main\\res\\values-sw600dp-land\\dimens.xml",
+                    "from": {
+                        "startLines": "5,2,3,1,4",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "212,60,106,16,160",
+                        "endColumns": "48,45,53,43,51",
+                        "endOffsets": "256,101,155,55,207"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,18,19",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,104,150,943,987",
+                        "endColumns": "48,45,53,43,51",
+                        "endOffsets": "99,145,199,982,1034"
+                    }
+                }
+            ]
+        }
+    ]
+}

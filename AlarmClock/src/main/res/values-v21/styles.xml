@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.NoActionBar">
+
+        <item name="android:windowNoTitle">true</item>
+        <!--We will be using the toolbar so no need to show ActionBar-->
+        <item name="android:windowActionBar">false</item>
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="android:colorPrimary">@color/dark_grey</item>
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="android:colorPrimaryDark">@color/actionModeColor</item>
+        <!-- colorAccent is used as the default value for colorControlActivated
+             which is used to tint widgets -->
+        <item name="android:colorAccent">@color/accent</item>
+        <!-- You can also set colorControlNormal, colorControlActivated
+             colorControlHighlight and colorSwitchThumbNormal. -->
+        <item name="android:windowActionModeOverlay">true</item>
+
+        <item name="windowActionModeOverlay">true</item>
+
+        <item name="android:alertDialogTheme">@style/AlertDialogStyle</item>
+
+        <item name="android:actionModeBackground">@color/actionModeColor</item>
+
+        <item name="android:actionModeCloseDrawable">@drawable/ic_action_back</item>
+
+        <item name="android:statusBarColor">@color/transparent</item>
+
+        <item name="android:windowContentTransitions">true</item>
+
+        <item name="displayOptions">useLogo</item>
+
+        <item name="android:navigationBarColor">@color/black</item>
+
+    </style>
+
+    <style name="FloatingActionButton" parent="Widget.Design.FloatingActionButton">
+        <item name="elevation">@dimen/fab_elevation</item>
+        <item name="pressedTranslationZ">@dimen/fab_elevation</item>
+    </style>
+
+    <style name="Theme.ThemeStyle" parent="AppBaseTheme">
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="displayOptions">showHome</item>
+        <item name="android:statusBarColor">#90000000</item>
+    </style>
+
+    <style name="Theme.Settings" parent="AppBaseTheme">
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:displayOptions">showHome</item>
+        <item name="android:statusBarColor">#90000000</item>
+    </style>
+
+    <style name="Theme.SemiTransparent" parent="AppBaseTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:statusBarColor">@color/black</item>
+    </style>
+
+    <style name="Theme.About" parent="AppBaseTheme">
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="displayOptions">showHome</item>
+        <item name="android:statusBarColor">#90000000</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-dismissLevel can go here. -->
+    </style>
+
+</resources>

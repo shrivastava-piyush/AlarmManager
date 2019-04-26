@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) Jan, 2016.
+  ~ Piyush Shrivastava
+  ~ This code is copyrighted and cannot be redistributed, modified, or sold as it is without the
+  ~  authority of owner.
+  -->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/transparent"/>
+</shape>

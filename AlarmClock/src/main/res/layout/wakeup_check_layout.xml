@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/wake_layout_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/wakeUpCheck"
+        android:orientation="vertical" />
+
+    <LinearLayout
+        android:id="@+id/check_layout"
+        android:layout_width="@dimen/wake_dialog_size"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_dialog_bg"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/wake_dialog_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/wake_image"
+            android:contentDescription="@null"
+            android:background="#212121"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@drawable/bottom_shadow" />
+
+        <!-- Create a wrapper layout so that image can animate freely -->
+        <LinearLayout
+            android:id="@+id/wake_icon_wrapper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="-35dp"
+            android:background="@drawable/image_rounded_blue">
+
+            <ImageView
+                android:id="@+id/wake_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:contentDescription="@null"
+                android:padding="10dp"
+                android:src="@drawable/tab_alarm" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="16dp"
+            android:paddingTop="12dp">
+
+            <TextView
+                android:id="@+id/wake_text"
+                android:layout_width="@dimen/wake_dialog_size"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="2"
+                android:padding="5dp"
+                android:text="@string/wake_text"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#175676" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/wake_up_instruct"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:text="@string/wake_instruction"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#2196F3" />
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/wake1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/wake_button_blue"
+                        android:text="@string/wake_button_text"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white" />
+
+                    <Button
+                        android:id="@+id/wake2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/wake_button_blue"
+                        android:text="@string/default_ok"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:visibility="gone" />
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</merge>

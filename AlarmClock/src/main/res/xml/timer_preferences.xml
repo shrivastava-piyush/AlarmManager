@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) Jan, 2016.
+  ~ Piyush Shrivastava
+  ~ This code is copyrighted and cannot be redistributed, modified, or sold as it is without the
+  ~  authority of owner.
+  -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <com.bytezap.wobble.preference.CustomCheckBoxPreference
+            android:defaultValue="true"
+            android:key="prefTimerAlarm"
+            android:title="@string/pref_timer_alert_title"
+            android:icon="@drawable/tab_timer"
+            android:widgetLayout="@layout/check_box_layout"/>
+
+        <com.bytezap.wobble.preference.CustomCheckBoxPreference
+            android:defaultValue="true"
+            android:key="prefSoundEffects"
+            android:title="@string/pref_sound_title"
+            android:icon="@drawable/ic_alarm_tone"
+            android:widgetLayout="@layout/check_box_layout"/>
+
+        <com.bytezap.wobble.preference.VolumeSeekBarPreference
+            android:key="prefTimerVolume"
+            android:title="@string/pref_timer_volume"
+            android:icon="@drawable/ic_volume"
+            android:summary="@string/default_maximum"
+            android:dialogTitle="@string/pref_timer_volume"/>
+
+        <com.bytezap.wobble.preference.CustomCheckBoxPreference
+            android:defaultValue="false"
+            android:key="prefScreenOn"
+            android:title="@string/pref_screen_on"
+            android:icon="@drawable/ic_smartphone"
+            android:widgetLayout="@layout/check_box_layout"/>
+
+</PreferenceScreen>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/theme_random"
+        android:title="@string/default_random" />
+
+    <item android:id="@+id/theme_custom"
+        android:title="@string/custom"/>
+</menu>
