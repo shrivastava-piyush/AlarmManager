@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bytezap.wobble"
+    android:installLocation="internalOnly"
+    android:versionCode="122"
+    android:versionName="1.5" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="28" />
+
+    <uses-feature
+        android:name="android.hardware.bluetooth"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.screen.landscape"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false" />
+    <uses-feature
+        android:glEsVersion="0x20000"
+        android:required="true" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="false"
+        android:xlargeScreens="true" />
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE " />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+        android:backupAgent="com.bytezap.wobble.BackupEnvoy"
+        android:debuggable="true"
+        android:directBootAware="true"
+        android:fullBackupContent="@xml/backup_content"
+        android:fullBackupOnly="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.bytezap.wobble.InitializerActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden|keyboard|navigation"
+            android:excludeFromRecents="true"
+            android:theme="@style/Theme.Launch"
+            android:windowSoftInputMode="adjustNothing" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.bytezap.wobble.Clock"
+            android:excludeFromRecents="true"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:theme="@style/Theme.LaunchMain"
+            android:windowSoftInputMode="adjustNothing" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.bytezap.wobble.alarm.AlarmScreen"
+            android:configChanges="screenSize|keyboardHidden|keyboard|navigation"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:screenOrientation="nosensor"
+            android:taskAffinity=""
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.bytezap.wobble.alarm.AlarmDetails"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name="com.bytezap.wobble.alarm.camera.BarcodeScanner"
+            android:theme="@style/Theme.LaunchMain"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.bytezap.wobble.alarm.media.RingtonePickerActivity"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name="com.bytezap.wobble.alarm.media.MediaPickerActivity"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name="com.bytezap.wobble.alarm.media.MediaMultiSelectActivity"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name="com.bytezap.wobble.alarm.camera.CameraActivity"
+            android:theme="@style/Theme.Translucent"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.bytezap.wobble.alarm.ApplicationList"
+            android:configChanges="orientation|screenSize"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name="com.bytezap.wobble.interaction.MiscellanyActivity"
+            android:theme="@style/Theme.SemiTransparent"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name="com.bytezap.wobble.alarm.WakeUpCheck"
+            android:configChanges="screenSize|uiMode|navigation"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:screenOrientation="nosensor"
+            android:taskAffinity=""
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.bytezap.wobble.timer.TimerAlert"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:taskAffinity="" />
+        <activity
+            android:name="com.bytezap.wobble.alarm.media.Recorder"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/Theme.SemiTransparent" />
+
+        <service
+            android:name="com.bytezap.wobble.alarm.AlarmService"
+            android:exported="false" />
+        <service
+            android:name="com.bytezap.wobble.timer.TimerService"
+            android:exported="false" />
+        <service
+            android:name="com.bytezap.wobble.stopwatch.StopwatchService"
+            android:exported="false" />
+
+        <activity
+            android:name="com.bytezap.wobble.interaction.InteractionHandler"
+            android:excludeFromRecents="true"
+            android:permission="com.android.alarm.permission.SET_ALARM"
+            android:taskAffinity=""
+            android:theme="@android:style/Theme.NoDisplay" >
+            <intent-filter>
+                <action android:name="android.intent.action.SET_ALARM" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.VOICE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.DISMISS_ALARM" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.VOICE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SNOOZE_ALARM" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.VOICE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SHOW_ALARMS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.VOICE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SET_TIMER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.VOICE" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name="com.bytezap.wobble.alarm.AlarmInstigator" >
+            <intent-filter android:priority="1000" >
+                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+                <action android:name="android.intent.action.TIME_SET" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.bytezap.wobble.alarm.AlarmReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.bytezap.alarmclock.action.skip" />
+                <action android:name="com.bytezap.alarmclock.action.pre_dismiss" />
+                <action android:name="com.bytezap.alarmclock.action.upcoming_notif" />
+                <action android:name="com.bytezap.alarmclock.action.dismiss_now" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.bytezap.wobble.clock.ClockDreamService"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:permission="android.permission.BIND_DREAM_SERVICE" >
+            <intent-filter>
+                <action android:name="android.service.dreams.DreamService" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.service.dream"
+                android:resource="@xml/dream_stat" />
+        </service>
+
+        <activity
+            android:name="com.bytezap.wobble.clock.DayDreamSettings"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:label="Daydream" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.bytezap.wobble.preference.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:theme="@style/Theme.Settings" />
+        <activity
+            android:name="com.bytezap.wobble.preference.AlarmSettingsActivity"
+            android:theme="@style/Theme.Settings" />
+        <activity
+            android:name="com.bytezap.wobble.preference.TimerSettingsActivity"
+            android:theme="@style/Theme.Settings" />
+        <activity
+            android:name="com.bytezap.wobble.preference.VoiceSettingsActivity"
+            android:theme="@style/Theme.Settings" />
+        <activity
+            android:name="com.bytezap.wobble.preference.OtherSettingsActivity"
+            android:theme="@style/Theme.Settings" />
+        <activity
+            android:name="com.bytezap.wobble.theme.ThemeActivity"
+            android:theme="@style/Theme.ThemeStyle" />
+        <activity
+            android:name="com.bytezap.wobble.clock.NightMode"
+            android:excludeFromRecents="true" />
+        <activity
+            android:name="com.bytezap.wobble.timer.TimerFullScreen"
+            android:excludeFromRecents="true" />
+        <activity
+            android:name="com.bytezap.wobble.stopwatch.StopwatchFullScreen"
+            android:excludeFromRecents="true" />
+        <activity android:name="com.bytezap.wobble.CropActivity" />
+        <activity
+            android:name="com.bytezap.wobble.AboutActivity"
+            android:theme="@style/Theme.About" />
+
+        <receiver
+            android:name="com.bytezap.wobble.widget.AnalogWidgetDark"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/widget_name" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/analog_appwidget_dark" />
+        </receiver>
+        <receiver
+            android:name="com.bytezap.wobble.widget.AnalogWidgetLight"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/widget_name" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/analog_appwidget_light" />
+        </receiver>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/banner_ad_id" />
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="b084e25ba0417584939d2249c2de99c99b6c9013" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.android.billingclient.api.ProxyBillingActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.crashlytics.android.CrashlyticsInitProvider"
+            android:authorities="com.bytezap.wobble.crashlyticsinitprovider"
+            android:exported="false"
+            android:initOrder="90" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

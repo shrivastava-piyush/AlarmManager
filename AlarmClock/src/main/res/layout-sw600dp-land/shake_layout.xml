@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#40000000">
+
+    <LinearLayout
+        android:layout_width="@dimen/shake_toolbar_width"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:minHeight="?android:attr/actionBarSize"
+        android:background="@drawable/custom_toolbar_bg"
+        android:layout_gravity="start"
+        android:gravity="center"
+        android:layout_margin="10dp">
+
+        <ImageButton
+            android:id="@+id/shake_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="?android:selectableItemBackgroundBorderless"
+            android:contentDescription="@string/math_back_button_desc"
+            android:padding="15dp"
+            android:src="@drawable/ic_action_back" />
+
+        <TextView
+            android:id="@+id/shake_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/shake_turn_off"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:textAllCaps="false"
+            android:textAppearance="?android:textAppearanceLarge"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/shake_instruction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shake_times"
+            android:layout_margin="25dp"
+            android:textSize="@dimen/time_text_size"
+            android:textAppearance="?android:textAppearanceLarge"/>
+
+        <FrameLayout
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/shake_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_shake"
+                android:background="@color/transparent"
+                android:contentDescription="@null" />
+
+            <TextView
+                android:id="@+id/shake_counter"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="@dimen/time_text_size"
+                android:textStyle="bold"
+                android:background="@color/transparent"
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/white"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

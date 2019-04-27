@@ -1,0 +1,63 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/alarm_coordinator"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.bytezap.wobble.customviews.listview.AlarmListView
+        android:id="@+id/alarmList"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="20dp"
+        android:cacheColorHint="@color/transparent"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:drawSelectorOnTop="true"
+        android:fadeScrollbars="true"
+        android:listSelector="@color/transparent"
+        android:scrollbars="none" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/alarm_add_new"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/new_alarm_desc"
+        android:layout_gravity="bottom|center"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/fab_ic_add"
+        app:fabSize="normal"
+        android:tint="#212121"
+        app:rippleColor="@color/fab_ripple"
+        app:elevation="@dimen/fab_elevation"
+        app:pressedTranslationZ="@dimen/fab_elevation"
+        app:backgroundTint="@color/fab_alarm" />
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/emptyView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/alarm_imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/alarm_empty_textView"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/alarm_empty"
+            android:contentDescription="@null" />
+
+        <TextView
+            android:id="@+id/alarm_empty_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/empty_alarm_message_1"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#2196F3" />
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

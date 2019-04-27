@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Wobble</string>
+    <string name="action_settings">Settings</string>
+    <string name="details_alarm_name">Alarm name</string>
+    <string name="details_alarm_tone">Tone</string>
+    <string name="details_alarm_tone_default">Choose Tone</string>
+    <string name="done" translatable="false">Done</string>
+    <string name="cancel">Cancel</string>
+    <string name="wakeup_info">After the alarm is dismissed, a test will check if you\'re awake or not. Alarm fires again if there is no response for 3 minutes. The default duration is 10 minutes.</string>
+
+    <string name="day">"1 day"</string>
+    <string name="days">"<xliff:g id="DAYS">%s</xliff:g> days"</string>
+    <string name="hour">1 hour</string>
+    <string name="hours"><xliff:g id="HOURS">%s</xliff:g> hours</string>
+    <string name="minute">"1 minute"</string>
+    <string name="minutes">"<xliff:g id="MINUTES">%s</xliff:g> minutes"</string>
+    <string name="seconds">"<xliff:g id="SECONDS">%02d</xliff:g> seconds"</string>
+
+    <string-array name="alarm_toast_set">
+        <item>Alarm set for less than 1 minute from now</item>
+        <item>Alarm set for <xliff:g example="3 days" id="DAYS">%1$s</xliff:g> from now</item>
+        <item>Alarm set for <xliff:g example="3 hours" id="HOURS">%2$s</xliff:g> from now</item>
+        <item>Alarm set for <xliff:g example="3 days" id="DAYS">%1$s</xliff:g> and <xliff:g example="2 hours" id="HOURS">%2$s</xliff:g> from now</item>
+        <item>Alarm set for <xliff:g example="3 minutes" id="MINUTES">%3$s</xliff:g> from now</item>
+        <item>Alarm set for <xliff:g example="3 days" id="DAYS">%1$s</xliff:g> and <xliff:g example="2 minutes" id="MINUTES">%3$s</xliff:g> from now</item>
+        <item>Alarm set for <xliff:g example="3 hours" id="HOURS">%2$s</xliff:g> and <xliff:g example="2 minutes" id="MINUTES">%3$s</xliff:g> from now</item>
+        <item>Alarm set for <xliff:g example="3 days" id="DAYS">%1$s</xliff:g>, <xliff:g example="2 hours" id="HOURS">%2$s</xliff:g>, and <xliff:g example="2 minutes" id="MINUTES">%3$s</xliff:g> from now</item>
+    </string-array>
+
+    <string name="banner_ad_id" translatable="false">ca-app-pub-8167376929579266~2640723671</string>
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-8167376929579266/2010168284</string>
+
+    <string name="Sunday" translatable="false">Sunday</string>
+    <string name="Monday" translatable="false">Monday</string>
+    <string name="Tuesday" translatable="false">Tuesday</string>
+    <string name="Wednesday" translatable="false">Wednesday</string>
+    <string name="Thursday" translatable="false">Thursday</string>
+    <string name="Friday" translatable="false">Friday</string>
+    <string name="Saturday" translatable="false">Saturday</string>
+    <string name="app_credits">Credits</string>
+    <string name="app_licenses">Open source licenses</string>
+    <string name="app_version">"Version: "<xliff:g id="version">%s</xliff:g></string>
+    <string name="rate_app">Rate the app</string>
+    <string name="share_app">Share the app</string>
+    <string name="contact_developer">Contact the developer</string>
+    <string name="empty_alarm_message_1">No alarms</string>
+    <string name="new_alarm_desc">Add new alarm</string>
+    <string name="default_time" translatable="false">00:00</string>
+    <string name="short_sunday" translatable="false">Sun</string>
+    <string name="short_monday" translatable="false">Mon</string>
+    <string name="short_tuesday" translatable="false">Tue</string>
+    <string name="short_wednesday" translatable="false">Wed</string>
+    <string name="short_thursday" translatable="false">Thu</string>
+    <string name="short_friday" translatable="false">Fri</string>
+    <string name="short_saturday" translatable="false">Sat</string>
+    <string name="one_time_alarm">Today</string>
+    <string name="alarm_snooze">Snooze</string>
+    <string name="panel_dismiss_message">Swipe up to dismiss</string>
+    <string name="alarm_dismiss">Dismiss</string>
+    <string name="text_am" translatable="false">am</string>
+    <string name="alarm_item_name_default">Alarm</string>
+    <string name="good_morning">Good Morning!</string>
+    <string name="good_evening">Good Evening!</string>
+    <string name="app_rater_message">We help you wake up at the right time!</string>
+    <string name="app_rater_question">Is this worth a 5 star rating?</string>
+    <string name="app_rater_button">Rate 5 Stars</string>
+    <string name="switch_clock_desc">Switch Clock</string>
+    <string name="default_date" translatable="false">01</string>
+    <string name="default_month" translatable="false">January</string>
+    <string name="default_day">Wednesday</string>
+    <string name="default_hour" translatable="false">00</string>
+    <string name="default_min" translatable="false">00</string>
+    <string name="default_sec" translatable="false">00</string>
+    <string name="default_lap">Lap 1</string>
+    <string name="default_lap_time" translatable="false">00:00:00.000</string>
+    <string name="theme_change">Change Theme</string>
+    <string name="menu_desc">Menu</string>
+    <string name="default_math_question" translatable="false">71 % 65</string>
+    <string name="clear_previous">Clear</string>
+    <string name="seven" translatable="false">7</string>
+    <string name="eight" translatable="false">8</string>
+    <string name="nine" translatable="false">9</string>
+    <string name="four" translatable="false">4</string>
+    <string name="five" translatable="false">5</string>
+    <string name="six" translatable="false">6</string>
+    <string name="one" translatable="false">1</string>
+    <string name="two" translatable="false">2</string>
+    <string name="three" translatable="false">3</string>
+    <string name="zero" translatable="false">0</string>
+    <string name="math_back_button_desc">Go back to alarm screen</string>
+    <string name="math_done_button_desc">Check if answer is right</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="reset">Reset</string>
+    <string name="lap">Lap</string>
+    <string name="lap_empty_message">No current laps</string>
+    <string name="text_hours">Hours</string>
+    <string name="text_minutes">Minutes</string>
+    <string name="text_seconds">Seconds</string>
+    <string name="wake_up_desc">Wake Up Test Info</string>
+    <string name="problem_difficulty">Problem should be</string>
+    <string name="days_repeat">Repeat</string>
+    <string name="wake_up_helpers">Wake-up helpers</string>
+    <string name="wake_text">Checking if you\'re awake</string>
+    <string name="wake_instruction">Press the button below</string>
+    <string name="wake_button_text">Yeah, sure</string>
+    <string name="image_theme_desc">App theme</string>
+    <string name="theme">Theme</string>
+    <string name="default_timer_text">Timer</string>
+    <string name="timer_set_time">Set timer</string>
+    <string name="timer_set_label">Set label</string>
+    <string name="default_millisec" translatable="false">000</string>
+    <string name="preference_category_alarm">Alarm</string>
+    <string name="preference_category_timer">Timer and Stopwatch</string>
+    <string name="preference_category_other">Other</string>
+    <string name="pref_auto_dismiss_dialog_title">Auto dismiss after</string>
+    <string name="pref_auto_dismiss_title">Auto dismiss alarm after</string>
+    <string name="pref_snooze_title">Snooze duration</string>
+    <string name="pref_snooze_dialog_title">Select snooze duration</string>
+    <string name="pref_wakeup_title">Check if I\'m awake after</string>
+    <string name="pref_wakeup_dialog_title">Select Wake Up check duration</string>
+    <string name="pref_volume_key_title">Volume keys</string>
+    <string name="details_vibration_title">Vibration</string>
+    <string name="pref_silent_title">Play in silent mode</string>
+    <string name="pref_silent_summary">Alarm will trigger even in silent state</string>
+    <string name="pref_increasing_vol_title">Gradually increase volume</string>
+    <string name="pref_timer_alert_title">Timer completion alert</string>
+    <string name="pref_sound_title">Sound effects</string>
+    <string name="pref_about_title">About</string>
+    <string name="default_theme">Rainy Day</string>
+    <string name="no_file_manager">There is no file manager installed on your device. Please install one.</string>
+    <string name="item_owned">Ads already removed</string>
+    <string name="enable_google_play">Please enable/install Google Play Services</string>
+    <string name="menu_alarm_edit">Edit</string>
+    <string name="menu_alarm_delete">Delete</string>
+    <string name="menu_ads">Remove ads</string>
+    <string name="wakeup_info_title">Wake Up Check</string>
+    <string name="snooze_info_title">Math Problem</string>
+    <string name="default_ok">OK</string>
+    <string name="alarm_selected">" Selected"</string>
+    <string name="alarm_delete_singular">Alarm removed</string>
+    <string name="alarm_delete_plural">Alarms removed</string>
+    <string name="wakeup_toast">"Wake Up Check in <xliff:g id="wakeup">%s</xliff:g> minutes"</string>
+    <string name="snooze_toast">"Alarm snoozed for <xliff:g id="snooze">%s</xliff:g> minutes"</string>
+    <string name="wakeup_button_2_text">Once again, just to be sure!</string>
+    <string name="lap_text">"Lap "</string>
+    <string name="app_rater_remind">Remind me later</string>
+    <string name="app_rater_no">No thanks</string>
+    <string name="math_toast_wrong_answer">Sorry, that\'s incorrect. Let\'s try again!</string>
+    <string name="wrong_file_type">Wrong file type. Please select again.</string>
+    <string name="invalid_file">Invalid file type. Please select again.</string>
+    <string name="Set">Set</string>
+    <string name="default_stopwatch_notif">Stopwatch running</string>
+    <string name="defualt_timer_notif">Timer running</string>
+    <string name="details_check_awake">Check if I\'m awake</string>
+    <string name="details_math_problem">Solve math problems</string>
+    <string name="pref_screen_on">Keep screen on</string>
+    <string name="app_share_message">Check out this app</string>
+    <string name="widget_name">Analog Clock(2x2)</string>
+    <string name="wakeup_press_and_hold">Touch and hold the button</string>
+    <string name="wake_up_nice_day">Looks like you are awake. Have a great day!</string>
+    <string name="alarm_every_day">Every Day</string>
+    <string name="hundred">100%</string>
+    <string name="credits_design">Design &amp; Development</string>
+    <string name="developer_name">Piyush Shrivastava</string>
+    <string name="credits_sound">Sound</string>
+    <string name="default_maximum">Maximum</string>
+    <string name="default_high">High</string>
+    <string name="default_medium">Medium</string>
+    <string name="default_low">Low</string>
+    <string name="default_silent">Silent</string>
+    <string name="credits_sound_1">Kwahmah_02 - Freesound</string>
+    <string name="credits_sound_2">MeTwo99 - Freesound</string>
+    <string name="credits_sound_3">Mike Koenig - SoundBible</string>
+    <string name="credits_backgrounds">Backgrounds</string>
+    <string name="credits_background_1">Pixabay</string>
+    <string name="credits_background_2">Rounded Hexagon</string>
+    <string name="credits_background_3">Techandall</string>
+    <string name="credits_background_4">Elegantthemes</string>
+    <string name="credits_background_5">Obsidian Dawn</string>
+    <string name="credits_sliding_panel">License for Sliding Panel</string>
+    <string name="credits_expandable_layout">License for Expandable Layout</string>
+    <string name="credits_novacut">License for Nova Cut</string>
+    <string name="credits_digitalnumbers">License for DigitalNumbers</string>
+    <string name="credits_roboto">License for Roboto</string>
+    <string name="credits_gson">License for Gson</string>
+    <string name="credits_pager_sliding_tab">License for PagerSlidingTabStrip</string>
+    <string name="credits_barcode">License for BarcodeScanner</string>
+    <string name="credits_zxing">License for ZXing</string>
+    <string name="app_not_found">No application found to handle this action</string>
+    <string name="pref_alarm_volume">Alarm Volume</string>
+    <string name="details_set_alarm_name">Press to set name</string>
+    <string name="alarm_not_started">Alarm not started</string>
+    <string name="app_localization">Help us with localization</string>
+    <string name="gmail_error">Unable to open Gmail</string>
+    <string name="credits_icon">Icons</string>
+    <string name="credits_icon_iconmonster">Iconmonster</string>
+    <string name="alarm_item_weekends">Weekends</string>
+    <string name="alarm_item_weekdays">Weekdays</string>
+    <string name="pref_increasing_vol_dialog">Time to reach maximum volume</string>
+    <string name="alarm_replicate">Replicate</string>
+    <string name="tone_selected">Tone selected</string>
+    <string name="time_up">Time\'s Up</string>
+    <string name="pref_timer_volume">Timer Volume</string>
+    <string name="night_mode">Night Mode</string>
+    <string name="details_launch_app">Launch app on dismiss</string>
+    <string name="default_none">None</string>
+    <string name="launch_app_not_found">App not found</string>
+    <string name="app_launch_alert"><xliff:g id="appAlert">%s</xliff:g>" will open after dismissing alarm"</string>
+    <string name="default_search">Search</string>
+    <string name="select_app">Choose an app</string>
+    <string name="default_undo">Undo</string>
+    <string name="default_animations">Animations and gestures</string>
+    <string name="default_select_all">Select all</string>
+    <string name="details_barcode">Scan barcode</string>
+    <string name="default_barcode_selected">"Barcode selected: "<xliff:g id="barcode">%s</xliff:g>"</string>
+    <string name="default_flash">Flash</string>
+    <string name="default_autofocus">Autofocus</string>
+    <string name="barcode_wrong">Wrong Barcode</string>
+    <string name="launch_app_info">For apps which require internet, make sure you have data connection when the alarm is dismissed.</string>
+    <string name="barcode_instruction">Place the barcode inside the frame.\nTry to avoid shadows and glare</string>
+    <string name="alarm_voice_morning">"Good Morning. It\'s <xliff:g id="alarm_hour_morn">%s</xliff:g> <xliff:g id="alarm_minute_morn">%s</xliff:g> <xliff:g id="am_morn">%s</xliff:g>."</string>
+    <string name="alarm_voice_evening">"Good Evening. It\'s <xliff:g id="alarm_hour_ev">%s</xliff:g> <xliff:g id="alarm_minute_ev">%s</xliff:g> <xliff:g id="am_ev">%s</xliff:g>."</string>
+    <string name="alarm_voice_normal">"It\'s <xliff:g id="alarm_hour_norm">%s</xliff:g> <xliff:g id="alarm_minute_norm">%s</xliff:g> <xliff:g id="am_norm">%s</xliff:g>."</string>
+    <string name="pref_voice_alert">Voice Alert</string>
+    <string name="alarm_details_vocal_message">Vocal Message</string>
+    <string name="alarm_details_message">Press to set message</string>
+    <string name="recorded_message">Recorded message</string>
+    <string name="custom_message">Custom message</string>
+    <string name="after_time">After time</string>
+    <string name="before_time">Before time</string>
+    <string name="after_dismiss">After dismissing alarm</string>
+    <string name="after_snoozing">After snoozing alarm</string>
+    <string name="replace_time">Say this instead of time</string>
+    <string name="say_message">Say message:</string>
+    <string name="file_name">File Name</string>
+    <string name="message_select">Select a message</string>
+    <string name="snooze_warning">"It\'s been <xliff:g id="snooze_number">%s</xliff:g> snoozes already. Aren\'t you getting late?"</string>
+    <string name="sd_not_available">SD Card not available</string>
+    <string name="storage_full">Storage space is full</string>
+    <string name="wrong_barcode_info">You entered the wrong barcode. Let\'s try again!</string>
+    <string name="alarm_background">Alarm Background</string>
+    <string name="default_random">Random</string>
+    <string name="default_wallpaper">Wallpaper</string>
+    <string name="voice_alert_warning">Make sure that voice alert is enabled in settings</string>
+    <string name="pref_alert_volume">Voice Alert Volume</string>
+    <string name="pref_voice">Voice</string>
+    <string name="default_off">Off</string>
+    <string name="defualt_on">On</string>
+    <string name="permission_denied">Permission denied</string>
+    <string name="telephone_warning">The alarm won\'t be able to reschedule if a call is received</string>
+    <string name="audio_select">Select a recorded audio</string>
+    <string name="pref_night_summary">Dim display</string>
+    <string name="pref_clock_style">Clock Style</string>
+    <string name="pref_digital_font">Digital Clock font</string>
+    <string name="tts_warning">For voice alerts, please enable/install a Text-to-Speech engine</string>
+    <string name="wake_up_question">Are you up yet?</string>
+    <string name="math_friendly_alert">A math challenge awaits you!</string>
+    <string name="instant_alarm">Instant alarm</string>
+    <string name="credits_timepicker">License for MaterialDateTimePicker</string>
+    <string name="skip_next">Skip next</string>
+    <string name="unskip">Undo skip</string>
+    <string name="equal_sign">" = "</string>
+    <string name="skip_check">Skip check</string>
+    <string name="pref_language">Language</string>
+    <string name="skip_alarm">Next alarm will be skipped</string>
+    <string name="skipped">Skipped</string>
+    <string name="credits_overscrollscale">License for OverscrollScale</string>
+    <string name="m_perm_telephone">This will allow auto-snoozing of the alarm when a call is received</string>
+    <string name="m_perm_audio">This is needed to setup the environment before you record a message</string>
+    <string name="interaction_dismiss_alarm">Dismiss Alarm</string>
+    <string name="dismiss_all">Dismiss all</string>
+    <string name="start_timer">Starting timer for <xliff:g id="timer_hours">%d</xliff:g> hours and <xliff:g id="timer_minutes">%d</xliff:g> minutes</string>
+    <string name="start_timer_hours">Starting timer for <xliff:g id="timer_hours">%d</xliff:g> hours</string>
+    <string name="start_timer_hour">Starting timer for 1 hour</string>
+    <string name="start_timer_minutes">Starting timer for <xliff:g id="timer_minutes">%d</xliff:g> minutes</string>
+    <string name="start_timer_minute">Starting timer for 1 minute</string>
+    <string name="invalid_time">Invalid time</string>
+    <string name="alarm_not_found">Alarm not found</string>
+    <string name="alarm_not_24">Alarm has to be within 24 hours</string>
+    <string name="pick_alarm">Pick an alarm to dismiss</string>
+    <string name="timer_created">Timer has been created</string>
+    <string name="alarm_snoozed">Alarm has been snoozed</string>
+    <string name="alarm_created">Alarm has been created</string>
+    <string name="background">Background</string>
+    <string name="disable_snoozing">Disable snoozing</string>
+    <string name="snooze_disable_info_title">Time based snoozing</string>
+    <string name="snooze_disable_info">After the specified interval, snoozing will be disabled. This limits the snooze time.</string>
+    <string name="never">Never</string>
+    <string name="no_snooze">No more snoozing!</string>
+    <string name="media_sample_artist">Lorem ipsum</string>
+    <string name="media_sample_song">Curabitur sodales</string>
+    <string name="select_song">Select a song</string>
+    <string name="no_tracks">Could not find any tracks</string>
+    <string name="unknown">Unknown</string>
+    <string name="default_ringtone">Default Ringtone</string>
+    <string name="barcode_not_supported">Barcode Format not supported</string>
+    <string name="song_limit">Songs limit reached</string>
+    <string name="shuffle_songs">Shuffle songs</string>
+    <string name="select_songs">Select some songs</string>
+    <string name="more_songs_needed">More than one song has to be picked</string>
+    <string name="search_media">Search media</string>
+    <string name="select_ringtone">Select a ringtone</string>
+    <string name="snooze_until">Snoozing until <xliff:g id="time">%s</xliff:g></string>
+    <string name="songs_selected"><xliff:g id="songs_number">%d</xliff:g> songs selected</string>
+    <string name="cancel_old_timer">Cancelling old timer and creating a new one</string>
+    <string name="upcoming_alarm">Upcoming alarm</string>
+    <string name="dismiss_now">Dismiss now</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    <string name="shake">Shake</string>
+    <string name="def">Default</string>
+    <string name="details_dismiss_method">Dismiss method</string>
+    <string name="allow_skip_math">Allow skipping a question</string>
+    <string name="number_of_problems">Number of questions</string>
+    <string name="skip">Skip</string>
+    <string name="problems_left">"Problems left: <xliff:g id="problems_count">%d</xliff:g>"</string>
+    <string name="shake_times">"Shake the device <xliff:g id="shake">%d</xliff:g> times"</string>
+    <string name="no_accelerometer">No accelerometer available on the device</string>
+    <string name="math_mutliple_friendly_alert">Math problems await you</string>
+    <string name="date_with_day">Friday, March 12</string>
+    <string name="shake_turn_off">Shake to turn off</string>
+    <string name="ok_gotit">Take me there</string>
+    <string name="autostart_title">Enable Autostart</string>
+    <string name="pref_brightness">Gradually increase brightness</string>
+    <string name="pref_brightness_dialog">Time to reach maximum brightness</string>
+    <string name="times_shake">Number of times to shake</string>
+    <string name="brightness_friendly_alert">To gently wake you up, the device will wake up prior to the alarm time and increase the brightness slowly</string>
+    <string name="song_instruction">Tap and hold to listen the song</string>
+    <string name="ringtone_instruct">Tap and hold to listen the ringtone</string>
+    <string name="stopwatch_default_time">00:00:00</string>
+    <string name="stopwatch_millis">.000</string>
+    <string name="elapsed_time">Elapsed time:</string>
+    <string name="fullscreen_mode">Fullscreen mode</string>
+    <string name="autostart_alert">Autostart manager on some devices can stop Wobble, preventing the alarms from firing after reboot. \n\nTo make sure you wake right on time, please go to application settings and enable \"AutoStart\".</string>
+    <string name="always">Always</string>
+    <string name="loading_tone">Loading tone…</string>
+    <string name="default_alarm_screen_text">Time to wake up!</string>
+    <string name="pref_upcoming_notif">Upcoming alarm notifications</string>
+    <string name="details_snooze_method">Snooze method</string>
+    <string name="shake_snooze">Shake to snooze</string>
+    <string name="very_hard">Very hard</string>
+    <string name="remaining">remaining</string>
+    <string name="loud_ring">Loud Ringtone</string>
+    <string name="ringtone">Ringtone</string>
+    <string name="music">Music</string>
+    <string name="request_cam_perm">This feature requires camera permission.</string>
+    <string name="cam_unavailable">Camera cannot be found on the device.</string>
+    <string name="press_back">Press once again to exit</string>
+    <string name="picture_selected">Picture selected</string>
+    <string name="discard">Discard</string>
+    <string name="discard_message">Discard the changes?</string>
+    <string name="blur_level">Blur level</string>
+
+    <!-- Licenses -->
+    <string name="license_sliding_panel">
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at\n\nhttp://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.</string>
+
+    <string name="license_expandable_layout">The MIT License (MIT)\n\nCopyright © 2014 Robin Chutaux\n\nPermission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in
+    all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+    THE SOFTWARE.</string>
+
+    <string name="license_novacut"><![CDATA[Copyright © 2011, wmk69 (wmk69@o2.pl),
+    with Reserved Font Name NovaCut.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.
+    This license is copied below, and is also available with a FAQ at:
+    http://scripts.sil.org/OFL\n\n\nSIL OPEN FONT LICENSE\nVersion 1.1 - 26 February 2007\n\nPREAMBLE\n\nThe goals of the Open Font License (OFL) are to stimulate worldwide
+    development of collaborative font projects, to support the font creation
+    efforts of academic and linguistic communities, and to provide a free and
+    open framework in which fonts may be shared and improved in partnership
+    with others.\nThe OFL allows the licensed fonts to be used, studied, modified and
+    redistributed freely as long as they are not sold by themselves. The
+    fonts, including any derivative works, can be bundled, embedded,
+    redistributed and/or sold with any software provided that any reserved
+    names are not used by derivative works. The fonts and derivatives,
+    however, cannot be released under any other type of license. The
+    requirement for fonts to remain under this license does not apply
+    to any document created using the fonts or their derivatives.\n\nDEFINITIONS\n\n"Font Software" refers to the set of files released by the Copyright
+    Holder(s) under this license and clearly marked as such. This may
+    include source files, build scripts and documentation.\n\n"Reserved Font Name" refers to any names specified as such after the
+    copyright statement(s).\n\n"Original Version" refers to the collection of Font Software components as
+    distributed by the Copyright Holder(s).\n\n"Modified Version" refers to any derivative made by adding to, deleting,
+    or substituting — in part or in whole — any of the components of the
+    Original Version, by changing formats or by porting the Font Software to a
+    new environment.\n\n"Author" refers to any designer, engineer, programmer, technical
+    writer or other person who contributed to the Font Software.\n\nPERMISSION & CONDITIONS\n\nPermission is hereby granted, free of charge, to any person obtaining
+    a copy of the Font Software, to use, study, copy, merge, embed, modify,
+    redistribute, and sell modified and unmodified copies of the Font
+    Software, subject to the following conditions:\n\n1) Neither the Font Software nor any of its individual components,
+    in Original or Modified Versions, may be sold by itself.\n\n2) Original or Modified Versions of the Font Software may be bundled,
+    redistributed and/or sold with any software, provided that each copy
+    contains the above copyright notice and this license. These can be
+    included either as stand-alone text files, human-readable headers or
+    in the appropriate machine-readable metadata fields within text or
+    binary files as long as those fields can be easily viewed by the user.\n\n3) No Modified Version of the Font Software may use the Reserved Font
+    Name(s) unless explicit written permission is granted by the corresponding
+    Copyright Holder. This restriction only applies to the primary font name as
+    presented to the users.\n\n4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font
+    Software shall not be used to promote, endorse or advertise any
+    Modified Version, except to acknowledge the contribution(s) of the
+    Copyright Holder(s) and the Author(s) or with their explicit written
+    permission.\n\n5) The Font Software, modified or unmodified, in part or in whole,
+    must be distributed entirely under this license, and must not be
+    distributed under any other license. The requirement for fonts to
+    remain under this license does not apply to any document created
+    using the Font Software.\n\nTERMINATION\n\nThis license becomes null and void if any of the above conditions are
+    not met.\n\nDISCLAIMER\n\nTHE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+    EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
+    MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
+    OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE
+    COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+    INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
+    DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+    FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
+    OTHER DEALINGS IN THE FONT SOFTWARE.]]></string>
+
+    <string name="license_digitalnumbers"><![CDATA[Copyright © 2015, Stephan Ahlf (https://github.com/s-a/digital-numbers-font stephan.ahlf@googlemail.com)
+    \n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.
+    This license is copied below, and is also available with a FAQ at:
+    http://scripts.sil.org/OFL\n\n\nSIL OPEN FONT LICENSE\nVersion 1.1 - 26 February 2007\n\nPREAMBLE\n\nThe goals of the Open Font License (OFL) are to stimulate worldwide
+    development of collaborative font projects, to support the font creation
+    efforts of academic and linguistic communities, and to provide a free and
+    open framework in which fonts may be shared and improved in partnership
+    with others.\nThe OFL allows the licensed fonts to be used, studied, modified and
+    redistributed freely as long as they are not sold by themselves. The
+    fonts, including any derivative works, can be bundled, embedded,
+    redistributed and/or sold with any software provided that any reserved
+    names are not used by derivative works. The fonts and derivatives,
+    however, cannot be released under any other type of license. The
+    requirement for fonts to remain under this license does not apply
+    to any document created using the fonts or their derivatives.\n\nDEFINITIONS\n\n"Font Software" refers to the set of files released by the Copyright
+    Holder(s) under this license and clearly marked as such. This may
+    include source files, build scripts and documentation.\n\n"Reserved Font Name" refers to any names specified as such after the
+    copyright statement(s).\n\n"Original Version" refers to the collection of Font Software components as
+    distributed by the Copyright Holder(s).\n\n"Modified Version" refers to any derivative made by adding to, deleting,
+    or substituting — in part or in whole — any of the components of the
+    Original Version, by changing formats or by porting the Font Software to a
+    new environment.\n\n"Author" refers to any designer, engineer, programmer, technical
+    writer or other person who contributed to the Font Software.\n\nPERMISSION & CONDITIONS\n\nPermission is hereby granted, free of charge, to any person obtaining
+    a copy of the Font Software, to use, study, copy, merge, embed, modify,
+    redistribute, and sell modified and unmodified copies of the Font
+    Software, subject to the following conditions:\n\n1) Neither the Font Software nor any of its individual components,
+    in Original or Modified Versions, may be sold by itself.\n\n2) Original or Modified Versions of the Font Software may be bundled,
+    redistributed and/or sold with any software, provided that each copy
+    contains the above copyright notice and this license. These can be
+    included either as stand-alone text files, human-readable headers or
+    in the appropriate machine-readable metadata fields within text or
+    binary files as long as those fields can be easily viewed by the user.\n\n3) No Modified Version of the Font Software may use the Reserved Font
+    Name(s) unless explicit written permission is granted by the corresponding
+    Copyright Holder. This restriction only applies to the primary font name as
+    presented to the users.\n\n4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font
+    Software shall not be used to promote, endorse or advertise any
+    Modified Version, except to acknowledge the contribution(s) of the
+    Copyright Holder(s) and the Author(s) or with their explicit written
+    permission.\n\n5) The Font Software, modified or unmodified, in part or in whole,
+    must be distributed entirely under this license, and must not be
+    distributed under any other license. The requirement for fonts to
+    remain under this license does not apply to any document created
+    using the Font Software.\n\nTERMINATION\n\nThis license becomes null and void if any of the above conditions are
+    not met.\n\nDISCLAIMER\n\nTHE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+    EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
+    MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
+    OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE
+    COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+    INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
+    DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+    FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
+    OTHER DEALINGS IN THE FONT SOFTWARE.]]></string>
+
+    <string name="license_overscroll_state">The MIT License (MIT)\n\nCopyright © 2015 dodola\n\nPermission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in
+    all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+    THE SOFTWARE.</string>
+
+    <string name="license_gson">
+            Copyright © 2008 Google Inc.\n\nLicensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at\nhttp://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+    </string>
+
+    <string name="credits_android_poject">License for Android Open Source Project</string>
+    <string name="android_project">
+            Copyright © 2005-2015 The Android Open Source Project\n\nLicensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at\n\nhttp://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+    </string>
+
+    <string name="license_pager_sliding_tab">
+            Copyright © 2013 Andreas Stuetz\n\nLicensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at\n\nhttp://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+    </string>
+
+    <string name="license_barcode">
+                Copyright © 2014 Dushyanth Maguluru\n\nLicensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at\n\nhttp://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+    </string>
+
+    <string name="license_roboto">
+        Copyright © 2012 Google\n\nLicensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at\n\nhttp://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+    </string>
+
+    <string name="privacy_policy_details">
+     Wobble is built as an Ad-Supported app. This Service is provided by Piyush Shrivastava and is intended for use as is.
+
+\n\nThis page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.
+
+\n\nIf you choose to use my Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that I collect is used for providing and improving the Service. I will not use or share your information with anyone except as described in this Privacy Policy.
+
+\n\nThe terms used in this Privacy Policy have the same meanings as in Terms and Conditions, which is accessible at Wobble unless otherwise defined in this Privacy Policy.
+
+\n\nInformation Collection and Use
+        \n\nFor a better experience, while using the Service, I may require you to provide me with certain personally identifiable information, including but not limited to Advertising ID. The information that I request will be retained on your device and is not collected by me in any way.
+
+\n\nThe app does use third-party services that may collect information used to identify you.
+
+\n\nLink to the privacy policy of third party service providers used by the app
+
+\n- Google Play Services [https://policies.google.com/privacy]
+\n- Admob [https://support.google.com/admob/answer/6128543?hl=en]
+
+\n\nLog Data
+\n\nI want to inform you that whenever you use my Service, in a case of an error in the app I collect data and information (through third-party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing my Service, the time and date of your use of the Service, and other statistics.
+
+\n\nCookies
+\n\nCookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device\'s internal memory.
+
+\n\nThis Service does not use these “cookies” explicitly. However, the app may use third party code and libraries that use “cookies” to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse the cookies, you may not be able to use some portions of this Service.
+
+\n\nService Providers
+\n\nI may employ third-party companies and individuals due to the following reasons:
+
+\n\nTo facilitate the Service; To provide the Service on my behalf; To perform Service-related services; or To assist me in analyzing how the Service is used. I want to inform users of this Service that these third parties have access to your Personal Information. The reason is to perform the tasks assigned to them on my behalf. However, they are obligated not to disclose or use the information for any other purpose.
+
+\n\nSecurity
+\n\nI value your trust in providing me with your Personal Information, thus I\'m striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and I cannot guarantee its absolute security.
+
+\n\nLinks to Other Sites
+\n\nThis Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by me. Therefore, I strongly advise you to review the Privacy Policy of these websites. I have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.
+
+\n\nChildren\’s Privacy
+\n\nThese Services do not address anyone under the age of 13. I do not knowingly collect personally identifiable information from children under 13. In the case I discover that a child under 13 has provided me with personal information, I immediately delete this from the servers. If you are a parent or guardian and you are aware that your child has provided me with personal information, please contact me so that I will be able to do necessary actions.
+
+\n\nChanges to This Privacy Policy
+\n\nI may update the Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. I will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately after they are posted on this page.
+
+\n\nContact Me
+\n\nIf you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at wobbletheclock@gmail.com
+    </string>
+    <string name="blur_bg">Blur Background</string>
+    <string name="custom">Custom</string>
+    <string name="preview">Preview</string>
+    <string name="preview_dismissed">Preview dismissed</string>
+    <string name="presets_empty">No presets</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="preview_message">Press the back button to close.</string>
+    <string name="pref_long_dismiss">Tap long to dismiss</string>
+    <string name="pref_tap_long_summary">Avoid accidentally dismissing the alarm</string>
+    <string name="pref_disable_bg">Disable Clock Background</string>
+</resources>

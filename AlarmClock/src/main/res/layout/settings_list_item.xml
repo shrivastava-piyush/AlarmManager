@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) Jan, 2016.
+  ~ Piyush Shrivastava
+  ~ This code is copyrighted and cannot be redistributed, modified, or sold as it is without the
+  ~  authority of owner.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+    <ImageView
+        android:id="@+id/settingsIcon"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/settings_item_height"
+        android:src="@drawable/ic_one_time_alarm"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        android:contentDescription="@null"/>
+
+    <TextView
+        android:id="@+id/settingsName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:layout_gravity="center"
+        android:text="@string/app_name"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:textAppearanceMedium"/>
+</LinearLayout>

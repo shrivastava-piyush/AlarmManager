@@ -1,0 +1,118 @@
+<resources>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+    <string-array name="snoozeValues" translatable="false">
+        <item name="snooze3">3</item>
+        <item name="snooze5">5</item>
+        <item name="snooze7">7</item>
+        <item name="snooze10">10</item>
+        <item name="snooze15">15</item>
+        <item name="snooze30">30</item>
+        <item name="snooze60">60</item>
+    </string-array>
+
+    <string-array name="wakeupcheckIntervalValues" translatable="false">
+        <item name="wakeup5">5</item>
+        <item name="wakeup7">7</item>
+        <item name="wakeup10">10</item>
+        <item name="wakeup15">15</item>
+        <item name="wakeup20">20</item>
+        <item name="wakeup30">30</item>
+        <item name="wakeup60">60</item>
+    </string-array>
+
+    <string-array name="autoDismissValues" translatable="false">
+        <item name="never0">0</item>
+        <item name="snooze5">5</item>
+        <item name="snooze10">10</item>
+        <item name="snooze15">15</item>
+        <item name="snooze20">20</item>
+        <item name="snooze30">30</item>
+    </string-array>
+
+    <string-array name="increasingVolumeValues" translatable="false">
+        <item name="off0">0</item>
+        <item name="increase5">5</item>
+        <item name="increase10">10</item>
+        <item name="increase15">15</item>
+        <item name="increase30">30</item>
+        <item name="increase45">45</item>
+        <item name="increase60">60</item>
+        <item name="increase90">90</item>
+        <item name="increase120">120</item>
+        <item name="increase180">180</item>
+        <item name="increase300">300</item>
+        <item name="increase600">600</item>
+    </string-array>
+
+    <string-array name="brightnessValues" translatable="false">
+        <item name="off0">0</item>
+        <item name="bright15">15</item>
+        <item name="bright30">30</item>
+        <item name="bright60">60</item>
+        <item name="bright180">180</item>
+        <item name="bright300">300</item>
+        <item name="bright600">600</item>
+        <item name="bright900">900</item>
+    </string-array>
+
+    <string-array name="volume_keys_values" translatable="false">
+        <item name="nothing0">0</item>
+        <item name="snooze1">1</item>
+        <item name="dismiss2">2</item>
+    </string-array>
+
+    <string-array name="alarm_bg_values" translatable="false">
+        <item name="default0">0</item>
+        <item name="theme1">1</item>
+        <item name="custom2">2</item>
+        <item name="wallpaper3">3</item>
+    </string-array>
+
+    <string-array name="night_bg_values" translatable="false">
+        <item name="theme1">0</item>
+        <item name="black2">1</item>
+    </string-array>
+
+    <integer-array name="final_snooze_values" translatable="false">
+        <item name="0">0</item>
+        <item name="0">1</item>
+        <item name="1">10</item>
+        <item name="2">15</item>
+        <item name="3">20</item>
+        <item name="4">30</item>
+        <item name="5">45</item>
+        <item name="6">60</item>
+        <item name="7">90</item>
+    </integer-array>
+
+    <string-array name="clock_font_values" translatable="false">
+        <item name="nova">0</item>
+        <item name="serif">1</item>
+        <item name="roboto">2</item>
+    </string-array>
+
+    <string-array name="language_values" translatable="false">
+        <item name="default">default</item>
+        <item name="afrikaans">af</item>
+        <item name="german">de</item>
+        <item name="english">en</item>
+        <item name="spanish">es</item>
+        <item name="french">fr</item>
+        <item name="russian">ru</item>
+        <item name="hindi">hi</item>
+        <item name="japanese">ja</item>
+        <item name="arabic">ar</item>
+        <item name="sim_chinese">zh-rCn</item>
+        <item name="trad_chinese">zh-rTw</item>
+        <item name="hk_chinese">zh-rHk</item>
+        <item name="korean">ko</item>
+    </string-array>
+
+    <string-array name="clock_style_values" translatable="false">
+        <item name="digital">0</item>
+        <item name="analog">1</item>
+    </string-array>
+
+</resources>

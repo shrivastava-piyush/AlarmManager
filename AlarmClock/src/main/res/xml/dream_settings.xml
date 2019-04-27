@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/app_name">
+
+    <com.bytezap.wobble.preference.CustomListPreference
+        android:dialogTitle="@string/pref_clock_style"
+        android:entries="@array/clockStyle"
+        android:entryValues="@array/clock_style_values"
+        android:icon="@drawable/tab_clock"
+        android:key="prefClockStyle"
+        android:title="@string/pref_clock_style"
+        android:defaultValue="0" />
+
+    <com.bytezap.wobble.preference.CustomListPreference
+        android:key="prefDreamFont"
+        android:title="@string/pref_digital_font"
+        android:icon="@drawable/ic_font"
+        android:defaultValue="0"
+        android:entries="@array/clockFont"
+        android:dialogTitle="@string/pref_digital_font"
+        android:entryValues="@array/clock_font_values"/>
+
+    <com.bytezap.wobble.preference.CustomCheckBoxPreference
+        android:key="prefNightMode"
+        android:summary="@string/pref_night_summary"
+        android:title="@string/night_mode"
+        android:icon="@drawable/ic_night_mode"
+        android:defaultValue="true"
+        android:widgetLayout="@layout/check_box_layout" />
+
+    <com.bytezap.wobble.preference.CustomListPreference
+        android:key="prefNightBg"
+        android:title="@string/background"
+        android:icon="@drawable/ic_image"
+        android:defaultValue="0"
+        android:entries="@array/nightBg"
+        android:dialogTitle="@string/background"
+        android:entryValues="@array/night_bg_values"/>
+
+</PreferenceScreen>

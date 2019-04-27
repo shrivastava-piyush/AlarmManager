@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Wobble</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="details_alarm_name">Nombre de alarma</string>
+    <string name="details_alarm_tone">Tono</string>
+    <string name="details_alarm_tone_default">Seleccione un tono</string>
+    <string name="done">Hecho</string>
+    <string name="cancel">Cancelar</string>
+    <string name="wakeup_info">Después se detiene la alarma, una prueba comprueba si estás despierto o no. Alarma se dispara de nuevo si no hay respuesta por 3 minutos. La duración predeterminada es de 10 minutos.</string>
+    <string name="day">"1 día"</string>
+
+    <string name="days">"<xliff:g id="DAYS">%s</xliff:g> días"</string>
+    <string name="hour">"1 hora"</string>
+    <string name="hours">"<xliff:g id="HOURS">%s</xliff:g> horas"</string>
+    <string name="minute">"1 minuto"</string>
+    <string name="minutes">"<xliff:g id="MINUTES">%s</xliff:g> minutos"</string>
+    <string name="seconds">"<xliff:g id="SECONDS">%02d</xliff:g> segundos"</string>
+    <string-array name="alarm_toast_set">
+        <item>"La alarma sonará en menos de un minuto."</item>
+        <item>"La alarma sonará en <xliff:g id="DAYS">%1$s</xliff:g>."</item>
+        <item>"La alarma sonará en <xliff:g id="HOURS">%2$s</xliff:g>."</item>
+        <item>"La alarma sonará en <xliff:g id="DAYS">%1$s</xliff:g> y <xliff:g id="HOURS">%2$s</xliff:g>."</item>
+        <item>"La alarma sonará en <xliff:g id="MINUTES">%3$s</xliff:g>."</item>
+        <item>"La alarma sonará en <xliff:g id="DAYS">%1$s</xliff:g> y <xliff:g id="MINUTES">%3$s</xliff:g>."</item>
+        <item>"La alarma sonará en <xliff:g id="HOURS">%2$s</xliff:g> y <xliff:g id="MINUTES">%3$s</xliff:g>."</item>
+        <item>"La alarma sonará en <xliff:g id="DAYS">%1$s</xliff:g>, <xliff:g id="HOURS">%2$s</xliff:g> y <xliff:g id="MINUTES">%3$s</xliff:g>."</item>
+    </string-array>
+    <string name="app_credits">Créditos</string>
+    <string name="app_licenses">Licencias de código abierto</string>
+    <string name="app_version">"Versión: "<xliff:g id="version">%s</xliff:g></string>
+    <string name="rate_app">Califica la aplicación</string>
+    <string name="share_app">Comparte la aplicación</string>
+    <string name="contact_developer">Póngase en contacto con el desarrollador</string>
+    <string name="empty_alarm_message_1">No hay alarmas</string>
+    <string name="new_alarm_desc">Añadir nueva alarma</string>
+    <string name="one_time_alarm">Una vez</string>
+    <string name="alarm_snooze">Dormitar</string>
+    <string name="panel_dismiss_message">Muévase hacia arriba para detener la alarma</string>
+    <string name="alarm_dismiss">Apagar</string>
+    <string name="alarm_item_name_default">Alarma</string>
+    <string name="good_morning">¡Buenos días!</string>
+    <string name="good_evening">¡Buena noches!</string>
+    <string name="app_rater_message">Ayudamos le a despertarse en el momento adecuado!</string>
+    <string name="app_rater_question">¿Vale la pena un 5 estrellas?</string>
+    <string name="app_rater_button">Puntúa 5 Estrellas</string>
+    <string name="switch_clock_desc">cambio del reloj</string>
+    <string name="theme_change">Cambiar de tema</string>
+    <string name="theme">Tema</string>
+    <string name="menu_desc">Menú</string>
+    <string name="clear_previous">Claro</string>
+    <string name="math_back_button_desc">Volver a la pantalla de alarma</string>
+    <string name="math_done_button_desc">Compruebe si respuesta es correcta</string>
+    <string name="start">Iniciar</string>
+    <string name="stop">Detener</string>
+    <string name="reset">Restablecer</string>
+    <string name="lap">Añadir vuelta</string>
+    <string name="lap_empty_message">No hay vueltas actuales</string>
+    <string name="text_hours">Horas</string>
+    <string name="text_minutes">Minutos</string>
+    <string name="text_seconds">Segundos</string>
+    <string name="wake_up_desc">Despertar Información Prueba</string>
+    <string name="problem_difficulty">Nivel de dificultad Problema</string>
+    <string name="days_repeat">Repita</string>
+    <string name="wake_up_helpers">Ayudantes para despertarse</string>
+    <string name="wake_text">Verificando que estás despierto</string>
+    <string name="wake_instruction">Pulse el botón de abajo</string>
+    <string name="wake_button_text">Si seguro</string>
+    <string name="image_theme_desc">Tema App</string>
+    <string name="default_timer_text">Temporizador</string>
+    <string name="timer_set_time">Establecer tiempo</string>
+    <string name="timer_set_label">Establecer el título</string>
+    <string name="preference_category_alarm">ALARMA</string>
+    <string name="preference_category_timer">TEMPORIZADOR Y CRONOMÈTRO</string>
+    <string name="preference_category_other">OTRAS</string>
+    <string name="pref_auto_dismiss_dialog_title">Alarma de parada automática después</string>
+    <string name="pref_auto_dismiss_title">Alarma de parada automática después</string>
+    <string name="pref_snooze_title">Repetir alarma después de</string>
+    <string name="pref_snooze_dialog_title">Repetir alarma después de</string>
+    <string name="pref_wakeup_title">Despierta cheque duración</string>
+    <string name="pref_wakeup_dialog_title">Seleccionar despierta cheque duración</string>
+    <string name="pref_volume_key_title">Teclas de volumen</string>
+    <string name="details_vibration_title">Vibración</string>
+    <string name="pref_silent_title">Juega en modo silencioso</string>
+    <string name="pref_silent_summary">Alarma se dispara incluso en el estado de silencio</string>
+    <string name="pref_increasing_vol_title">Subir volumen gradualmente</string>
+    <string name="pref_timer_alert_title">Temporizador de alerta finalización</string>
+    <string name="pref_sound_title">Efectos de sonido</string>
+    <string name="pref_about_title">Acerca de</string>
+    <string name="no_file_manager">No hay administrador de archivos instalado en su dispositivo. Por favor, instale una.</string>
+    <string name="item_owned">ítem ya poseía</string>
+    <string name="enable_google_play">Por favor, activa / instalar servicios de Google Play</string>
+    <string name="menu_alarm_edit">Editar</string>
+    <string name="menu_alarm_delete">Borrar</string>
+    <string name="menu_ads">Quitar anuncios</string>
+    <string name="wakeup_info_title">Despertar cheque</string>
+    <string name="snooze_info_title">Problema de matemáticas</string>
+    <string name="default_ok">Aceptar</string>
+    <string name="alarm_selected">" Seleccionado"</string>
+    <string name="alarm_delete_singular">Se elimina la alarma seleccionada</string>
+    <string name="alarm_delete_plural">Alarmas seleccionados han sido eliminados</string>
+
+    <string name="wakeup_toast">"Despertar comprobar en <xliff:g id="wakeup">%s</xliff:g> minutos"</string>
+    <string name="snooze_toast">"Alarma dormitaba para <xliff:g id="snooze">%s</xliff:g> minutos"</string>
+    <string name="wakeup_button_2_text">Una vez más, sólo para estar seguro!</string>
+    <string name="lap_text">"Vuelta "</string>
+    <string name="app_rater_remind">Recuérdame Mas tarde</string>
+    <string name="app_rater_no">No, gracias</string>
+    <string name="math_toast_wrong_answer">Respuesta incorrecta. ¡Inténtalo de nuevo!</string>
+    <string name="wrong_file_type">Tipo de archivo incorrecto. Por favor, seleccione de nuevo.</string>
+    <string name="invalid_file">Tipo de archivo inválido. Por favor, seleccione de nuevo.</string>
+    <string name="Set">Conjunto</string>
+    <string name="default_stopwatch_notif">Stopwatch running</string>
+    <string name="defualt_timer_notif">Temporizador de funcionamiento</string>
+    <string name="details_check_awake">Compruebe si estoy despierto</string>
+    <string name="details_math_problem">Solucionar problemas matemáticos</string>
+    <string name="pref_screen_on">Mantenga la pantalla encendida</string>
+    <string name="app_share_message">Echa un vistazo a esta aplicación</string>
+    <string name="widget_name">Reloj analógico(2x2)</string>
+    <string name="wakeup_press_and_hold">Mantenga pulsado el botón ahora</string>
+    <string name="wake_up_nice_day">Parece que usted está despierto. ¡Qué tenga un buen día!</string>
+    <string name="alarm_every_day">Todos los días</string>
+    <string name="credits_design">Diseño &amp; Desarrollo</string>
+    <string name="credits_sound">Sonar</string>
+    <string name="default_maximum">Máxima</string>
+    <string name="default_high">Alto</string>
+    <string name="default_medium">Medio</string>
+    <string name="default_low">Bajo</string>
+    <string name="default_silent">Silencio</string>
+    <string name="credits_backgrounds">Antecedentes</string>
+    <string name="pref_alarm_volume">Volumen de la alarma</string>
+    <string name="details_set_alarm_name">Pulse para escribir el nombre</string>
+    <string name="alarm_not_started">Alarma no se inició</string>
+    <string name="app_localization">Ayúdenos con la localización</string>
+    <string name="gmail_error">No poder abrir gmail</string>
+    <string name="credits_icon">Iconos</string>
+    <string name="alarm_item_weekends">Los fines de semana</string>
+    <string name="alarm_item_weekdays">Días de la semana</string>
+    <string name="pref_increasing_vol_dialog">Tiempo para alcanzar el volumen máximo</string>
+    <string name="alarm_replicate">Reproducir exactamente</string>
+    <string name="tone_selected">Tone seleccionado</string>
+    <string name="time_up">El tiempo ha terminado</string>
+    <string name="pref_timer_volume">Temporizador de volumen</string>
+    <string name="night_mode">Modo nocturno</string>
+    <string name="details_launch_app">Lanzar aplicación en despedir</string>
+    <string name="default_none">Ninguna</string>
+    <string name="launch_app_not_found">App no encontrado</string>
+    <string name="app_launch_alert"><xliff:g id="appAlert">%s</xliff:g>" abrirá después de despedir"</string>
+    <string name="default_search">Buscar</string>
+    <string name="select_app">Seleccione una aplicación</string>
+    <string name="default_undo">Deshacer</string>
+    <string name="default_animations">Animaciones y gestos</string>
+    <string name="default_select_all">Seleccionar todo</string>
+    <string name="details_barcode">Despedir mediante el escaneo de código de barras</string>
+    <string name="default_barcode_selected">"Código de barras seleccionado: <xliff:g id="barcode">%s</xliff:g>"</string>
+    <string name="default_flash">Destello</string>
+    <string name="default_autofocus">El enfoque automático</string>
+    <string name="barcode_wrong">Código de barras incorrecto</string>
+    <string name="launch_app_info">Para aplicaciones que requieren internet, asegúrese de que tener conexión de datos cuando la alarma se despide</string>
+    <string name="barcode_instruction">Coloque el código de barras dentro de la vista rectangular para capturarlo\nTrate de evitar las sombras y reflejos</string>
+    <string name="pref_voice_alert">Alerta de voz</string>
+    <string name="alarm_details_vocal_message">Mensaje Vocal</string>
+    <string name="alarm_details_message">Pulse para configurar Mensaje</string>
+    <string name="recorded_message">Mensaje grabado</string>
+    <string name="custom_message">Mensaje personalizado</string>
+    <string name="after_time">Después del tiempo</string>
+    <string name="before_time">Antes de la hora</string>
+    <string name="after_dismiss">Después de despedir a la alarma</string>
+    <string name="after_snoozing">Después dormitando alarma</string>
+    <string name="replace_time">Decir esto en vez de tiempo</string>
+    <string name="say_message">Diga mensaje:</string>
+    <string name="file_name">Nombre del archivo</string>
+    <string name="sd_not_available">Tarjeta SD no disponible</string>
+    <string name="storage_full">El espacio de almacenamiento está lleno</string>
+    <string name="wrong_barcode_info">Ha introducido el código de barras mal. ¡Inténtalo de nuevo!</string>
+    <string name="alarm_background">Antecedentes de alarma</string>
+    <string name="default_random">Al azar</string>
+    <string name="default_wallpaper">Wallpaper</string>
+    <string name="voice_alert_warning">Asegúrese de que la voz de alerta está activada en la configuración</string>
+    <string name="pref_alert_volume">Alerta de voz de volumen</string>
+    <string name="snooze_warning">"Ha sido <xliff:g id="snooze_number">%s</xliff:g> snoozes ya. ¿No quieres llegar tarde?"</string>
+    <string name="pref_voice">VOZ</string>
+    <string name="default_off">¡Para!</string>
+    <string name="defualt_on">En</string>
+    <string name="permission_denied">Permiso denegado</string>
+    <string name="telephone_warning">La alarma no será capaz de reprogramar si se recibe una llamada</string>
+    <string name="alarm_voice_morning">"Buenos días. Lo es <xliff:g id="alarm_hour_morn">%s</xliff:g> <xliff:g id="alarm_minute_morn">%s</xliff:g> <xliff:g id="am_morn">%s</xliff:g>."</string>
+    <string name="alarm_voice_evening">"Buena noches. Lo es <xliff:g id="alarm_hour_ev">%s</xliff:g> <xliff:g id="alarm_minute_ev">%s</xliff:g> <xliff:g id="am_ev">%s</xliff:g>."</string>
+    <string name="alarm_voice_normal">"Lo es <xliff:g id="alarm_hour_norm">%s</xliff:g> <xliff:g id="alarm_minute_norm">%s</xliff:g> <xliff:g id="am_norm">%s</xliff:g>."</string>
+    <string name="audio_select">Seleccione un audio grabado</string>
+    <string name="pref_night_summary">Pantalla muy atenuada</string>
+    <string name="pref_clock_style">Estilo</string>
+    <string name="pref_digital_font">La fuente de reloj digital</string>
+    <string name="tts_warning">Para alertas de voz, por favor, activar / instalar un motor de texto a voz</string>
+    <string name="wake_up_question">¿Estás despierto?</string>
+    <string name="math_friendly_alert">Un problema de matemáticas está esperando</string>
+    <string name="instant_alarm">Crear una alarma rápida</string>
+    <string name="skip_next">Saltarse</string>
+    <string name="unskip">Deshacer ignorar</string>
+    <string name="skip_check">Saltar verificación</string>
+    <string name="pref_language">Idioma</string>
+    <string name="skip_alarm">Siguiente alarma se omitirá</string>
+    <string name="skipped">Omitido</string>
+    <string name="m_perm_telephone">To permitirá que dormir la alarma cuando se recibe una llamada</string>
+    <string name="m_perm_audio">Esto es necesario para configurar el entorno antes de grabar un mensaje</string>
+    <string name="interaction_dismiss_alarm">Descartar la alarma</string>
+    <string name="dismiss_all">Descartar todo</string>
+    <string name="start_timer">Iniciar el temporizador <xliff:g id="timer_hours">%d</xliff:g> horas, <xliff:g id="timer_minutes">%d</xliff:g> minutos</string>
+    <string name="start_timer_hours">Iniciar el temporizador <xliff:g id="timer_hours">%d</xliff:g> hora</string>
+    <string name="start_timer_hour">Iniciar el temporizador  horas</string>
+    <string name="start_timer_minutes">Iniciar el temporizador <xliff:g id="timer_minutes">%d</xliff:g> minutos</string>
+    <string name="start_timer_minute">Iniciar el temporizador 1 minuto</string>
+    <string name="invalid_time">Tiempo no válido</string>
+    <string name="alarm_not_found">La alarma no se encontró</string>
+    <string name="alarm_not_24">Alarma tiene que ser dentro de las 24 horas</string>
+    <string name="pick_alarm">Escoja una alarma para desestimar</string>
+    <string name="timer_created">El temporizador se ha creado</string>
+    <string name="alarm_snoozed">Alarma ha sido pospuestos</string>
+    <string name="alarm_created">Alarma ha sido creada</string>
+    <string name="background">Fondo</string>
+    <string name="disable_snoozing">Desactivar el dormitar</string>
+    <string name="snooze_disable_info_title">Desactivar dormitar</string>
+    <string name="snooze_disable_info">Después del intervalo especificado, el dormitar se desactivará. Esto limita el tiempo de pausa.</string>
+    <string name="never">Nunca</string>
+    <string name="no_snooze">No más dormir!</string>
+    <string name="select_song">Escoger una canción</string>
+    <string name="no_tracks">No se pudo encontrar ninguna pista</string>
+    <string name="unknown">Desconocido</string>
+    <string name="default_ringtone">Estándar tono</string>
+    <string name="barcode_not_supported">Formato de código de barras no se admite</string>
+    <string name="song_limit">Se alcanzó el límite canciones</string>
+    <string name="shuffle_songs">Mezclar canciones</string>
+    <string name="select_songs">Recoger algunas canciones</string>
+    <string name="more_songs_needed">Más de una canción tiene que ser recogido</string>
+    <string name="search_media">Medios de búsqueda</string>
+    <string name="select_ringtone">Seleccione un tono de llamada</string>
+    <string name="cancel_old_timer">Cancelación del temporizador de edad y la creación de uno nuevo</string>
+    <string name="songs_selected"><xliff:g id="songs_number">%d</xliff:g> canciones seleccionadas</string>
+    <string name="upcoming_alarm">Próxima alarma</string>
+    <string name="dismiss_now">Descartar ahora</string>
+    <string name="shake">Sacudir</string>
+    <string name="def">predeterminado</string>
+    <string name="details_dismiss_method">Descartar método</string>
+    <string name="easy">Sencillo</string>
+    <string name="medium">Medio</string>
+    <string name="hard">Difícil</string>
+    <string name="allow_skip_math">Permitir que saltarse un problema</string>
+    <string name="number_of_problems">Número de problemas</string>
+    <string name="skip">Omitir</string>
+    <string name="problems_left">Problemas de izquierda:</string>
+    <string name="shake_times">"Agitar el dispositivo <xliff:g id="shake">%d</xliff:g> veces"</string>
+    <string name="no_accelerometer">No acelerómetro disponible en el dispositivo</string>
+    <string name="math_mutliple_friendly_alert">Los problemas de matemáticas están esperando</string>
+    <string name="shake_turn_off">Agitar para apagar</string>
+    <string name="ok_gotit">OK, lo consiguió!</string>
+    <string name="autostart_title">Habilitar inicio automático</string>
+    <string name="pref_brightness">Poco a poco aumentar el brillo</string>
+    <string name="pref_brightness_dialog">Tiempo para alcanzar el brillo máximo</string>
+    <string name="times_shake">Número de veces para agitar</string>
+    <string name="brightness_friendly_alert">Para despertarte suavemente hacia arriba, el dispositivo se activará antes de la hora de la alarma y el brillo aumentará lentamente</string>
+    <string name="song_instruction">Toque y mantenga presionado para escuchar la canción</string>
+    <string name="ringtone_instruct">Toque y mantenga a escuchar el tono de llamada</string>
+    <string name="elapsed_time">Tiempo transcurrido:</string>
+    <string name="fullscreen_mode">Modo de pantalla completa</string>
+    <string name="autostart_alert">El administrador de inicio automático en algunos dispositivos puede detener Wobble, evitando que las alarmas se activen después de reiniciar.</string>
+    <string name="always">Siempre</string>
+    <string name="loading_tone">Cargando tono…</string>
+    <string name="default_alarm_screen_text">¡Hora de despertar!</string>
+    <string name="pref_upcoming_notif">Notificaciones de alarma próximas</string>
+    <string name="snooze_until">"Repetir a las <xliff:g id="time">%s</xliff:g>"</string>
+    <string name="details_snooze_method">método del snooze</string>
+    <string name="shake_snooze">Agitar para dormir</string>
+    <string name="very_hard">Muy duro</string>
+    <string name="remaining">restantes</string>
+    <string name="loud_ring">Loud Ringtone</string>
+    <string name="ringtone">Tono de alarma</string>
+    <string name="music">Música</string>
+    <string name="press_back">Presione una vez más para cerrar</string>
+    <string name="picture_selected">La imagen está seleccionada</string>
+    <string name="discard">Descarte</string>
+    <string name="discard_message">¿Descartar los cambios?</string>
+    <string name="blur_level">Nivel de desenfoque</string>
+    <string name="blur_bg">Desenfoque de fondo</string>
+    <string name="custom">Personalizado</string>
+    <string name="preview">Avance</string>
+    <string name="preview_dismissed">Vista previa despedidos</string>
+    <string name="presets_empty">No hay ajustes preestablecidos</string>
+    <string name="privacy_policy">Política de privacidad</string>
+    <string name="preview_message">Presiona el botón Atrás para cerrar.</string>
+    <string name="pref_long_dismiss">Clic largo para cerrar la alarma</string>
+    <string name="pref_tap_long_summary">Evite cerrar accidentalmente la alarma.</string>
+    <string name="pref_disable_bg">Quitar el fondo del reloj</string>
+</resources>

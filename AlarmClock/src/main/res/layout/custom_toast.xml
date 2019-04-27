@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="12dp"
+    android:textIsSelectable="false"
+    android:textColor="@color/white"
+    android:id="@+id/custom_toast_layout"
+    android:background="@drawable/toast_bg"
+    android:text="@string/app_name"
+    android:textSize="@dimen/toast_size"/>

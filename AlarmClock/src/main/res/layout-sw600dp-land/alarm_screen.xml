@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.sothree.slidinguppanel.SlidingUpPanelLayout
+        xmlns:sothree="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/sliding_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        sothree:umanoFadeColor="@color/transparent"
+        sothree:umanoPanelHeight="@dimen/sliding_panel_height"
+        sothree:umanoShadowHeight="5dp">
+
+        <RelativeLayout
+            android:id="@+id/alarmScreen_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/waveDrawable"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/alarm_screen_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="25dp"
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:shadowRadius="3"
+                    android:shadowColor="@color/actionModeColorPreLollipop"
+                    android:gravity="center"
+                    android:text="@string/default_alarm_screen_text"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/alarm_screen_name"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_alarmtop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/layout_alarmscreen_top">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/divider_height"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@color/white" />
+
+                <TextView
+                    android:id="@+id/alarm_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/alarm_type_bg"
+                    android:gravity="center"
+                    android:padding="7dp"
+                    android:text="@string/good_morning"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/alarm_type"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/divider_height"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@color/white" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/alarm_time_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layout_alarmtop"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/alarm_screen_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:shadowRadius="5"
+                    android:shadowColor="@color/actionModeColorPreLollipop"
+                    android:text="@string/default_time"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/alarm_screen_time" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/alarm_screen_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/alarm_time_layout"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+                android:shadowColor="@color/actionModeColorPreLollipop"
+                android:text="@string/date_with_day"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/white" />
+
+            <FrameLayout
+                android:id="@+id/frame_dismiss_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/alarm_screen_date"
+                android:layout_centerHorizontal="true"
+                android:elevation="9dp"
+                android:layout_marginTop="30dp"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/dismiss_image"
+                    android:layout_width="200dp"
+                    android:layout_height="180dp"
+                    android:contentDescription="@null"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#70000000"
+                    android:ellipsize="end"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:gravity="bottom|center_horizontal"
+                    android:typeface="serif"
+                    android:maxLines="5"
+                    android:text="Dismiss with image"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textAppearance="?android:textAppearanceMedium" />
+
+            </FrameLayout>
+
+            <Button
+                android:id="@+id/alarm_snooze_button"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/alarm_snooze_bg"
+                android:text="@string/alarm_snooze"
+                android:textColor="@drawable/textcolor_bg_reversed"
+                android:typeface="sans" />
+
+        </RelativeLayout>
+
+        <include layout="@layout/panel_layout" />
+
+    </com.sothree.slidinguppanel.SlidingUpPanelLayout>
+
+    <View
+        android:id="@+id/brightness_setter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:focusable="false"
+        android:visibility="gone" />
+
+</merge>

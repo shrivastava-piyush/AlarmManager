@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="alarm_padding">200dp</dimen>
+    <dimen name="shake_toolbar_width">350dp</dimen>
+    <dimen name="barcode_toolbar_width">510dp</dimen>
+    <dimen name="about_text_margin">45dp</dimen>
+</resources>

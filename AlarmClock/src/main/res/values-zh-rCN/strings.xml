@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">摇晃</string>
+    <string name="action_settings">设置</string>
+    <string name="details_alarm_name">报警名</string>
+    <string name="details_alarm_tone">音</string>
+    <string name="details_alarm_tone_default">选择一个音</string>
+    <string name="done">做完</string>
+    <string name="cancel">撤消</string>
+    <string name="wakeup_info">后报警被驳回，一个测试检查，如果你是醒着还是不行。警报再次闪光，如果有3分钟没有反应。默认的持续时间为10分钟。</string>
+    <string name="day">"1天"</string>
+    <string name="days">"<xliff:g id="DAYS">%s</xliff:g>天"</string>
+
+    <string name="hour">"1小时"</string>
+    <string name="hours">"<xliff:g id="HOURS">%s</xliff:g>小时"</string>
+    <string name="minute">"1分钟"</string>
+    <string name="minutes">"<xliff:g id="MINUTES">%s</xliff:g>分钟"</string>
+    <string name="seconds">"<xliff:g id="SECONDS">%02d</xliff:g>秒"</string>
+    <string-array name="alarm_toast_set">
+        <item>"闹钟时间已设为不到1分钟后。"</item>
+        <item>"闹钟时间已设为<xliff:g id="DAYS">%1$s</xliff:g>后。"</item>
+        <item>"闹钟时间已设为<xliff:g id="HOURS">%2$s</xliff:g>后。"</item>
+        <item>"闹钟时间已设为<xliff:g id="DAYS">%1$s</xliff:g><xliff:g id="HOURS">%2$s</xliff:g>后。"</item>
+        <item>"闹钟时间已设为<xliff:g id="MINUTES">%3$s</xliff:g>后。"</item>
+        <item>"闹钟时间已设为<xliff:g id="DAYS">%1$s</xliff:g><xliff:g id="MINUTES">%3$s</xliff:g>后。"</item>
+        <item>"闹钟时间已设为<xliff:g id="HOURS">%2$s</xliff:g><xliff:g id="MINUTES">%3$s</xliff:g>后。"</item>
+        <item>"闹钟时间已设为<xliff:g id="DAYS">%1$s</xliff:g><xliff:g id="HOURS">%2$s</xliff:g><xliff:g id="MINUTES">%3$s</xliff:g>后。"</item>
+    </string-array>
+    <string name="app_credits">积分</string>
+    <string name="app_licenses">开放源代码许可</string>
+    <string name="app_version">"版本: "<xliff:g id="version">%s</xliff:g></string>
+    <string name="rate_app">给予评分</string>
+    <string name="share_app">分享应用程序</string>
+    <string name="contact_developer">联系开发者</string>
+    <string name="empty_alarm_message_1">没有报警</string>
+    <string name="new_alarm_desc">添加新闹钟</string>
+    <string name="one_time_alarm">一度</string>
+    <string name="alarm_snooze">贪睡</string>
+    <string name="panel_dismiss_message">向上滑动解雇</string>
+    <string name="alarm_dismiss">解雇</string>
+    <string name="alarm_item_name_default">报警</string>
+    <string name="good_morning">早上好！</string>
+    <string name="good_evening">晚上好！</string>
+    <string name="app_rater_message">我们帮助您在正确的时间醒过来！</string>
+    <string name="app_rater_question">这是值得一个5星级？</string>
+    <string name="app_rater_button">评级5星级</string>
+    <string name="switch_clock_desc">开关时钟</string>
+    <string name="theme_change">更改主题</string>
+    <string name="theme">主题</string>
+    <string name="menu_desc">菜单</string>
+    <string name="clear_previous">清除</string>
+    <string name="math_back_button_desc">返回到报警画面</string>
+    <string name="math_done_button_desc">检查答案是正确的</string>
+    <string name="start">开端</string>
+    <string name="stop">停止</string>
+    <string name="reset">重置</string>
+    <string name="lap">一圈</string>
+    <string name="lap_empty_message">没有当前轮</string>
+    <string name="text_hours">营业时间</string>
+    <string name="text_minutes">纪要</string>
+    <string name="text_seconds">秒</string>
+    <string name="wake_up_desc">唤醒测试信息</string>
+    <string name="problem_difficulty">问题难度</string>
+    <string name="days_repeat">重复</string>
+    <string name="wake_up_helpers">唤醒助手</string>
+    <string name="wake_text">检查如果你是醒着</string>
+    <string name="wake_instruction">按下面的按钮</string>
+    <string name="wake_button_text">好，当然</string>
+    <string name="image_theme_desc">应用主题</string>
+    <string name="default_timer_text">计时器</string>
+    <string name="timer_set_time">设置计时器</string>
+    <string name="timer_set_label">设置标题</string>
+    <string name="preference_category_alarm">报警</string>
+    <string name="preference_category_timer">定时器和秒表</string>
+    <string name="preference_category_other">其他</string>
+    <string name="pref_auto_dismiss_dialog_title">自动停止报警</string>
+    <string name="pref_auto_dismiss_title">自动停止报警</string>
+    <string name="pref_snooze_title">暂停时长</string>
+    <string name="pref_snooze_dialog_title">暂停时长</string>
+    <string name="pref_wakeup_title">唤醒检查时间</string>
+    <string name="pref_wakeup_dialog_title">唤醒检查时间</string>
+    <string name="pref_volume_key_title">音量键</string>
+    <string name="details_vibration_title">振荡</string>
+    <string name="pref_silent_title">开始，即使在静音模式</string>
+    <string name="pref_silent_summary">报警将启动，即使在无声状态</string>
+    <string name="pref_increasing_vol_title">逐步增加闹钟音量</string>
+    <string name="pref_timer_alert_title">计时器完成警报</string>
+    <string name="pref_sound_title">声音特效</string>
+    <string name="pref_about_title">左右</string>
+    <string name="no_file_manager">有安装在您的设备上没有文件管理器。请安装一个。</string>
+    <string name="item_owned">项目已经买</string>
+    <string name="enable_google_play">请启用/安装谷歌播放服务</string>
+    <string name="menu_alarm_edit">编辑</string>
+    <string name="menu_alarm_delete">删</string>
+    <string name="menu_ads">移除广告</string>
+    <string name="wakeup_info_title">唤醒测试</string>
+    <string name="snooze_info_title">数学问题</string>
+    <string name="default_ok">行</string>
+    <string name="alarm_selected">“ 选定”</string>
+    <string name="alarm_delete_singular">所选报警被删除</string>
+    <string name="alarm_delete_plural">警报已被删除</string>
+
+    <string name="wakeup_toast">"唤醒入住 <xliff:g id="wakeup">%s</xliff:g> 分钟"</string>
+    <string name="snooze_toast">"报警打瞌睡的 <xliff:g id="snooze">%s</xliff:g> 分钟"</string>
+    <string name="wakeup_button_2_text">再来一次，只是要确定！</string>
+    <string name="lap_text">“一圈 ”</string>
+    <string name="app_rater_remind">稍后提醒我</string>
+    <string name="app_rater_no">不，谢谢</string>
+    <string name="math_toast_wrong_answer">错误的答案。 再试一次。</string>
+    <string name="wrong_file_type">错误的文件类型。请重新选择。</string>
+    <string name="invalid_file">无效的文件类型。请重新选择。</string>
+    <string name="Set">集</string>
+    <string name="default_stopwatch_notif">秒表运行</string>
+    <string name="defualt_timer_notif">定时器运行</string>
+    <string name="details_check_awake">检查你还在睡觉或不</string>
+    <string name="details_math_problem">解决数学问题</string>
+    <string name="pref_screen_on">不要关闭屏幕</string>
+    <string name="widget_name">模拟时钟（2×2）</string>
+    <string name="wakeup_press_and_hold">按下并按住按键</string>
+    <string name="wake_up_nice_day">看起来，你是醒。 祝你今天愉快！</string>
+    <string name="alarm_every_day">每天</string>
+    <string name="credits_design">设计 &amp; 开发</string>
+    <string name="credits_sound">声音</string>
+    <string name="default_maximum">最大值</string>
+    <string name="default_high">高</string>
+    <string name="default_medium">媒质</string>
+    <string name="default_low">低</string>
+    <string name="default_silent">无声</string>
+    <string name="credits_backgrounds">背景</string>
+    <string name="pref_alarm_volume">闹钟音量</string>
+    <string name="details_set_alarm_name">按下以输入名称</string>
+    <string name="alarm_not_started">警报未启动</string>
+    <string name="app_localization">帮我们本地化</string>
+    <string name="gmail_error">无法打开 Gmail</string>
+    <string name="credits_icon">图标</string>
+    <string name="alarm_item_weekends">周末</string>
+    <string name="alarm_item_weekdays">平日</string>
+    <string name="pref_increasing_vol_dialog">时间达到最大音量</string>
+    <string name="alarm_replicate">重复</string>
+    <string name="tone_selected">色调所选</string>
+    <string name="time_up">时间到了</string>
+    <string name="pref_timer_volume">定时器音量</string>
+    <string name="night_mode">夜间模式</string>
+    <string name="details_launch_app">关闭报警后启动应用程序</string>
+    <string name="default_none">无</string>
+    <string name="launch_app_not_found">应用程序未找到</string>
+    <string name="app_launch_alert"><xliff:g id="appAlert">%s</xliff:g>" 将会打开后被解雇"</string>
+    <string name="default_search">搜索</string>
+    <string name="select_app">选择一个应用程序</string>
+    <string name="default_undo">解开</string>
+    <string name="default_animations">动画和手势</string>
+    <string name="default_select_all">全选</string>
+    <string name="details_barcode">通过扫描条形码辞退</string>
+    <string name="default_barcode_selected">选定的条码:<xliff:g id="barcode">%s</xliff:g></string>
+    <string name="default_flash">闪</string>
+    <string name="default_autofocus">闪</string>
+    <string name="barcode_wrong">错误的条码</string>
+    <string name="launch_app_info">对于需要上网的应用程序，请确保您有数据连接</string>
+    <string name="barcode_instruction">放置条形码矩形内\n试着避免阴影和眩光</string>
+    <string name="pref_voice_alert">语音提示</string>
+    <string name="alarm_details_vocal_message">音频信息</string>
+    <string name="alarm_details_message">按下键设定信息</string>
+    <string name="recorded_message">记录的消息</string>
+    <string name="custom_message">个人信息</string>
+    <string name="after_time">说完后时间</string>
+    <string name="before_time">前发言时间</string>
+    <string name="after_dismiss">解雇报警后</string>
+    <string name="after_snoozing">午睡后报警</string>
+    <string name="replace_time">不要说时间</string>
+    <string name="say_message">说此消息:</string>
+    <string name="file_name">文件名</string>
+    <string name="sd_not_available">无法使用SD卡</string>
+    <string name="storage_full">存储空间已满</string>
+    <string name="wrong_barcode_info">您输入了错误的条码。请再试一次。</string>
+    <string name="alarm_background">报警背景</string>
+    <string name="default_random">随机</string>
+    <string name="default_wallpaper">墙纸</string>
+    <string name="voice_alert_warning">确保声音警报在设置中启用</string>
+    <string name="pref_alert_volume">语音提示音量</string>
+    <string name="snooze_warning">"<xliff:g id="snooze_number">%s</xliff:g> 打盹了。你不是晚了？"</string>
+    <string name="pref_voice">语音</string>
+    <string name="default_off">关闭</string>
+    <string name="defualt_on">上</string>
+    <string name="permission_denied">没有权限</string>
+    <string name="telephone_warning">该报警器将无法重新安排，如果接收到呼叫</string>
+    <string name="alarm_voice_morning">"早上好.它是<xliff:g id="alarm_hour_morn">%s</xliff:g> <xliff:g id="alarm_minute_morn">%s</xliff:g> <xliff:g id="am_morn">%s</xliff:g>。"</string>
+    <string name="alarm_voice_evening">"晚上好.它是<xliff:g id="alarm_hour_ev">%s</xliff:g> <xliff:g id="alarm_minute_ev">%s</xliff:g> <xliff:g id="am_ev">%s</xliff:g>。"</string>
+    <string name="alarm_voice_normal">"它是<xliff:g id="alarm_hour_norm">%s</xliff:g> <xliff:g id="alarm_minute_norm">%s</xliff:g> <xliff:g id="am_norm">%s</xliff:g>。"</string>
+    <string name="audio_select">选择一个记录的音频</string>
+    <string name="pref_night_summary">将屏幕亮度调至非常低</string>
+    <string name="pref_clock_style">样式</string>
+    <string name="pref_digital_font">数字时钟字体</string>
+    <string name="tts_warning">对于语音提示，请启用/安装一个文本到语音引擎</string>
+    <string name="wake_up_question">你醒着么？</string>
+    <string name="math_friendly_alert">一个数学问题等着你！</string>
+    <string name="instant_alarm">快速报警</string>
+    <string name="skip_next">跳跃</string>
+    <string name="unskip">跳过撤消</string>
+    <string name="skip_check">跳过测试</string>
+    <string name="pref_language">语言</string>
+    <string name="skip_alarm">一个报警将被跳过</string>
+    <string name="skipped">跳过</string>
+    <string name="m_perm_telephone">这将允许关闭报警接收来电时</string>
+    <string name="m_perm_audio">录制消息之前，这需要设置环境</string>
+    <string name="interaction_dismiss_alarm">取消报警</string>
+    <string name="dismiss_all">全部取消</string>
+    <string name="start_timer">启动计时器<xliff:g id="timer_hours">%d</xliff:g>小时<xliff:g id="timer_minutes">%d</xliff:g>分</string>
+    <string name="start_timer_hours">启动计时器<xliff:g id="timer_hours">%d</xliff:g>小时</string>
+    <string name="start_timer_hour">启动计时器1小时</string>
+    <string name="start_timer_minutes">开始计时<xliff:g id="timer_minutes">%d</xliff:g>分钟</string>
+    <string name="start_timer_minute">开始计时1分钟</string>
+    <string name="invalid_time">无效的时间</string>
+    <string name="alarm_not_found">报警未找到</string>
+    <string name="alarm_not_24">报警器应在24小时之内</string>
+    <string name="pick_alarm">选择一个报警解雇</string>
+    <string name="timer_created">计时器已经被设置</string>
+    <string name="alarm_snoozed">报警已延后</string>
+    <string name="alarm_created">警报已设置</string>
+    <string name="background">背景</string>
+    <string name="disable_snoozing">禁用贪睡</string>
+    <string name="snooze_disable_info_title">禁用贪睡</string>
+    <string name="snooze_disable_info">指定的时间间隔后，贪睡将被禁用。这限制了睡眠时间。</string>
+    <string name="never">决不</string>
+    <string name="no_snooze">没有更多的睡眠！</string>
+    <string name="select_song">选择一首歌曲</string>
+    <string name="no_tracks">找不到媒体</string>
+    <string name="unknown">未知</string>
+    <string name="default_ringtone">默认铃声</string>
+    <string name="barcode_not_supported">不支持条形码格式</string>
+    <string name="song_limit">达到限制</string>
+    <string name="shuffle_songs">随机播放</string>
+    <string name="select_songs">选择一些歌曲</string>
+    <string name="more_songs_needed">一首曲子多了就可以采摘</string>
+    <string name="search_media">搜索媒体</string>
+    <string name="select_ringtone">选择铃声</string>
+    <string name="cancel_old_timer">取消旧的计时器，创建一个新的</string>
+    <string name="songs_selected">选择<xliff:g id="songs_number">%d</xliff:g>首歌曲</string>
+    <string name="upcoming_alarm">即将到来的警报</string>
+    <string name="dismiss_now">现在取消</string>
+    <string name="shake">摇</string>
+    <string name="def">默认</string>
+    <string name="details_dismiss_method">如何关闭</string>
+    <string name="easy">易</string>
+    <string name="medium">媒质</string>
+    <string name="hard">辛苦</string>
+    <string name="allow_skip_math">允许跳过一个问题</string>
+    <string name="number_of_problems">问题数</string>
+    <string name="skip">跳跃</string>
+    <string name="problems_left">剩下的问题：</string>
+    <string name="shake_times">"振动设备的<xliff:g id="shake">%d</xliff:g>倍"</string>
+    <string name="no_accelerometer">无传感器可在设备上</string>
+    <string name="math_mutliple_friendly_alert">数学问题等着你</string>
+    <string name="shake_turn_off">摇关闭</string>
+    <string name="ok_gotit">好</string>
+    <string name="autostart_title">启用自动启动</string>
+    <string name="pref_brightness">逐渐增加亮度</string>
+    <string name="pref_brightness_dialog">时间达到最大亮度</string>
+    <string name="times_shake">次数撼动</string>
+    <string name="brightness_friendly_alert">慢慢唤醒你，器件将唤醒闹钟时间之前和亮度会慢慢增加</string>
+    <string name="song_instruction">点击并按住听这首歌</string>
+    <string name="ringtone_instruct">点击并按住听铃声</string>
+    <string name="elapsed_time">经过时间：</string>
+    <string name="fullscreen_mode">全屏模式</string>
+    <string name="autostart_alert">某些设备上的自动启动管理器可以停止摆动，防止重启后触发警报。</string>
+    <string name="always">总是</string>
+    <string name="loading_tone">加载音…</string>
+    <string name="default_alarm_screen_text">起床时间到了！</string>
+    <string name="pref_upcoming_notif">即将到来的警报通知</string>
+    <string name="snooze_until">"闹钟已暂停，将于<xliff:g id="time">%s</xliff:g>再响"</string>
+    <string name="details_snooze_method">贪睡方法</string>
+    <string name="shake_snooze">摇打个盹</string>
+    <string name="very_hard">很难</string>
+    <string name="remaining">还剩</string>
+    <string name="loud_ring">响亮的声调</string>
+    <string name="ringtone">铃声</string>
+    <string name="music">音乐</string>
+    <string name="press_back">再按一次关闭</string>
+    <string name="picture_selected">图片被选中</string>
+    <string name="discard">丢弃</string>
+    <string name="discard_message">放弃更改?</string>
+    <string name="blur_level">模糊等级</string>
+    <string name="blur_bg">模糊背景</string>
+    <string name="custom">习惯</string>
+    <string name="preview">预习</string>
+    <string name="preview_dismissed">预览已关闭</string>
+    <string name="presets_empty">没有预设</string>
+    <string name="privacy_policy">隐私政策</string>
+    <string name="preview_message">按后退按钮关闭。</string>
+    <string name="pref_long_dismiss">长按以关闭警报</string>
+    <string name="pref_tap_long_summary">避免意外关闭警报</string>
+    <string name="pref_disable_bg">删除时钟背景</string>
+</resources>

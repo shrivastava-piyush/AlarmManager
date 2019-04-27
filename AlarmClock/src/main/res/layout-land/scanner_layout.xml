@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) Jan, 2016.
+  ~ Piyush Shrivastava
+  ~ This code is copyrighted and cannot be redistributed, modified, or sold as it is without the
+  ~  authority of owner.
+  -->
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scanner_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar_about"
+        android:theme="@style/AppBaseTheme"
+        android:layout_width="@dimen/barcode_toolbar_width"
+        android:layout_height="wrap_content"
+        android:minHeight="?android:attr/actionBarSize"
+        android:background="#10ffffff"
+        app:contentInsetEnd="0dp"
+        app:contentInsetLeft="0dp"
+        app:contentInsetRight="0dp"
+        app:contentInsetStart="0dp"
+        app:navigationIcon="@null"
+        app:title="@null"
+        android:layout_margin="@dimen/custom_toolbar_margin">
+
+        <ImageButton
+            android:id="@+id/scanner_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:background="?android:selectableItemBackgroundBorderless"
+            android:padding="12dp"
+            android:contentDescription="@string/math_back_button_desc"
+            android:src="@drawable/ic_action_back"/>
+
+        <Button
+            android:id="@+id/scanner_flash"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="end|center_vertical"
+            android:drawableStart="@drawable/ic_flash_off"
+            android:drawableLeft="@drawable/ic_flash_off"
+            android:background="@drawable/button_border"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="@string/default_off"
+            android:textColor="@color/black"
+            android:padding="7dp"
+            android:contentDescription="@string/default_flash"
+            android:src="@drawable/ic_flash_off"/>
+
+        <Button
+            android:id="@+id/scanner_focus"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="end|center_vertical"
+            android:background="@drawable/button_border"
+            android:padding="7dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginEnd="5dp"
+            android:text="@string/defualt_on"
+            android:textColor="@color/white"
+            android:contentDescription="@string/default_autofocus"
+            android:drawableStart="@drawable/ic_autofocus"
+            android:drawableLeft="@drawable/ic_autofocus"/>
+
+    </android.support.v7.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/barcode_checked"
+        android:layout_width="@dimen/barcode_checked"
+        android:layout_height="@dimen/barcode_checked"
+        android:src="@drawable/ic_checked_big"
+        android:layout_gravity="center"
+        android:tint="#81C784"
+        android:contentDescription="@null"
+        android:visibility="gone"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:gravity="bottom|center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:text="@string/barcode_instruction"
+        android:textColor="@color/white"
+        android:maxLines="3"
+        android:ellipsize="end"
+        android:textSize="@dimen/barcode_inst" />
+
+</merge>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:paddingTop="3dp">
+
+    <TextView
+        android:id="@+id/lapNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/default_lap"
+        android:textSize="@dimen/timer_button_text"
+        android:padding="2dp"
+        android:typeface="monospace"
+        android:fontFamily="sans-serif"
+        android:textColor="#FFEB3B"
+        android:layout_gravity="center"
+        android:layout_marginRight="@dimen/lapcount_margin"
+        android:layout_marginEnd="@dimen/lapcount_margin"
+        android:layout_marginStart="@dimen/lapcount_margin"
+        android:layout_marginLeft="@dimen/lapcount_margin" />
+
+    <TextView
+        android:id="@+id/lapTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/timer_button_text"
+        android:typeface="monospace"
+        android:fontFamily="sans-serif"
+        android:layout_gravity="center"
+        android:text="@string/default_lap_time"
+        android:textColor="@color/white" />
+
+</LinearLayout>

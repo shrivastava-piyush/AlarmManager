@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="pager_padding">3dp</dimen>
+    <dimen name="alarm_padding">180dp</dimen>
+    <dimen name="barcode_toolbar_width">520dp</dimen>
+    <dimen name="shake_toolbar_width">310dp</dimen>
+    <dimen name="about_text_margin">30dp</dimen>
+</resources>

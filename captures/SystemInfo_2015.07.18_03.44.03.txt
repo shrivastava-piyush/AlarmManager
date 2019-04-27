@@ -1,0 +1,41 @@
+Applications Memory Usage (kB):
+Uptime: 14946978 Realtime: 14946978
+
+** MEMINFO in pid 3830 [com.phoenix.alarmclock] **
+                         Shared  Private     Heap     Heap     Heap
+                   Pss    Dirty    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------
+       Native    14589      964    14532    22428    21340      891
+       Dalvik    28412    18668    27316    40136    38770     1366
+        Stack      272       12      272                           
+       Cursor        0        0        0                           
+       Ashmem        0        0        0                           
+    Other dev        4       24        0                           
+     .so mmap    13867     4932      748                           
+    .jar mmap        0        0        0                           
+    .apk mmap      382        0        0                           
+    .ttf mmap       77        0        0                           
+    .dex mmap     3756        0       20                           
+   Other mmap      330        8        4                           
+      Unknown    13816        4    13816                           
+        TOTAL    75505    24612    56708    62564    60110     2257
+ 
+ Objects
+               Views:      242         ViewRootImpl:        1
+         AppContexts:        5           Activities:        3
+              Assets:        2        AssetManagers:        2
+       Local Binders:       18        Proxy Binders:       20
+    Death Recipients:        0
+     OpenSSL Sockets:        0
+ 
+ SQL
+         MEMORY_USED:      867
+  PAGECACHE_OVERFLOW:      287          MALLOC_SIZE:      152
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       20             38         1/16/2  /data/data/com.phoenix.alarmclock/databases/alarmclock.db
+         4       20             38         1/16/2  /data/data/com.phoenix.alarmclock/databases/alarmclock.db
+         4       40             17         0/15/1  /data/data/com.phoenix.alarmclock/databases/webview.db
+         4       20             44         3/19/5  /data/data/com.phoenix.alarmclock/databases/google_analytics_v4.db
+         4       20             38         1/16/2  /data/data/com.phoenix.alarmclock/databases/alarmclock.db

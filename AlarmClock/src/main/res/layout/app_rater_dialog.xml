@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="@dimen/wake_dialog_size"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/rate_bg"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#424242"
+        android:text="@string/app_rater_message"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/app_rater_question"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#32292F"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/rating"
+        android:layout_margin="7dp"
+        android:contentDescription="@null" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/app_rate"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:textColor="#424242"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:text="@string/app_rater_button"
+        android:textAllCaps="false"
+        android:background="@drawable/rate_button_bg"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/app_rate_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_rater_no"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:textColor="@color/white"
+            android:background="@drawable/button_border"/>
+
+        <Button
+            android:id="@+id/app_rate_later"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_rater_remind"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:textColor="@color/white"
+            android:background="@drawable/button_border"/>
+    </LinearLayout>
+
+</LinearLayout>

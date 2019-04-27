@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pager_items">
+        <item>"المنبه"</item>
+        <item>"الساعة"</item>
+        <item>"مؤقت"</item>
+        <item>"ساعة ايقاف"</item>
+    </string-array>
+
+    <string-array name="snoozeDuration">
+        <item name="3">"3 دقائق"</item>
+        <item name="5">"5 دقائق"</item>
+        <item name="7">"7 دقائق"</item>
+        <item name="10">"10 دقائق"</item>
+        <item name="15">"15 دقائق"</item>
+        <item name="30">"30 دقائق"</item>
+        <item name="60">"60 دقيقة"</item>
+    </string-array>
+
+    <string-array name="wakeupCheckInterval">
+        <item name="5">"5 دقائق"</item>
+        <item name="7">"7 دقائق"</item>
+        <item name="10">"10 دقائق"</item>
+        <item name="15">"15 دقائق"</item>
+        <item name="20">"20 دقائق"</item>
+        <item name="30">"30 دقائق"</item>
+        <item name="60">"60 دقيقة"</item>
+    </string-array>
+
+    <string-array name="autoDismissDuration">
+        <item name="0">"أبدا"</item>
+        <item name="5">"5 دقائق"</item>
+        <item name="10">"10 دقائق"</item>
+        <item name="15">"15 دقائق"</item>
+        <item name="20">"20 دقائق"</item>
+        <item name="30">"30 دقائق"</item>
+    </string-array>
+
+    <string-array name="increasingVolumeDuration">
+        <item name="0">"إيقاف"</item>
+        <item name="5">"5 ثواني"</item>
+        <item name="10">"10 ثانية"</item>
+        <item name="15">"15 ثانية"</item>
+        <item name="30">"30 ثانية"</item>
+        <item name="45">"45 ثانية"</item>
+        <item name="60">"60 ثانية"</item>
+        <item name="90">"90 ثانية"</item>
+        <item name="120">"2 دقيقة"</item>
+        <item name="180">"3 دقائق"</item>
+        <item name="300">"5 دقائق"</item>
+        <item name="600">"10 دقائق"</item>
+    </string-array>
+
+    <string-array name="brightnessDuration">
+        <item name="0">"إيقاف"</item>
+        <item name="15">"15 ثانية"</item>
+        <item name="30">"30 ثانية"</item>
+        <item name="60">"60 ثانية"</item>
+        <item name="180">"3 دقيقة"</item>
+        <item name="300">"5 دقائق"</item>
+        <item name="600">"10 دقائق"</item>
+        <item name="900">"15 دقائق"</item>
+    </string-array>
+
+    <string-array name="finalSnoozeTime">
+        <item name="0">@string/never</item>
+        <item name="0">@string/always</item>
+        <item name="10">بعد 10 دقائق</item>
+        <item name="15">بعد 15 دقيقة</item>
+        <item name="20">بعد 20 دقيقة</item>
+        <item name="30">بعد 30 دقيقة</item>
+        <item name="45">بعد 45 دقيقة</item>
+        <item name="60">بعد 60 دقيقة</item>
+        <item name="90">بعد 90 دقيقة</item>
+    </string-array>
+
+    <string-array name="volume_keys">
+        <item name="nothing">"لا افعل شى"</item>
+        <item name="volume_snooze">"غفوة المنبه"</item>
+        <item name="volume_dismiss">"إيقاف التنبيه"</item>
+    </string-array>
+
+    <string-array name="clockFont">
+        <item name="font_nova">Novacut</item>
+        <item name="font_serif">"الرقمية"</item>
+        <item name="font_roboto">Roboto</item>
+    </string-array>
+
+    <string-array name="clockStyle">
+        <item>"رقمي"</item>
+        <item>"تناظري"</item>
+    </string-array>
+
+    <string-array name="language">
+        <item>"الافتراضي"</item>
+        <item>Afrikaans (af)</item>
+        <item>Deutsche (de)</item>
+        <item>English (en)</item>
+        <item>Español (es)</item>
+        <item>Français (fr)</item>
+        <item>русский (ru)</item>
+        <item>हिंदी (hi)</item>
+        <item>日本語 (ja)</item>
+        <item>"العربية"</item>
+        <item>中文 (简体)(zh-cn)</item>
+        <item>中文 (繁體)(zh-tw)</item>
+        <item>中文 (香港)(zh-hk)</item>
+        <item>한국어 (ko)</item>
+    </string-array>
+
+    <string-array name="themeNames">
+        <item>يوم ممطر</item>
+        <item>جبال مهيب</item>
+        <item>ساحر الشروق</item>
+        <item>ليلة المتلألئة</item>
+        <item>الأضواء الشمالية</item>
+        <item>شاطئ جميل</item>
+        <item>الأزرق ليلة</item>
+        <item>ضبابي الغابات</item>
+        <item>كوزموس الظلام</item>
+        <item>موضوع الزمن</item>
+        <item>ازرق سماوي</item>
+        <item>الشوك الأرجواني</item>
+        <item>ورق الجدران</item>
+        <item>عشوائي</item>
+    </string-array>
+</resources>

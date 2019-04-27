@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pager_items">
+        <item>Alarme</item>
+        <item>Uhr</item>
+        <item>Timer</item>
+        <item>Stoppuhr</item>
+    </string-array>
+
+    <string-array name="snoozeDuration">
+        <item name="3">3 Minuten</item>
+        <item name="5">5 Minuten</item>
+        <item name="7">7 Minuten</item>
+        <item name="10">10 Minuten</item>
+        <item name="15">15 Minuten</item>
+        <item name="30">30 Minuten</item>
+        <item name="60">60 Minuten</item>
+    </string-array>
+
+    <string-array name="wakeupCheckInterval">
+        <item name="5">5 Minuten</item>
+        <item name="7">7 Minuten</item>
+        <item name="10">10 Minuten</item>
+        <item name="15">15 Minuten</item>
+        <item name="20">20 Minuten</item>
+        <item name="30">30 Minuten</item>
+        <item name="60">60 Minuten</item>
+    </string-array>
+
+    <string-array name="increasingVolumeDuration">
+        <item name="0">Aus</item>
+        <item name="5">5 Sekunden</item>
+        <item name="10">10 Sekunden</item>
+        <item name="15">15 Sekunden</item>
+        <item name="30">30 Sekunden</item>
+        <item name="45">45 Sekunden</item>
+        <item name="60">60 Sekunden</item>
+        <item name="90">90 Sekunden</item>
+        <item name="120">2 Minuten</item>
+        <item name="180">3 Minuten</item>
+        <item name="300">5 Minuten</item>
+        <item name="600">10 Minuten</item>
+    </string-array>
+
+    <string-array name="brightnessDuration">
+        <item name="0">Aus</item>
+        <item name="15">15 Sekunden</item>
+        <item name="30">30 Sekunden</item>
+        <item name="60">60 Sekunden</item>
+        <item name="180">3 Minuten</item>
+        <item name="300">5 Minuten</item>
+        <item name="600">10 Minuten</item>
+        <item name="900">15 Minuten</item>
+    </string-array>
+
+    <string-array name="finalSnoozeTime">
+        <item name="0">@string/never</item>
+        <item name="0">@string/always</item>
+        <item name="10">Nach 10 Minuten</item>
+        <item name="15">Nach 15 Minuten</item>
+        <item name="20">Nach 20 Minuten</item>
+        <item name="30">Nach 30 Minuten</item>
+        <item name="45">Nach 45 Minuten</item>
+        <item name="60">Nach 60 Minuten</item>
+        <item name="90">Nach 90 Minuten</item>
+    </string-array>
+
+    <string-array name="autoDismissDuration">
+        <item name="0">nie</item>
+        <item name="5">5 Minuten</item>
+        <item name="10">10 Minuten</item>
+        <item name="15">15 Minuten</item>
+        <item name="20">20 Minuten</item>
+        <item name="30">30 Minuten</item>
+    </string-array>
+
+    <string-array name="volume_keys">
+        <item name="nothing">Nichts tun</item>
+        <item name="volume_snooze">Schlummern</item>
+        <item name="volume_dismiss">Beenden</item>
+    </string-array>
+
+    <string-array name="clockFont">
+        <item name="font_nova">Novacut</item>
+        <item name="font_serif">Digital</item>
+        <item name="font_roboto">Roboto</item>
+    </string-array>
+
+    <string-array name="language">
+        <item>Voreinstellen</item>
+        <item>Afrikaans (af)</item>
+        <item>Deutsche (de)</item>
+        <item>English (en)</item>
+        <item>Español (es)</item>
+        <item>Français (fr)</item>
+        <item>русский (ru)</item>
+        <item>हिंदी (hi)</item>
+        <item>日本語 (ja)</item>
+        <item>"العربية"</item>
+        <item>中文 (简体)(zh-cn)</item>
+        <item>中文 (繁體)(zh-tw)</item>
+        <item>中文 (香港)(zh-hk)</item>
+        <item>한국어 (ko)</item>
+    </string-array>
+
+    <string-array name="clockStyle">
+        <item>Digital</item>
+        <item>Analog</item>
+    </string-array>
+
+    <string-array name="themeNames">
+        <item>Regnerischen Tag</item>
+        <item>Majestätische Berge</item>
+        <item>Schöne Sonnenaufgang</item>
+        <item>Schimmernde Nacht</item>
+        <item>Nordlichter</item>
+        <item>Wunderschöner Strand</item>
+        <item>Blaue Nacht</item>
+        <item>Nebligen Wald</item>
+        <item>Dunkle Kosmos</item>
+        <item>Thema Zeit</item>
+        <item>Cyan</item>
+        <item>Distel Purpur</item>
+        <item>Tapete</item>
+        <item>Zufällig</item>
+    </string-array>
+</resources>

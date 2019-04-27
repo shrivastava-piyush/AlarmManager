@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/stopwatch_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:baselineAligned="false"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <com.bytezap.wobble.customviews.Chronometer
+            android:id="@+id/stopwatch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:isTimer="false"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/chrono_digital"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/stopwatch_bottom_margin"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/chrono_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/stopwatch_default_time"
+                android:textSize="27sp"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/chrono_millisec"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/stopwatch_millis"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/second_color"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/stopButtonLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:paddingEnd="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingStart="5dp">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/chrono_start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="7dp"
+                    android:background="@drawable/stopwatch_white_bg"
+                    android:minHeight="@dimen/stopwatch_button_height"
+                    android:text="@string/start"
+                    android:textAllCaps="false"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="#000000" />
+
+                <Button
+                    android:id="@+id/chrono_stop"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/stopwatch_white_bg"
+                    android:minHeight="@dimen/stopwatch_button_height"
+                    android:text="@string/stop"
+                    android:textAllCaps="false"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="#000000"
+                    android:visibility="gone" />
+
+            </FrameLayout>
+
+            <Button
+                android:id="@+id/chrono_reset"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_margin="7dp"
+                android:layout_weight="1"
+                android:background="@drawable/stopwatch_indigo_bg"
+                android:minHeight="@dimen/stopwatch_button_height"
+                android:src="@drawable/ic_reset"
+                android:text="@string/reset"
+                android:textAllCaps="false"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/chrono_lap"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_margin="7dp"
+                android:layout_weight="1"
+                android:background="@drawable/stopwatch_green_bg"
+                android:minHeight="@dimen/stopwatch_button_height"
+                android:text="@string/lap"
+                android:textAllCaps="false"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+        <com.bytezap.wobble.customviews.listview.CustomListView
+            android:id="@+id/lapList"
+            android:layout_width="fill_parent"
+            android:layout_height="300dp"
+            android:layout_margin="20dp"
+            android:clickable="false"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:longClickable="false"
+            android:overScrollMode="never"
+            android:scrollbars="none"
+            android:requiresFadingEdge="vertical"
+            android:fadingEdgeLength="20dp"/>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/lap_emptyView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="20dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lap_empty_message"
+                android:drawableTop="@drawable/ic_flag"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,72 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/say_message"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/blue" />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <RadioButton
+            android:id="@+id/vocal_after_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:checked="true"
+            android:text="@string/after_time"/>
+
+        <RadioButton
+            android:id="@+id/vocal_before_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="@string/before_time"/>
+
+        <RadioButton
+            android:id="@+id/vocal_after_dismiss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="@string/after_dismiss"/>
+
+        <RadioButton
+            android:id="@+id/vocal_after_snoozing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="@string/after_snoozing"/>
+
+        <RadioButton
+            android:id="@+id/vocal_replace_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="@string/replace_time"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/voice_warning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#212121"
+        android:layout_margin="5dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:visibility="gone"
+        android:text="@string/voice_alert_warning"
+        android:drawableLeft="@drawable/ic_info_black"
+        android:drawableStart="@drawable/ic_info_black"/>
+
+</LinearLayout>

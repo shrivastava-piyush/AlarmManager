@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/clock_overall_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:baselineAligned="false"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <FrameLayout
+        android:id="@+id/clock_frame"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1">
+
+        <FrameLayout
+            android:id="@+id/clock_flip_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="invisible">
+
+            <include
+                android:id="@+id/digital_clock_layout"
+                layout="@layout/digital_clock"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <include
+                android:id="@+id/analog_clock_layout"
+                layout="@layout/analog_clock"
+                android:layout_width="320dp"
+                android:layout_height="320dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:visibility="invisible" />
+
+        </FrameLayout>
+
+        <ImageButton
+            android:id="@+id/switchButton"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_gravity="end|bottom"
+            android:background="@drawable/clock_switch"
+            android:contentDescription="@string/switch_clock_desc"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_action_clock"
+            android:tint="@android:color/white" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1.2"
+        android:gravity="center">
+
+        <FrameLayout
+            android:id="@+id/date_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/clock_date_simple"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/default_day"
+                android:textColor="@color/white"
+                android:typeface="serif"
+                android:textSize="@dimen/clock_date_text"
+                android:visibility="invisible" />
+
+            <include
+                android:id="@+id/elegant_layout"
+                layout="@layout/clock_date_elegant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

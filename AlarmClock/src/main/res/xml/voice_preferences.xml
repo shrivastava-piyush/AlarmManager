@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) Jan, 2016.
+  ~ Piyush Shrivastava
+  ~ This code is copyrighted and cannot be redistributed, modified, or sold as it is without the
+  ~  authority of owner.
+  -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <com.bytezap.wobble.preference.CustomCheckBoxPreference
+            android:defaultValue="true"
+            android:key="prefVoice"
+            android:title="@string/pref_voice_alert"
+            android:icon="@drawable/ic_speech"
+            android:widgetLayout="@layout/check_box_layout"/>
+
+        <com.bytezap.wobble.preference.SeekBarPreference
+            android:key="prefAlertVolume"
+            android:title="@string/pref_alert_volume"
+            android:icon="@drawable/ic_volume"
+            android:summary="@string/default_maximum"
+            android:dialogTitle="@string/pref_alert_volume"
+            android:defaultValue="80"/>
+
+</PreferenceScreen>

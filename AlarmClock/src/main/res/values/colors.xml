@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="dark_purple">#283044</color>
+    <color name="actionModeColor">#70000000</color>
+    <color name="wakeUpCheck">#70000000</color>
+    <color name="actionModeColorPreLollipop">#424242</color>
+    <color name="license_color">#EEEEEE</color>
+    <color name="card_background">#35ffffff</color>
+    <color name="card_background_white">#70ffffff</color>
+    <color name="light_grey">#dddddd</color>
+    <color name="medium_grey">#BDBDBD</color>
+    <color name="white">#ffffff</color>
+    <color name="yellow">#FFEE58</color>
+    <color name="black">#000000</color>
+    <color name="shadow">#7f000000</color>
+    <color name="blue">#2196F3</color>
+    <color name="accent">#E3F2FD</color>
+    <color name="fab_alarm">#B5BFA1</color>
+    <color name="timer_button">#FF5252</color>
+    <color name="timer_button_purple">#23263D</color>
+    <color name="reset_tint">#2E2C2F</color>
+    <color name="timer_reset">#F3FCF0</color>
+    <color name="dark_grey">#303030</color>
+    <color name="fab_ripple">#F4F1BB</color>
+    <color name="notification_color">#707070</color>
+    <color name="second_color">#cacaca</color>
+</resources>
+

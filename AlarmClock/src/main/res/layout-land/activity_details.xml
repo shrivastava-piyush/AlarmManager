@@ -1,0 +1,294 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".alarm.AlarmDetails">
+
+    <LinearLayout
+        android:id="@+id/details_cancel_save_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="true"
+        android:dividerPadding="10dp"
+        android:orientation="horizontal"
+        android:weightSum="2.0">
+
+        <LinearLayout
+            android:id="@+id/alarm_details_cancel"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_border"
+            android:gravity="center">
+
+            <TextView
+                style="?android:buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:clickable="false"
+                android:drawableLeft="@drawable/ic_action_unchecked"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/ic_action_unchecked"
+                android:focusable="true"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/cancel"
+                android:textAllCaps="true"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/alarm_details_done"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="1.0"
+            android:background="@drawable/button_border"
+            android:gravity="center">
+
+            <TextView
+                style="?android:buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:clickable="false"
+                android:drawableLeft="@drawable/ic_action_checked"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/ic_action_checked"
+                android:focusable="true"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/done"
+                android:textAllCaps="true"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/details_adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/transparent"
+        android:visibility="gone"
+        android:layout_marginTop="4dp"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id">
+
+    </com.google.android.gms.ads.AdView>
+
+    <ScrollView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/details_adView"
+        android:layout_below="@id/details_cancel_save_layout"
+        android:scrollbars="none"
+        android:requiresFadingEdge="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/details_layout_margin">
+
+            <TimePicker
+                android:id="@+id/alarm_details_time_picker"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/timepicker_margin"
+                android:layoutDirection="locale"
+                android:layout_weight="1.2"
+                android:fadingEdge="vertical"
+                android:fadingEdgeLength="20dp"
+                android:timePickerMode="spinner" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/alarm_details_name_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/detail_layout_bg"
+                    android:orientation="horizontal"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="false"
+                        android:gravity="start"
+                        android:singleLine="true"
+                        android:text="@string/details_alarm_name"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/alarm_details_name"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="false"
+                        android:ellipsize="end"
+                        android:gravity="end"
+                        android:singleLine="true"
+                        android:text="@string/details_set_alarm_name"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/alarm_details_voice_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:layout_below="@id/alarm_details_name_layout"
+                    android:background="@drawable/detail_layout_bg"
+                    android:orientation="horizontal"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="false"
+                        android:gravity="start"
+                        android:singleLine="true"
+                        android:text="@string/alarm_details_vocal_message"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/alarm_details_voice"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="false"
+                        android:ellipsize="end"
+                        android:ems="7"
+                        android:gravity="end"
+                        android:maxEms="7"
+                        android:maxLines="1"
+                        android:minEms="7"
+                        android:singleLine="true"
+                        android:text="@string/alarm_details_message"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+
+                <com.bytezap.wobble.customviews.ExpandableLayout
+                    android:id="@+id/expand"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:layout_below="@id/alarm_details_voice_layout"
+                    app:el_duration="500"
+                    app:el_isVisible="false"
+                    app:el_contentLayout="@layout/view_content_days"
+                    app:el_headerLayout="@layout/view_header_days" />
+
+                <LinearLayout
+                    android:id="@+id/alarm_ringtone_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:layout_below="@id/expand"
+                    android:background="@drawable/detail_layout_bg"
+                    android:orientation="horizontal"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/alarm_label_tone"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:clickable="false"
+                        android:singleLine="true"
+                        android:text="@string/details_alarm_tone"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/alarm_label_tone_selection"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:clickable="false"
+                        android:ellipsize="end"
+                        android:ems="7"
+                        android:gravity="end"
+                        android:maxEms="7"
+                        android:minEms="7"
+                        android:singleLine="true"
+                        android:text="@string/details_alarm_tone_default"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/details_vibration_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:layout_below="@id/alarm_ringtone_container"
+                    android:background="@drawable/detail_layout_bg"
+                    android:orientation="horizontal"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/details_vibration_title"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/white" />
+
+                    <CheckBox
+                        android:id="@+id/vibrateButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/transparent"
+                        android:button="@drawable/settings_custom_button"
+                        android:checked="false"
+                        android:focusable="false"
+                        android:clickable="false"
+                        android:text="" />
+
+                </LinearLayout>
+
+                <com.bytezap.wobble.customviews.ExpandableLayout
+                    android:id="@+id/additional_features"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/details_vibration_layout"
+                    android:layout_marginTop="16dp"
+                    app:el_duration="500"
+                    app:el_isVisible="true"
+                    app:el_contentLayout="@layout/view_content_features"
+                    app:el_headerLayout="@layout/view_header_features" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

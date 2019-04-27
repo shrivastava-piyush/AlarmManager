@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/digital_Clock"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_margin="5dp">
+
+    <RelativeLayout
+        android:id="@+id/digital_clock_rel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/clock_hour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/default_time"
+            android:shadowColor="@color/shadow"
+            android:shadowDx="@integer/shadowDx"
+            android:shadowDy="@integer/shadowDy"
+            android:shadowRadius="@integer/shadowRadius"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="@dimen/digital_clock_hour_text" />
+
+        <TextView
+            android:id="@+id/clock_seconds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/default_sec"
+            android:shadowColor="@color/shadow"
+            android:shadowDx="@integer/shadowDx"
+            android:shadowDy="@integer/shadowDy"
+            android:shadowRadius="@integer/shadowRadius"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="@dimen/digital_clock_second_text"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_alignBaseline="@+id/clock_hour"
+            android:layout_toRightOf="@+id/clock_hour"
+            android:layout_toEndOf="@+id/clock_hour" />
+
+        <TextView
+            android:id="@+id/ampm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_am"
+            android:shadowColor="@color/shadow"
+            android:shadowDx="@integer/shadowDx"
+            android:shadowDy="@integer/shadowDy"
+            android:shadowRadius="@integer/shadowRadius"
+            android:ems="2"
+            android:maxEms="2"
+            android:layout_marginTop="2dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_alignTop="@+id/clock_hour"
+            android:layout_toRightOf="@+id/clock_hour"
+            android:layout_toEndOf="@+id/clock_hour" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/clock_date_simple_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/default_day"
+        android:textColor="@color/white"
+        android:textSize="@dimen/clock_date_text"
+        android:typeface="serif"
+        android:visibility="gone" />
+
+    </LinearLayout>

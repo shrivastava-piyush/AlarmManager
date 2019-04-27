@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">동요</string>
+    <string name="action_settings">설정</string>
+    <string name="details_alarm_name">알람 이름</string>
+    <string name="details_alarm_tone">톤</string>
+    <string name="details_alarm_tone_default">톤을 선택</string>
+    <string name="done">완료</string>
+    <string name="cancel">취소</string>
+    <string name="wakeup_info">알람이 중지되면 테스트는 깨어 또는하지 않은 경우 검사 할 예정이다. 3 분간 응답이 없으면 알람이 다시 발사. 기본 시간은 10 분입니다.</string>
+    <string name="day">"1일"</string>
+    <string name="days">"<xliff:g id="DAYS">%s</xliff:g>일"</string>
+    <string name="hour">"1시간"</string>
+    <string name="hours">"<xliff:g id="HOURS">%s</xliff:g>시간"</string>
+    <string name="minute">"1분"</string>
+    <string name="minutes">"<xliff:g id="MINUTES">%s</xliff:g>분"</string>
+    <string name="seconds">"<xliff:g id="SECONDS">%02d</xliff:g>초"</string>
+    <string-array name="alarm_toast_set">
+        <item>"알람 시간이 지금으로부터 1분 이내입니다."</item>
+        <item>"지금부터 <xliff:g id="DAYS">%1$s</xliff:g> 후로 알람이 설정됩니다."</item>
+        <item>"지금부터 <xliff:g id="HOURS">%2$s</xliff:g> 후로 알람이 설정됩니다."</item>
+        <item>"지금부터 <xliff:g id="DAYS">%1$s</xliff:g>, <xliff:g id="HOURS">%2$s</xliff:g> 후로 알람이 설정됩니다."</item>
+        <item>"지금부터 <xliff:g id="MINUTES">%3$s</xliff:g> 후로 알람이 설정됩니다."</item>
+        <item>"지금부터 <xliff:g id="DAYS">%1$s</xliff:g> <xliff:g id="MINUTES">%3$s</xliff:g> 후로 알람이 설정됩니다."</item>
+        <item>"지금부터 <xliff:g id="HOURS">%2$s</xliff:g> <xliff:g id="MINUTES">%3$s</xliff:g> 후로 알람이 설정됩니다."</item>
+        <item>"지금부터 <xliff:g id="DAYS">%1$s</xliff:g> <xliff:g id="HOURS">%2$s</xliff:g> <xliff:g id="MINUTES">%3$s</xliff:g> 후로 알람이 설정되었습니다."</item>
+    </string-array>
+    <string name="app_credits">크레딧</string>
+    <string name="app_licenses">오픈 소스 라이센스</string>
+    <string name="app_version">"버전: "<xliff:g id="version">%s</xliff:g></string>
+    <string name="rate_app">응용 프로그램을 평가</string>
+    <string name="share_app">Share the app</string>
+    <string name="contact_developer">개발자에게 문의</string>
+    <string name="empty_alarm_message_1">아니 경보</string>
+    <string name="new_alarm_desc">새로운 알람 추가</string>
+    <string name="one_time_alarm">한 번</string>
+    <string name="alarm_snooze">선잠</string>
+    <string name="panel_dismiss_message">경보를 해제하도록 슬쩍</string>
+    <string name="alarm_dismiss">끄다</string>
+    <string name="alarm_item_name_default">경보</string>
+    <string name="good_morning">좋은 아침!</string>
+    <string name="good_evening">안녕하세요!</string>
+    <string name="app_rater_message">우리는 당신이 바로 그 시간에 일어나 도와주세요!</string>
+    <string name="app_rater_question">별 5개 평가를 주시겠습니까?</string>
+    <string name="app_rater_button">별 5개 평가하기</string>
+    <string name="switch_clock_desc">변화의 시계</string>
+    <string name="theme_change">테마 변경</string>
+    <string name="theme">테마</string>
+    <string name="menu_desc">메뉴</string>
+    <string name="clear_previous">명확한</string>
+    <string name="math_back_button_desc">알람 화면으로 돌아 가기</string>
+    <string name="math_done_button_desc">대답이 옳다면 확인</string>
+    <string name="start">출발</string>
+    <string name="stop">그만</string>
+    <string name="reset">재설정</string>
+    <string name="lap">랩 타임</string>
+    <string name="lap_empty_message">아니 현재 라운드</string>
+    <string name="text_hours">시간</string>
+    <string name="text_minutes">분</string>
+    <string name="text_seconds">초</string>
+    <string name="wake_up_desc">시험 정보를 깨워</string>
+    <string name="problem_difficulty">어려움</string>
+    <string name="days_repeat">반복</string>
+    <string name="wake_up_helpers">헬퍼를 깨워</string>
+    <string name="wake_text">당신이 깨어 있다면 확인</string>
+    <string name="wake_instruction">아래 버튼을 누르면</string>
+    <string name="wake_button_text">물론, 그래</string>
+    <string name="image_theme_desc">앱 테마</string>
+    <string name="default_timer_text">타이머</string>
+    <string name="timer_set_time">설정 타이머</string>
+    <string name="timer_set_label">제목을 설정합니다</string>
+    <string name="preference_category_alarm">경보</string>
+    <string name="preference_category_timer">타이머와 스톱워치</string>
+    <string name="preference_category_other">기타</string>
+    <string name="pref_auto_dismiss_dialog_title">자동으로 알람을 중지</string>
+    <string name="pref_auto_dismiss_title">자동으로 알람을 중지 후</string>
+    <string name="pref_snooze_title">스누즈 시간</string>
+    <string name="pref_snooze_dialog_title">선택 스누즈 시간</string>
+    <string name="pref_wakeup_title">검사 시간을 깨워</string>
+    <string name="pref_wakeup_dialog_title">선택 깨우다 체크 시간</string>
+    <string name="pref_volume_key_title">볼륨 키</string>
+    <string name="details_vibration_title">진동</string>
+    <string name="pref_silent_title">자동 모드로 플레이</string>
+    <string name="pref_silent_summary">알람도 무음 상태에서 트리거</string>
+    <string name="pref_increasing_vol_title">소리 볼륨 점차 증가</string>
+    <string name="pref_timer_alert_title">타이머 완료 알림</string>
+    <string name="pref_sound_title">소리</string>
+    <string name="pref_about_title">약</string>
+    <string name="no_file_manager">장치에 설치된 파일 관리자가 없습니다. 하나를 설치하십시오.</string>
+    <string name="item_owned">항목이 이미 소유</string>
+    <string name="enable_google_play">구글 플레이 서비스를 설치 / 사용하시기 바랍니다</string>
+    <string name="menu_alarm_edit">편집</string>
+    <string name="menu_alarm_delete">삭제</string>
+    <string name="menu_ads">광고 없애기</string>
+    <string name="wakeup_info_title">검사를 깨워k</string>
+    <string name="snooze_info_title">수학 문제</string>
+    <string name="default_ok">그래</string>
+    <string name="alarm_selected">" 선택"</string>
+    <string name="alarm_delete_singular">선택한 알람이 제거됩니다</string>
+    <string name="alarm_delete_plural">선택한 알람이 제거 된</string>
+
+    <string name="wakeup_toast">"에검사를 깨워 <xliff:g id="wakeup">%s</xliff:g> 분"</string>
+    <string name="snooze_toast">"용알람이 일시 중지되었습니다 <xliff:g id="snooze">%s</xliff:g> 분"</string>
+    <string name="wakeup_button_2_text">한 번 더, 바로해야합니다!</string>
+    <string name="lap_text">"한바퀴 "</string>
+    <string name="app_rater_remind">나중에 상기시켜 줘</string>
+    <string name="app_rater_no">안 함</string>
+    <string name="math_toast_wrong_answer">잘못된 답변. 다시 시도하십시오!</string>
+    <string name="wrong_file_type">잘못된 파일 형식. 다시 선택하세요.</string>
+    <string name="invalid_file">잘못된 파일 형식. 다시 선택하세요.</string>
+    <string name="Set">설정</string>
+    <string name="default_stopwatch_notif">스톱워치 실행</string>
+    <string name="defualt_timer_notif">타이머 실행</string>
+    <string name="details_check_awake">내가 깨어 있는지 확인</string>
+    <string name="details_math_problem">수학 문제 해결</string>
+    <string name="pref_screen_on">화면의 전원을 끄지 마십시오</string>
+    <string name="app_share_message">이 응용 프로그램을 체크 아웃</string>
+    <string name="widget_name">아날로그 시계(2 × 2)</string>
+    <string name="wakeup_press_and_hold">버튼을 누른 채</string>
+    <string name="wake_up_nice_day">당신이 어 웨이크 것 같습니다. 좋은 하루 되세요!</string>
+    <string name="alarm_every_day">매일</string>
+    <string name="credits_design">설계 &amp; 개발</string>
+    <string name="credits_sound">소리</string>
+    <string name="default_maximum">최대의</string>
+    <string name="default_high">높은</string>
+    <string name="default_medium">매질</string>
+    <string name="default_low">낮은</string>
+    <string name="default_silent">조용한</string>
+    <string name="credits_backgrounds">배경</string>
+    <string name="pref_alarm_volume">알람 볼륨</string>
+    <string name="details_set_alarm_name">눌러서 이름 입력</string>
+    <string name="alarm_not_started">경보가 시작되지 않았습니다</string>
+    <string name="app_localization">현지화 지원하기</string>
+    <string name="gmail_error">Gmail을 열 수 없습니다</string>
+    <string name="credits_icon">상</string>
+    <string name="alarm_item_weekends">주말</string>
+    <string name="alarm_item_weekdays">평일에</string>
+    <string name="pref_increasing_vol_dialog">시간 최대 볼륨에 도달</string>
+    <string name="alarm_replicate">복제</string>
+    <string name="tone_selected">톤이 선택된다</string>
+    <string name="time_up">시간이 다되었다</string>
+    <string name="pref_timer_volume">타이머 볼륨</string>
+    <string name="night_mode">야간 모드</string>
+    <string name="details_launch_app">경보를 해제 한 후 응용 프로그램을 시작</string>
+    <string name="default_none">없음</string>
+    <string name="launch_app_not_found">응용 프로그램발견되지</string>
+    <string name="app_launch_alert"><xliff:g id="appAlert">%s</xliff:g>" が開きます"</string>
+    <string name="default_search">수색</string>
+    <string name="select_app">앱을 선택</string>
+    <string name="default_undo">끄르다</string>
+    <string name="default_animations">애니메이션 및 제스처</string>
+    <string name="default_select_all">모든 선택</string>
+    <string name="details_barcode">닫 바코드를 스캔</string>
+    <string name="default_barcode_selected">바코드가 선택:<xliff:g id="barcode">%s</xliff:g></string>
+    <string name="default_flash">플래시</string>
+    <string name="default_autofocus">자동 초점</string>
+    <string name="barcode_wrong">잘못된 바코드</string>
+    <string name="launch_app_info">인터넷을 필요로 하는 애플 리 케이 션에 대 한 데이터 연결 확인</string>
+    <string name="barcode_instruction">그것을 잡으려고 사각형 안에 바코드를 배치\n그림자와 눈부심을 방지하기 위해 시도</string>
+    <string name="pref_voice_alert">音声警告</string>
+    <string name="alarm_details_vocal_message">오디오 메시지</string>
+    <string name="alarm_details_message">를 눌러 메시지를 설정합니다</string>
+    <string name="recorded_message">기록 된 메시지</string>
+    <string name="custom_message">맞춤 메시지</string>
+    <string name="after_time">시간이 말하고 한 후</string>
+    <string name="before_time">시간이 말하고하기 전에</string>
+    <string name="after_dismiss">알람을 기각 후</string>
+    <string name="after_snoozing">알람을 다시 알림 후</string>
+    <string name="replace_time">시간을 말하지 말라</string>
+    <string name="say_message">메시지를 말합니다.</string>
+    <string name="file_name">파일 이름</string>
+    <string name="sd_not_available">사용할 수없는 SD 카드</string>
+    <string name="storage_full">저장 공간이 꽉 찼습니다</string>
+    <string name="wrong_barcode_info">잘못된 바코드. 다시 시도하십시오.</string>
+    <string name="alarm_background">알람 배경</string>
+    <string name="default_random">닥치는대로의</string>
+    <string name="default_wallpaper">벽지</string>
+    <string name="voice_alert_warning">그 음성 경고 설정에서 활성화 되어 있는지 확인</string>
+    <string name="pref_alert_volume">음성 경보 볼륨</string>
+    <string name="snooze_warning">"이것은 <xliff:g id="snooze_number">%s</xliff:g>  스누즈하고있다. 너는 늦었 어."</string>
+    <string name="pref_voice">목소리</string>
+    <string name="default_off">떨어져서</string>
+    <string name="defualt_on">에</string>
+    <string name="permission_denied">사용 권한이 거부되었습니다</string>
+    <string name="telephone_warning">호출 수신되면 경보가 다시 예약 할 수 없습니다</string>
+    <string name="alarm_voice_morning">"좋은 아침. 시간은 <xliff:g id="alarm_hour_morn">%s</xliff:g> <xliff:g id="alarm_minute_morn">%s</xliff:g> <xliff:g id="am_morn">%s</xliff:g>."</string>
+    <string name="alarm_voice_evening">"안녕하세요. 시간은 <xliff:g id="alarm_hour_ev">%s</xliff:g> <xliff:g id="alarm_minute_ev">%s</xliff:g> <xliff:g id="am_ev">%s</xliff:g>."</string>
+    <string name="alarm_voice_normal">"시간은 <xliff:g id="alarm_hour_norm">%s</xliff:g> <xliff:g id="alarm_minute_norm">%s</xliff:g> <xliff:g id="am_norm">%s</xliff:g>."</string>
+    <string name="audio_select">녹음 된 오디오를 선택</string>
+    <string name="pref_night_summary">디스플레이 아주 어둡게 하기</string>
+    <string name="pref_clock_style">종류</string>
+    <string name="pref_digital_font">디지털 시계 폰트</string>
+    <string name="tts_warning">음성 알림, 활성화 / 설치하시기 바랍니다 텍스트 음성 변환 엔진</string>
+    <string name="wake_up_question">당신은 깨어 있습니까?</string>
+    <string name="math_friendly_alert">数学の問題があなたを待っています！</string>
+    <string name="instant_alarm">즉시 경보</string>
+    <string name="skip_next">버킷</string>
+    <string name="unskip">스킵을 취소</string>
+    <string name="skip_check">검사를 건너 뛰기</string>
+    <string name="pref_language">언어</string>
+    <string name="skip_alarm">다음 알람이 취소됩니다</string>
+    <string name="skipped">스킵</string>
+    <string name="m_perm_telephone">전화가 수신 될 때 경보를 해제 할 수 있습니다</string>
+    <string name="m_perm_audio">これは、メッセージを記録する前に、環境をセットアップする必要は</string>
+    <string name="interaction_dismiss_alarm">알람 취소</string>
+    <string name="dismiss_all">모든 취소</string>
+    <string name="start_timer"><xliff:g id="timer_hours">%d</xliff:g>시간 <xliff:g id="timer_minutes">%d</xliff:g> 분 타이머를 시작</string>
+    <string name="start_timer_hours"><xliff:g id="timer_hours">%d</xliff:g> 시간 타이머 시작</string>
+    <string name="start_timer_hour">1 시간 타이머 시작</string>
+    <string name="start_timer_minutes"><xliff:g id="timer_minutes">%d</xliff:g> 분 타이머를 시작</string>
+    <string name="start_timer_minute">1 분 타이머를 시작</string>
+    <string name="invalid_time">잘못된 시간</string>
+    <string name="alarm_not_found">알람을 찾을 수 없습니다</string>
+    <string name="alarm_not_24">알람이 24 시간 이내이어야</string>
+    <string name="pick_alarm">기각 할 알람을 선택</string>
+    <string name="timer_created">타이머가 생성 된</string>
+    <string name="alarm_snoozed">알람 일시 중지되었습니다</string>
+    <string name="alarm_created">알람이 설정되었습니다</string>
+    <string name="background">배경</string>
+    <string name="disable_snoozing">해제 스 누 즈</string>
+    <string name="snooze_disable_info_title">해제 스 누 즈</string>
+    <string name="snooze_disable_info">指定された間隔後スヌーズを無効にされます。これは、スヌーズ時間を制限します。</string>
+    <string name="never">못</string>
+    <string name="no_snooze">아니 잠 없습니다!</string>
+    <string name="select_song">노래를 선택</string>
+    <string name="no_tracks">어떤 미디어를 찾을 수 없습니다</string>
+    <string name="unknown">알 수 없는</string>
+    <string name="default_ringtone">표준 벨소리</string>
+    <string name="barcode_not_supported">바코드 형식은 지원되지 않습니다</string>
+    <string name="song_limit">노래 한계에 도달</string>
+    <string name="shuffle_songs">셔플 노래</string>
+    <string name="select_songs">일부 곡을 선택</string>
+    <string name="more_songs_needed">하나 이상의 노래가 선택되어야한다</string>
+    <string name="search_media">검색 미디어</string>
+    <string name="select_ringtone">벨소리를 선택</string>
+    <string name="cancel_old_timer">이전 타이머를 취소하고 새로 만들기</string>
+    <string name="songs_selected"><xliff:g id="songs_number">%d</xliff:g> 곡 선택</string>
+    <string name="upcoming_alarm">다가오는 경보</string>
+    <string name="dismiss_now">지금 취소</string>
+    <string name="shake">흔들다</string>
+    <string name="def">기본적으로</string>
+    <string name="details_dismiss_method">해제 방법</string>
+    <string name="easy">쉽게</string>
+    <string name="medium">중</string>
+    <string name="hard">단단한</string>
+    <string name="allow_skip_math">질문을 건너 뛰는 허용</string>
+    <string name="number_of_problems">질문의 수</string>
+    <string name="skip">버킷</string>
+    <string name="problems_left">질문 왼쪽 :</string>
+    <string name="shake_times">"장치<xliff:g id="shake">%d</xliff:g>번 흔들어"</string>
+    <string name="no_accelerometer">장치에서 사용할 수 없습니다가 속도계</string>
+    <string name="math_mutliple_friendly_alert">수학 문제가 기다리고 있습니다</string>
+    <string name="shake_turn_off">해제 흔들어</string>
+    <string name="ok_gotit">확인 </string>
+    <string name="autostart_title">자동 시작 사용</string>
+    <string name="pref_brightness">점차적으로 밝기를 증가</string>
+    <string name="pref_brightness_dialog">시간은 최대 밝기에 도달</string>
+    <string name="times_shake">횟수 흔들어</string>
+    <string name="brightness_friendly_alert">디바이스는 알람 시각 전에 활성화되고 휘도가 서서히 증가</string>
+    <string name="song_instruction">노래를 듣고 길게 눌러</string>
+    <string name="ringtone_instruct">언론과는 벨소리를 듣고 개최</string>
+    <string name="elapsed_time">경과 시간:</string>
+    <string name="fullscreen_mode">전체 화면 모드</string>
+    <string name="autostart_alert">일부 장치의 자동 시작 관리자는 Wobble을 중지시켜 재부팅 후 경보가 발령되지 않도록 할 수 있습니다.</string>
+    <string name="always">항상</string>
+    <string name="default_alarm_screen_text">상승하는 시간이다!</string>
+    <string name="pref_upcoming_notif">다가오는 경보 알림</string>
+    <string name="snooze_until">"<xliff:g id="time">%s</xliff:g>까지 일시 중지"</string>
+    <string name="details_snooze_method">다시 알림 방법</string>
+    <string name="shake_snooze">잠을 흔들어</string>
+    <string name="very_hard">열심히</string>
+    <string name="remaining">나머지</string>
+    <string name="loud_ring">ラウドな着メロ</string>
+    <string name="ringtone">벨소리</string>
+    <string name="music">음악</string>
+    <string name="press_back">もう一度押すと閉じる</string>
+    <string name="picture_selected">画像が選択されている</string>
+    <string name="discard">破棄</string>
+    <string name="discard_message">変更を破棄しますか？</string>
+    <string name="blur_level">ぼかしレベル</string>
+    <string name="blur_bg">ぼかし背景</string>
+    <string name="custom">カスタム</string>
+    <string name="preview">プレビュー</string>
+    <string name="preview_dismissed">プレビューが閉じている</string>
+    <string name="presets_empty">プリセットなし</string>
+    <string name="privacy_policy">개인 정보 정책</string>
+    <string name="preview_message">뒤로 버튼을 눌러 닫습니다.</string>
+    <string name="pref_long_dismiss">긴 클릭으로 알람을 닫습니다.</string>
+    <string name="pref_tap_long_summary">실수로 알람을 닫지 않도록하십시오.</string>
+    <string name="pref_disable_bg">시계 배경 제거</string>
+</resources>

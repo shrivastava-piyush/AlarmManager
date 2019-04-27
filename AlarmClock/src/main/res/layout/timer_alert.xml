@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/timer_alert_warning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/time_up"
+            android:typeface="serif"
+            android:textSize="@dimen/time_text_size"
+            android:textColor="@color/white"/>
+
+        <com.bytezap.wobble.customviews.Chronometer
+            android:id="@+id/timer_alert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/timer_block_text_margin"
+            app:isTimer="true" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/timer_alert_stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/stop"
+            android:layout_margin="@dimen/timer_block_text_margin"
+            android:src="@drawable/ic_stop_big"
+            android:tint="@color/white"
+            app:backgroundTint="#fa6161"
+            app:fabSize="normal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/elapsed_time"
+            android:textColor="@color/light_grey"
+            android:textSize="@dimen/time_text_size"/>
+
+        <LinearLayout
+            android:id="@+id/timer_text_alert_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/timer_block_text_margin"
+            android:gravity="center"
+            android:layoutDirection="ltr"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/timer_alert_hour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/block_white_opaque_left_border"
+                    android:layout_marginRight="2dp"
+                    android:gravity="center"
+                    android:padding="@dimen/timer_text_padding"
+                    android:text="@string/default_hour"
+                    android:textSize="@dimen/time_text_size"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/timer_alert_minute"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/block_white_opaque"
+                    android:gravity="center"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:padding="@dimen/timer_text_padding"
+                    android:text="@string/default_min"
+                    android:textSize="@dimen/time_text_size"
+                    android:textStyle="bold"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/timer_alert_second"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/block_white_opaque"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:gravity="center"
+                    android:padding="@dimen/timer_text_padding"
+                    android:text="@string/default_sec"
+                    android:textSize="@dimen/time_text_size"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/timer_alert_millisec"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:background="@drawable/block_white_opaque_right_border"
+                    android:gravity="center"
+                    android:padding="@dimen/timer_text_padding"
+                    android:layout_marginLeft="2dp"
+                    android:text="@string/default_millisec"
+                    android:textSize="@dimen/time_text_size"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/timer_alert_adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:visibility="gone"
+        android:layout_gravity="bottom"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id">
+
+    </com.google.android.gms.ads.AdView>
+
+</merge>

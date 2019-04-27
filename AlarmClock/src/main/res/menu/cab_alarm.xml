@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/alarm_edit"
+        android:title="@string/menu_alarm_edit"
+        app:showAsAction="always"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_menu_edit"/>
+
+    <item
+        android:id="@+id/alarm_delete"
+        android:title="@string/menu_alarm_delete"
+        app:showAsAction="always"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_menu_delete"/>
+
+    <item
+        android:id="@+id/alarm_preview"
+        android:title="@string/preview"
+        app:showAsAction="ifRoom"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/ic_play"/>
+
+    <item android:id="@+id/alarm_replicate"
+        android:title="@string/alarm_replicate"
+        app:showAsAction="never"
+        android:showAsAction="never"/>
+
+    <item android:id="@+id/alarm_skip"
+        android:title="@string/skip_next"
+        app:showAsAction="never"
+        android:showAsAction="never"/>
+
+    <item android:id="@+id/alarm_unskip"
+        android:title="@string/unskip"
+        app:showAsAction="never"
+        android:showAsAction="never"/>
+
+    <item android:id="@+id/alarm_skip_check"
+        android:title="@string/skip_check"
+        app:showAsAction="never"
+        android:showAsAction="never"/>
+
+    <item
+        android:id="@+id/alarm_select_all"
+        android:title="@string/default_select_all"
+        app:showAsAction="never"
+        android:showAsAction="never"/>
+
+</menu>

@@ -1,0 +1,24 @@
+<!--
+  ~ Copyright (c) Jan, 2016.
+  ~ Piyush Shrivastava
+  ~ This code is copyrighted and cannot be redistributed, modified, or sold as it is without the
+  ~  authority of owner.
+  -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:exitFadeDuration="200">
+
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#0a0107" />
+            <corners android:radius="10dp" />
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <solid android:color="#283044"/>
+            <corners android:radius="10dp" />
+        </shape>
+    </item>
+</selector>
